@@ -1,0 +1,40 @@
+{
+  "slug": "vmaojo",
+  "name": "Maojo García, Víctor",
+  "image": "/assets/uploads/2016/11/Maojo-Garcia-Victor.png",
+  "office": "2102",
+  "web": "http://www.gib.fi.upm.es/",
+  "phone": "+34-91-067-2898",
+  "orcid": "https://orcid.org/0000-0001-5103-4292",
+  "email": "victormanuel.maojo@upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Grupo de Informática Biomédica",
+    "url": "http://www.gib.fi.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=55171738800",
+  "biography": [
+    "<strong>Prof. Victor Maojo, </strong>MD, PhD&nbsp;es Catedrático de Inteligencia Artificial en la Universidad Politécnica de Madrid (UPM) y director del Grupo Informática Biomédica (GIB) de la UPM. &nbsp;Doctor en informática y medicina ha sido profesor invitado y consultor en Georgia Tech y “Research Fellow” del Programa de Informática Médica de la división Health Science and Technology de Harvard-MIT. Tiene más de 220 publicaciones, principalmente, en el área de la Informática Biomédica (principalmente Inteligencia Artificial en Medicina), y ha estado en el Comité Científico de más de 30 congresos nacionales e internacionales y en el «Board» de varias revistas internacionales como el Journal of the American Medical Informatics Association, Journal of Biomedical Informatics, Computing, Journal of Intelligent and Fuzzy Systems y Methods of Information in Medicine. Ha sido coordinador del programa de doctorado del DIA desde 2017 a 2021, y es miembro de la Comisión del Programa de Doctorado en Música, y su Ciencia y Tecnología de la UPM. Actualmente está en los Comités Científicos de la Sociedad Española de Informática de la Salud (SEIS), Fundación Gadea, Fundación Bamberg y el Instituto de Investigación del Hospital Clínico San Carlos. En 2019 recibió el Premio Nacional de la Sociedad Española de Informática de la Salud. En 2011 fue elegido Fellow del American College of Medical Informatics (ACMI, la Academia de la American Medical Informatics Association, AMIA), en 2017 Founding Member de la International Academy of Health Sciences Informatics (IAHSI, la Academia de la International Medical Informatics Association, IMIA) y en 2022 Académico Correspondiente de la Real Academia Nacional de Medicina de España (RANME).",
+    "Ha sido director de más de 30 proyectos nacionales e internacionales, con fondos públicos y privados. &nbsp;Sus principales líneas de investigación son:",
+    {
+      "html": "<ul>\n<li>Investigación de sistemas expertos médicos</li>\n<li>Protocolos y guías de práctica clínica</li>\n<li>Ontologías biomédicas</li>\n<li>Integración de información clínico-genómica</li>\n<li>Machine Learning en medicina</li>\n<li>Nanoinformática</li>\n</ul>"
+    }
+  ],
+  "category": "catedraticos",
+  "date": "2016-11-21T11:41:36+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Maojo-Garcia-Victor.png",
+    "width": 490,
+    "height": 491,
+    "alt": ""
+  },
+  "readingTime": "2 minutos de lectura",
+  "seo": {
+    "title": "Maojo García, Víctor - Departamento de Inteligencia Artificial",
+    "ogTitle": "Maojo García, Víctor - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Maojo-Garcia-Victor.png",
+    "modifiedTime": "2024-01-15T22:24:46+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

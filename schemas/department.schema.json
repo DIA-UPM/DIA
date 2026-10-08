@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Presentación del departamento (data/department.json)",
+  "type": "object",
+  "required": ["page", "ecosystem", "welcome", "management", "teachers", "grids"],
+  "properties": {
+    "page": { "type": "object", "required": ["seo"] },
+    "ecosystem": {
+      "type": "object",
+      "required": ["backgroundVideo", "heading", "labels", "diagram", "research", "education", "innovation", "video"],
+      "properties": {
+        "backgroundVideo": { "type": "object", "required": ["mp4"], "properties": { "mp4": { "type": "string", "pattern": "^/assets/" }, "poster": { "type": "string", "pattern": "^/assets/" }, "overlay": { "type": "string" } } },
+        "video": { "type": "object", "required": ["embedUrl"], "properties": { "embedUrl": { "type": "string", "format": "uri" } } }
+      }
+    },
+    "welcome": { "type": "object", "required": ["title", "columns"] },
+    "management": {
+      "type": "object",
+      "required": ["heading", "members"],
+      "properties": {
+        "members": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["person", "column", "id", "nameHtml", "role", "email", "phone", "office"],
+            "properties": { "person": { "type": "string", "description": "slug de data/personnel/" }, "email": { "type": "string", "format": "email" } }
+          }
+        }
+      }
+    },
+    "teachers": { "type": "object", "required": ["heading", "intro", "awardsIntro", "awards"], "properties": { "awards": { "type": "array", "items": { "type": "string" } } } },
+    "grids": {
+      "type": "array",
+      "description": "Rejillas de personal. Muestran a las personas cuya 'category' (o 'categories') está en 'tags', por orden alfabético.",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "filterSlug", "tags", "container"],
+        "properties": {
+          "tags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "container": { "type": "object", "required": ["type", "id"], "properties": { "type": { "enum": ["column", "wrapper"] } } }
+        }
+      }
+    }
+  }
+}

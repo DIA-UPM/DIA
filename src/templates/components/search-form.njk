@@ -1,0 +1,11 @@
+{#- Search forms. WordPress searched server-side (/?s=); the static site searches a
+    generated index client-side on /buscar/ (see src/js/search.js). -#}
+{% macro blockSearch(n) %}<form role="search" method="get" action="/buscar/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"><label class="wp-block-search__label" for="wp-block-search__input-{{ n }}">{{ site.search.label }}</label><div class="wp-block-search__inside-wrapper "><input class="wp-block-search__input" id="wp-block-search__input-{{ n }}" placeholder="" value="" type="search" name="s" required><button aria-label="{{ site.search.label }}" class="wp-block-search__button wp-element-button" type="submit">{{ site.search.label }}</button></div></form>{% endmacro %}
+
+{% macro themeSearch() %}<form role="search" method="get" class="search-form" action="/buscar/">
+<label for="search-field">
+<span class="screen-reader-text">Buscar por:</span>
+<input type="search" id="search-field" class="search-field" placeholder="{{ site.search.placeholder }}" value="" name="s">
+</label>
+<input type="submit" class="search-submit" value="{{ site.search.label }}">
+</form>{% endmacro %}

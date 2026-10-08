@@ -1,0 +1,34 @@
+{
+  "slug": "nswoboda",
+  "name": "Swoboda, Nik",
+  "image": "/assets/uploads/2023/10/Swoboda-Nik.png",
+  "office": "2205",
+  "web": "http://www.clip.dia.fi.upm.es/~nswoboda",
+  "phone": "+34-91-067-2908",
+  "orcid": "https://orcid.org/0000-0002-3095-3115",
+  "email": "nswoboda@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/G-1239-2013",
+  "researchGroup": {
+    "name": "The Computational logic, Languages, Implementation, and Parallelism Laboratory",
+    "url": "http://cliplab.org"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=6506753168",
+  "biography": [],
+  "category": "profesor-contratado-doctor",
+  "date": "2016-11-22T11:06:42+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2023/10/Swoboda-Nik.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Swoboda, Nik - Departamento de Inteligencia Artificial",
+    "ogTitle": "Swoboda, Nik - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2023/10/Swoboda-Nik.png",
+    "modifiedTime": "2024-01-16T23:16:51+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

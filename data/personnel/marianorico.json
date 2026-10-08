@@ -1,0 +1,34 @@
+{
+  "slug": "marianorico",
+  "name": "Rico Almodóvar, Mariano",
+  "image": "/assets/uploads/2020/07/rico-almodovar.png",
+  "office": "2110",
+  "web": "https://dia.fi.upm.es/es/marianorico",
+  "phone": "+34-91-067-2915",
+  "orcid": "http://orcid.org/0000-0001-5878-8521",
+  "email": "mariano.rico@upm.es",
+  "researcherId": "http://www.researcherid.com/rid/A-5566-2008",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "https://oeg.fi.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=22433515100",
+  "biography": [],
+  "category": "profesor-titular",
+  "date": "2020-07-21T12:11:24+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2020/07/rico-almodovar.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Rico Almodóvar, Mariano - Departamento de Inteligencia Artificial",
+    "ogTitle": "Rico Almodóvar, Mariano - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2020/07/rico-almodovar.png",
+    "modifiedTime": "2024-07-09T18:28:36+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

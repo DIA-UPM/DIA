@@ -1,0 +1,34 @@
+{
+  "slug": "rvalle",
+  "name": "Valle Fernández, Roberto",
+  "image": "/assets/uploads/2022/09/Roberto-Valle-2.png",
+  "office": "2101",
+  "web": "https://bobetocalo.github.io/",
+  "phone": "+34-91-067-289",
+  "orcid": "https://orcid.org/0000-0003-1423-1478",
+  "email": "rvalle@fi.upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Visión por computador y robótica aérea",
+    "url": "https://portalcientifico.upm.es/es/ipublic/entity/16167"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=57190189506",
+  "biography": [],
+  "category": "profesor-ayudante-doctor",
+  "date": "2022-09-06T08:12:26+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2022/09/Roberto-Valle-2.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Valle Fernández, Roberto - Departamento de Inteligencia Artificial",
+    "ogTitle": "Valle Fernández, Roberto - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2022/09/Roberto-Valle-2.png",
+    "modifiedTime": "2024-06-06T16:24:19+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

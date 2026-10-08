@@ -1,0 +1,8 @@
+/* Site-level CSS added by the static migration (loaded after the migrated theme CSS). */
+
+/* Items hidden by the client-side post grid pagination */
+.ebpg-grid-post[hidden] { display: none !important; }
+
+/* Progressive enhancement: entrance-animated blocks start hidden (theme CSS) and are revealed by
+   site.js. Without JavaScript they must simply be visible. */
+html:not(.js) .eb_animation { visibility: visible !important; opacity: 1 !important; }

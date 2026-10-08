@@ -1,0 +1,19 @@
+{#- Recursive Astra-compatible menu. `items` come from data/navigation.json. -#}
+{% macro menuItems(items, page, depth=0) %}
+{%- for item in items -%}
+{%- set hasChildren = item.children and item.children.length -%}
+{%- set current = isCurrent(item, page) -%}
+{%- set ancestor = hasChildren and isAncestor(item, page) -%}
+{%- set menuParent = isMenuParent(item, page) -%}
+<li class="menu-item{% if hasChildren %} menu-item-has-children{% endif %}{% if current %} current-menu-item{% endif %}{% if ancestor %} current-menu-ancestor current-menu-parent{% endif %}{% if menuParent %} current_page_parent{% endif %}"><a{% if hasChildren %} aria-expanded="false"{% endif %}{% if item.url %} href="{{ link(item.url) }}"{% endif %} class="menu-link"{% if item.url and isExternal(item.url) %} target="_blank" rel="noopener"{% endif %}{% if current %} aria-current="page"{% endif %}><span class="ast-icon icon-arrow"></span><span class="menu-text">{{ item.label }}</span>{% if hasChildren %}<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Conmutador del menú"><span class="ast-icon icon-arrow"></span></span>{% endif %}</a>
+{%- if hasChildren %}<button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Alternar menú</span><span class="ast-icon icon-arrow"></span></button>
+<ul class="sub-menu">
+{{ menuItems(item.children, page, depth + 1) }}</ul>
+{% endif -%}
+</li>
+{%- endfor -%}
+{% endmacro %}
+
+{% macro nav(id, ulId, ulClass, page) %}
+<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="{{ id }}" aria-label="{{ site.navigationLabel }}"><div class="main-navigation{% if ulId == 'ast-hf-menu-1' %} ast-inline-flex{% endif %}"><ul id="{{ ulId }}" class="{{ ulClass }}">{{ menuItems(navigation.main, page) }}</ul></div></nav></div></div>
+{% endmacro %}

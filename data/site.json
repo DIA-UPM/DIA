@@ -1,0 +1,100 @@
+{
+  "name": "Departamento de Inteligencia Artificial",
+  "description": "El Departamento de Inteligencia Artificial une investigación y educación desde 1976 con destacados académicos que persiguen la excelencia",
+  "url": "https://dia.fi.upm.es/",
+  "lang": "es-ES",
+  "favicon": "/assets/uploads/2023/11/logo-dia-actualizado.svg",
+  "navigationLabel": "Navegación del sitio: main-menu",
+  "logo": {
+    "src": "/assets/uploads/2024/01/logo-dia-conjunto@5x.png",
+    "width": 2724,
+    "height": 579,
+    "alt": "",
+    "srcset": "/assets/uploads/2024/01/logo-dia-conjunto@5x.png 2724w, /assets/uploads/2024/01/logo-dia-conjunto@5x-300x64.png 300w, /assets/uploads/2024/01/logo-dia-conjunto@5x-1024x218.png 1024w, /assets/uploads/2024/01/logo-dia-conjunto@5x-768x163.png 768w, /assets/uploads/2024/01/logo-dia-conjunto@5x-1536x326.png 1536w, /assets/uploads/2024/01/logo-dia-conjunto@5x-2048x435.png 2048w, /assets/uploads/2024/01/logo-dia-conjunto@5x-439x93.png 439w",
+    "sizes": "(max-width: 2724px) 100vw, 2724px",
+    "sticky": {
+      "src": "/assets/uploads/2024/01/logo-dia-conjunto@5x-439x93.png",
+      "src2x": "/assets/uploads/2024/01/logo-dia-conjunto@5x.png",
+      "width": 439,
+      "height": 93
+    }
+  },
+  "logoOpaqueHeader": {
+    "src": "/assets/uploads/2024/01/Logo-conjunto-dia-ets-upm5x.svg",
+    "width": 544,
+    "height": 115,
+    "alt": "Departamento de Inteligencia Artificial",
+    "note": "Logo used by pages whose header is not transparent (archives, 404…), as on the original site."
+  },
+  "preloadFonts": [
+    "/assets/fonts/noto-sans-hanunoo/f0Xs0fCv8dxkDWlZSoXOj6CphMloFvErGJk.woff2",
+    "/assets/fonts/syne/8vIH7w4qzmVxm2BL9A.woff2"
+  ],
+  "seo": {
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "ogLocale": "es_ES",
+    "ogLocaleAlternate": "en_GB"
+  },
+  "search": {
+    "label": "Buscar",
+    "placeholder": "Search...",
+    "noResults": "Parece que no hemos podido encontrar lo que estás buscando. Quizá pueda ayudarte una búsqueda."
+  },
+  "footer": {
+    "address": [
+      "Departamento de Inteligencia Artificial",
+      "Escuela Técnica Superior de Ingenieros Informáticos",
+      "Universidad Politécnica de Madrid",
+      "28660 Boadilla del Monte, Madrid, España",
+      "Tlfno. de Secretaría: +34-91-067-3074 ",
+      "Oficina de Secretaría: despacho D-2213-Bloque 2"
+    ],
+    "linkColumns": [
+      {
+        "title": "MÁSTERES OFICIALES",
+        "wrapInSpan": true,
+        "links": [
+          {
+            "label": "Máster Universitario en Inteligencia Artificial",
+            "url": "https://muia.dia.fi.upm.es/es/"
+          },
+          {
+            "label": "Máster Universitario en Ciencia de Datos",
+            "url": "https://mucd.dia.fi.upm.es/"
+          },
+          {
+            "label": "Doctorado en Inteligencia Artificial",
+            "url": "https://doctoradoia.dia.fi.upm.es/"
+          }
+        ]
+      },
+      {
+        "title": "MÁSTERES PROPIOS",
+        "wrapInSpan": false,
+        "links": [
+          {
+            "label": "Máster en fundamentos y aplicaciones de la Inteligencia Artificial",
+            "url": "https://mfaia.dia.fi.upm.es/"
+          },
+          {
+            "label": "Máster in Artificial Intelligence for Public Services",
+            "url": "https://www.ai4gov-hub.eu/master/"
+          }
+        ]
+      }
+    ],
+    "map": {
+      "title": "Mapa: UPM Departamento de Inteligencia Artificial",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.159056519667!2d-3.8427490873891514!3d40.40532705621263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f58d6a20407%3A0xe7bfc10fd543e3f7!2sUPM%20Departamento%20de%20Inteligencia%20Artificial!5e0!3m2!1ses!2ses!4v1701979527781!5m2!1ses!2ses"
+    },
+    "copyright": {
+      "text": "Departamento de Inteligencia Artificial - Copyright © {year} - Sitio creado por",
+      "creditLabel": "SASOVER",
+      "creditUrl": "https://sasover.es"
+    },
+    "legal": {
+      "label": "Aviso legal",
+      "url": "https://www.upm.es/AvisoLegal"
+    }
+  }
+}

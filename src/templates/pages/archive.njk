@@ -1,0 +1,70 @@
+{% extends "layouts/base.njk" %}
+{#- Astra blog archive (grid of cards). Used by /noticias/, /category/*, /tag/*, /author/*,
+    /personaldia/ and their /page/N/ pagination. Items come from data/news or data/personnel. -#}
+{% from "components/search-form.njk" import themeSearch %}
+{% block banner %}
+{% if archive.banner %}
+<section class="ast-archive-entry-banner" data-post-type="post" data-banner-layout="layout-2" data-banner-background-type="custom">
+<div class="ast-container">
+<h1>{% if archive.vcard %}<span class=" vcard">{{ archive.title }}</span>{% else %}{{ archive.title }}{% endif %}</h1>{% if archive.descriptionHtml %}<p>{{ archive.descriptionHtml | safe }}</p>
+{% endif %}	</div>
+</section>
+{% endif %}
+{% endblock %}
+{% block content %}
+<div id="primary" class="content-area primary ast-blog-layout-4-grid ast-grid-3 ast-grid-md-1 ast-grid-sm-1">
+{% if archive.authorBox %}
+<section class="ast-author-box ast-archive-description">
+<div class="ast-author-bio">
+<h1 class="page-title ast-archive-title">{{ archive.title }}</h1>
+<p></p>
+</div>
+<div class="ast-author-avatar">
+</div>
+</section>
+{% elif archive.description %}
+<section class="ast-archive-description">
+<h1 class="page-title ast-archive-title">{{ archive.title }}</h1><p>{{ archive.description }}</p>
+</section>
+{% endif %}
+<main id="main" class="site-main">
+{% if archive.bare %}<h1 class="screen-reader-text">{{ archive.srTitle or site.name }}</h1>{% endif %}
+{% if items.length %}
+<div class="ast-row">{% for it in items %}<article class="{{ it.articleClass }} ast-col-sm-12 ast-article-post ast-col-md-4 ast-archive-post ast-separate-posts">
+<div class="ast-post-format- blog-layout-4 ast-article-inner ast-no-date-box">
+<div class="post-content ast-col-md-12">
+{% if it.thumbnail %}<div class="ast-blog-featured-section post-thumb ast-blog-single-element"><div class="post-thumb-img-content post-thumb"><a href="{{ it.url }}" tabindex="-1" aria-hidden="true"><img width="{{ it.thumbnail.width }}" height="{{ it.thumbnail.height }}" src="{{ it.thumbnail.src }}" class="{{ it.thumbnailClass }}" alt="{{ it.thumbnail.alt }}" decoding="async"{% if loop.index > 3 %} loading="lazy"{% endif %}></a></div></div>{% endif %}<h2 class="entry-title ast-blog-single-element"><a href="{{ it.url }}" rel="bookmark">{{ it.title }}</a></h2>		<header class="entry-header ast-blog-single-element ast-blog-meta-container">
+<div class="entry-meta"><span class="posted-on"><span class="published"> {{ it.dateLabel }} </span></span>{% if it.readingTime %} / <span class="ast-reading-time">{{ it.readingTime }}</span>{% endif %}</div>		</header>
+{% if it.excerptHtml %}<div class="ast-excerpt-container ast-blog-single-element">
+{{ it.excerptHtml | safe }}
+</div>
+{% endif %}<p class="ast-blog-single-element ast-read-more-container read-more"> <a class="" href="{{ it.url }}"> <span class="screen-reader-text">{{ it.title }}</span> Leer más »</a></p>		<div class="entry-content clear">
+</div>
+</div>
+</div>
+</article>{% endfor %}
+</div>			</main>
+{% if pagination %}
+<div class="ast-pagination">
+<nav class="navigation pagination" aria-label="Paginación de entradas">
+<span class="screen-reader-text">Paginación de entradas</span>
+<div class="nav-links">{% if pagination.prev %}<a class="prev page-numbers" href="{{ pagination.prev }}"><span class="ast-left-arrow">←</span> Anterior</a>
+{% endif %}{% for p in pagination.items %}{% if p.dots %}<span class="page-numbers dots">…</span>
+{% elif p.current %}<span aria-current="page" class="page-numbers current">{{ p.n }}</span>
+{% else %}<a class="page-numbers" href="{{ p.url }}">{{ p.n }}</a>
+{% endif %}{% endfor %}{% if pagination.next %}<a class="next page-numbers" href="{{ pagination.next }}">Siguiente <span class="ast-right-arrow">→</span></a>{% endif %}</div>
+</nav></div>
+{% endif %}
+{% else %}
+{% if not archive.bare %}
+<section class="no-results not-found">
+<div class="page-content">
+<p>{{ site.search.noResults }}</p>
+{{ themeSearch() }}
+</div>
+</section>
+{% endif %}
+</main>
+{% endif %}
+</div>
+{% endblock %}

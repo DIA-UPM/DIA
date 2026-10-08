@@ -1,0 +1,38 @@
+{
+  "slug": "iniciativa-drugs4convid-para-ayudar-a-los-medicos-a-localizar-tratamientos-en-el-diario-el-mundo",
+  "title": "Iniciativa DRUGS4CONVID para ayudar a los médicos a localizar tratamientos en el Diario el Mundo",
+  "date": "2020-04-24T08:30:59+00:00",
+  "modified": "2020-04-24T08:30:59+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2020/04/Captura-de-pantalla-2020-04-24-a-las-10.27.10.png",
+    "width": 1642,
+    "height": 1526,
+    "alt": "Captura de pantalla 2020-04-24 a las 10"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2020/04/Captura-de-pantalla-2020-04-24-a-las-10.27.10-400x250.png",
+    "width": 400,
+    "height": 250,
+    "alt": "Captura de pantalla 2020-04-24 a las 10"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p class=\"rtejustify\">La iniciativa DRUGS4CONVID para ayudar a los médicos a localizar tratamientos&nbsp;liderada por&nbsp;Óscar Corcho&nbsp;y Carlos Badenes, ha sido destacada en el&nbsp;artículo «La ciencia se recicla para combatir la virus» publicado en el diario el Mundoo el 19 de abril de 2020.</p>",
+  "contentHtml": "<p class=\"rtejustify\">La iniciativa DRUGS4CONVID para ayudar a los médicos a localizar tratamientos&nbsp;liderada por&nbsp;Óscar Corcho&nbsp;y Carlos Badenes, ha sido destacada en el&nbsp;artículo «La ciencia se recicla para combatir la virus» publicado en el diario el Mundoo el 19 de abril de 2020.</p>\n<p class=\"rtejustify\">La iniciativa DRUGS4CONVID para ayudar a los médicos a localizar tratamientos&nbsp;liderada&nbsp;por Óscar Corcho&nbsp;y Carlos Badenes, ha sido destacada en el&nbsp;artículo «La ciencia se recicla para combatir la virus» publicado en el diario el Mundoo el 19 de abril de 2020.</p>\n<p class=\"rtejustify\">En el&nbsp;<a href=\"http://www.oeg-upm.net/\">Ontology Engineering Group</a>&nbsp;de la&nbsp;<a href=\"http://www.fi.upm.es/\">Escuela Técnica Superior de Ingenieros Informáticos&nbsp;</a>de la&nbsp;<a href=\"https://www.upm.es/\">Universidad Politécnica de Madrid</a>&nbsp;llevan trabajando varios años en el procesamiento de grandes corpus de textos, así que&nbsp;se han puesto a trabajar para intentar aportar su grano de arena en la solución de estos problemas, desarrollando el core de una tecnología que permita a otros investigadores, estudiantes e informáticos trabajar sobre ella. En la siguiente página describen lo que han hecho hasta ahora, y los recursos que ponen a disposición del resto de la comunidad científica, por si pudieran resultar útiles:&nbsp;<a href=\"https://oeg-upm.github.io/covid19/\">https://oeg-upm.github.io/covid19/</a></p>",
+  "seo": {
+    "title": "Iniciativa DRUGS4CONVID para ayudar a los médicos a localizar tratamientos en el Diario el Mundo - Departamento de Inteligencia Artificial",
+    "ogTitle": "Iniciativa DRUGS4CONVID para ayudar a los médicos a localizar tratamientos en el Diario el Mundo - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2020/04/Captura-de-pantalla-2020-04-24-a-las-10.27.10.png",
+    "publishedTime": "2020-04-24T08:30:59+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 137
+}

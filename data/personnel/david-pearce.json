@@ -1,0 +1,37 @@
+{
+  "slug": "david-pearce",
+  "name": "Pearce, David",
+  "image": "/assets/uploads/2023/10/david-pearce-2.png",
+  "office": "2107",
+  "web": "",
+  "phone": "+34-91-067-2904",
+  "orcid": "https://orcid.org/0000-0001-7407-326X",
+  "email": "david.pearce@upm.es",
+  "researcherId": "",
+  "researchGroup": null,
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=7202580462",
+  "biography": [],
+  "category": "profesor-contratado-doctor",
+  "date": "2016-11-22T11:06:20+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2023/10/david-pearce-2-1024x1024.png",
+    "width": 1024,
+    "height": 1024,
+    "alt": ""
+  },
+  "gridImage": {
+    "src": "/assets/uploads/2023/10/david-pearce-2.png",
+    "width": 1527,
+    "height": 1527,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Pearce, David - Departamento de Inteligencia Artificial",
+    "ogTitle": "Pearce, David - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2023/10/david-pearce-2.png",
+    "modifiedTime": "2024-01-16T23:16:18+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

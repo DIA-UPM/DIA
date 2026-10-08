@@ -1,0 +1,59 @@
+{#- Site header: Astra "header builder" markup (desktop + mobile rows).
+    The slide-in sticky copy (#ast-fixed-header) is cloned by src/js/site.js. -#}
+{% from "components/menu.njk" import nav %}
+{% set logo = site.logo %}
+{% set headerClass = "site-header ast-primary-submenu-animation-slide-up header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" %}
+{% macro branding() %}
+<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+<div class="site-branding ast-site-identity">
+{% if 'ast-theme-transparent-header' in page.bodyClass %}<span class="site-logo-img"><a href="{{ link('/') }}" class="custom-logo-link transparent-custom-logo" rel="home" aria-label="{{ site.name }}"><img fetchpriority="high" width="{{ logo.width }}" height="{{ logo.height }}" src="{{ logo.src }}" class="custom-logo" alt="{{ logo.alt }}" decoding="async"{% if logo.srcset %} srcset="{{ logo.srcset }}" sizes="{{ logo.sizes }}"{% endif %}></a></span>{% else %}{% set ol = site.logoOpaqueHeader %}<span class="site-logo-img"><a href="{{ link('/') }}" class="custom-logo-link" rel="home"><img fetchpriority="high" width="{{ ol.width }}" height="{{ ol.height }}" src="{{ ol.src }}" class="custom-logo astra-logo-svg" alt="{{ ol.alt }}" decoding="async"></a></span>{% endif %}
+</div>
+</div>
+{% endmacro %}
+<header class="{{ headerClass }}" id="masthead" data-sticky-logo="{{ logo.sticky.src }}" data-sticky-logo-2x="{{ logo.sticky.src2x }}" data-sticky-logo-width="{{ logo.sticky.width }}" data-sticky-logo-height="{{ logo.sticky.height }}">
+<div id="ast-desktop-header" data-toggle-type="dropdown">
+<div class="ast-main-header-wrap main-header-bar-wrap ">
+<div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item" data-section="section-primary-header-builder">
+<div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-primary-header-builder">
+<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+{{ branding() }}
+</div>
+<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+<div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
+{{ nav('primary-site-navigation-desktop', 'ast-hf-menu-1', 'main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border stack-on-mobile ast-mega-menu-enabled', page) }}
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="dropdown">
+<div class="ast-main-header-wrap main-header-bar-wrap">
+<div class="ast-primary-header-bar ast-primary-header main-header-bar site-primary-header-wrap site-header-focus-item ast-builder-grid-row-layout-default ast-builder-grid-row-tablet-layout-default ast-builder-grid-row-mobile-layout-default" data-section="section-transparent-header">
+<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+{{ branding() }}
+</div>
+<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="section-header-mobile-trigger">
+<div class="ast-button-wrap">
+<button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-minimal" aria-expanded="false" aria-controls="ast-hf-mobile-menu">
+<span class="screen-reader-text">Main Menu</span>
+<span class="mobile-menu-toggle-icon">
+<span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg class="ast-mobile-svg ast-menu3-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M6 3c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM6 8c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2zM6 13c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2s-2-0.895-2-2z"></path></svg></span><span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg class="ast-mobile-svg ast-close-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path></svg></span></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ast-mobile-header-content content-align-center ">
+<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
+{{ nav('ast-mobile-site-navigation', 'ast-hf-mobile-menu', 'main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile ast-mega-menu-enabled', page) }}
+</div>
+</div>
+</div>
+</header>

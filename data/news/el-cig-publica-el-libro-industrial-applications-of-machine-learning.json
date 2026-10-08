@@ -1,0 +1,38 @@
+{
+  "slug": "el-cig-publica-el-libro-industrial-applications-of-machine-learning",
+  "title": "El CIG publica el libro «Industrial Applications of Machine Learning»",
+  "date": "2018-12-28T16:39:42+00:00",
+  "modified": "2018-12-28T16:39:42+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2018/12/9780815356226.jpg",
+    "width": 435,
+    "height": 648,
+    "alt": "9780815356226"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2018/12/9780815356226-400x250.jpg",
+    "width": 400,
+    "height": 250,
+    "alt": "9780815356226"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p class=\"rtejustify\">Miembros del&nbsp;<a href=\"http://cig.fi.upm.es/\">Computational Intelligence Group</a>&nbsp;(CIG) en colaboración con la&nbsp;empresa Aingura IIoT del grupo Etxe-Tar han publicado el libro&nbsp;titulado «Industrial Applications of Machine Learning» en la&nbsp;prestigiosa editorial CRC Press.</p>",
+  "contentHtml": "<p class=\"rtejustify\">Miembros del&nbsp;<a href=\"http://cig.fi.upm.es/\">Computational Intelligence Group</a>&nbsp;(CIG) en colaboración con la&nbsp;empresa Aingura IIoT del grupo Etxe-Tar han publicado el libro&nbsp;titulado «Industrial Applications of Machine Learning» en la&nbsp;prestigiosa editorial CRC Press.</p>\n<p class=\"rtejustify\">Miembros del&nbsp;<a href=\"http://cig.fi.upm.es/\">Computational Intelligence Group</a>&nbsp;en colaboración con la&nbsp;empresa Aingura IIoT del grupo Etxe-Tar han publicado el libro&nbsp;titulado «Industrial Applications of Machine Learning» en la&nbsp;prestigiosa editorial CRC Press.</p>\n<h3 class=\"rtejustify\">Summary</h3>\n<p class=\"rtejustify\"><a href=\"https://www.crcpress.com/Industrial-Applications-of-Machine-Learning/Larranaga-Atienza-Diaz-Rozo-Ogbechie-Puerto-Santana-Bielza/p/book/9780815356226\" target=\"_blank\" rel=\"noopener\"><em>Industrial Applications of Machine Learning</em></a>&nbsp;shows how machine learning can be applied to address real-world problems in the fourth industrial revolution, and provides the required knowledge and tools to empower readers to build their own solutions based on theory and practice. The book introduces the fourth industrial revolution and its current impact on organizations and society. It explores machine learning fundamentals, and includes four case studies that address a real-world problem in the manufacturing or logistics domains, and approaches machine learning solutions from an application-oriented point of view. The book should be of special interest to researchers interested in real-world industrial problems.</p>",
+  "seo": {
+    "title": "El CIG publica el libro \"Industrial Applications of Machine Learning\" - Departamento de Inteligencia Artificial",
+    "ogTitle": "El CIG publica el libro \"Industrial Applications of Machine Learning\" - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2018/12/9780815356226.jpg",
+    "publishedTime": "2018-12-28T16:39:42+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 99
+}

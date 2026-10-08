@@ -1,0 +1,34 @@
+{
+  "slug": "rgarcia",
+  "name": "García Castro, Raul",
+  "image": "/assets/uploads/2016/11/garcia-castro-raul.png",
+  "office": "2110",
+  "web": "http://www.garcia-castro.com/",
+  "phone": "+34-91-067-2952",
+  "orcid": "",
+  "email": "rgarcia@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/J-5745-2012",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "http://www.oeg-upm.net"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=13404965900",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-22T11:17:20+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/garcia-castro-raul.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "García Castro, Raul - Departamento de Inteligencia Artificial",
+    "ogTitle": "García Castro, Raul - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/garcia-castro-raul.png",
+    "modifiedTime": "2026-01-21T12:12:29+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

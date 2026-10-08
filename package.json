@@ -1,0 +1,41 @@
+{
+  "name": "dia-fi-upm-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static (JSON-driven) migration of https://dia.fi.upm.es/",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build/build.mjs && node scripts/build/serve.mjs --watch",
+    "build": "node scripts/build/build.mjs",
+    "serve": "node scripts/build/serve.mjs",
+    "validate": "node scripts/validation/validate-cli.mjs",
+    "check-links": "node scripts/validation/check-links.mjs",
+    "scan-external": "node scripts/validation/scan-external.mjs --links",
+    "test": "npm run validate && npm run build && npm run check-links && playwright test",
+    "test:functional": "playwright test --project=functional",
+    "test:visual": "playwright test --project=visual",
+    "crawl": "node scripts/crawl/crawl.mjs",
+    "capture-reference": "node tests/visual/capture-reference.mjs",
+    "compare": "node tests/visual/compare.mjs",
+    "migrate:css": "node scripts/migrate/extract-css.mjs",
+    "migrate:content": "node scripts/migrate/import-content.mjs && node scripts/migrate/import-pages.mjs",
+    "migrate:assets": "node scripts/migrate/copy-assets.mjs",
+    "validate:html": "html-validate \"dist/**/*.html\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "cheerio": "^1.2.0",
+    "html-validate": "^11.16.0",
+    "nunjucks": "^3.2.4",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0",
+    "postcss": "^8.5.28",
+    "postcss-safe-parser": "^7.1.0",
+    "purgecss": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

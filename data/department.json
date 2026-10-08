@@ -1,0 +1,350 @@
+{
+  "page": {
+    "seo": {
+      "title": "El Departamento de Inteligencia Artificial - Presentación",
+      "description": "El Departamento de Inteligencia Artificial - presentación de un referente en docencia e investigación nacional como internacional",
+      "ogTitle": "El Departamento de Inteligencia Artificial - Presentación",
+      "ogType": "article",
+      "image": "/assets/uploads/2023/08/infopresentacion-DIA.svg",
+      "modifiedTime": "2026-05-20T12:25:54+00:00",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    }
+  },
+  "ecosystem": {
+    "backgroundVideo": {
+      "mp4": "/assets/uploads/2023/09/circuit_-_27725-1080p.mp4",
+      "poster": "/assets/uploads/2024/01/fondo-movil-DIA.jpg",
+      "overlay": "rgba(6, 26, 65, 0.56)"
+    },
+    "heading": {
+      "id": "3gmfy",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Una vista unificada del",
+      "subtitleTag": "p",
+      "subtitle": "Ecosistema <br>del DIA"
+    },
+    "labels": [
+      {
+        "id": "uxiua",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>INVESTIGACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": ""
+      },
+      {
+        "id": "mqgcs",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>EDUCACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": ""
+      },
+      {
+        "id": "4s2kl",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>INNOVACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": ""
+      }
+    ],
+    "diagram": {
+      "id": "kn3hg",
+      "src": "/assets/uploads/2023/08/infopresentacion-DIA.svg",
+      "alt": ""
+    },
+    "diagramMobile": {
+      "id": "bzt3a",
+      "src": "/assets/uploads/2023/08/infopresentacion-DIA.svg",
+      "alt": ""
+    },
+    "research": {
+      "number": {
+        "id": "o1nse",
+        "label": "01"
+      },
+      "text": {
+        "id": "bo8xn",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>INVESTIGACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": "El DIA destaca, a nivel nacional e internacional, por su productividad y calidad investigadora. Tiene una alta participación en proyectos de investigación financiados con fondos de la Comisión Europea, y coordina varios de ellos. Participa también en proyectos de financiación pública competitiva nacional (Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía, Industria y Competitividad, Instituto de Salud Carlos III, etc.) y regional (Comunidad de Madrid), y tiene establecidos contratos de investigación con empresas privadas, bien a través de programas de financiación oficial competitiva (CENIT, CIEN, etc.) o bien a través de contratos directos. Asimismo, una búsqueda en Google Scholar Citations para los términos «Universidad Politécnica de Madrid» muestra que 2 de los 10 principales investigadores de la UPM son miembros de DIA, y para el término «fi.upm.es» muestra que 6 de los 10 mejores investigadores de la ETSIINF de la UPM son miembros de DIA."
+      }
+    },
+    "researchMobile": {
+      "number": {
+        "id": "a9cs9",
+        "label": "01"
+      },
+      "text": {
+        "id": "ls4hq",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>INVESTIGACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": "El DIA destaca, a nivel nacional e internacional, por su productividad y calidad investigadora. Tiene una alta participación en proyectos de investigación financiados con fondos de la Comisión Europea, y coordina varios de ellos. Participa también en proyectos de financiación pública competitiva nacional (Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía, Industria y Competitividad, Instituto de Salud Carlos III, etc.) y regional (Comunidad de Madrid), y tiene establecidos contratos de investigación con empresas privadas, bien a través de programas de financiación oficial competitiva (CENIT, CIEN, etc.) o bien a través de contratos directos. Asimismo, una búsqueda en Google Scholar Citations para los términos «Universidad Politécnica de Madrid» muestra que 2 de los 10 principales investigadores de la UPM son miembros de DIA, y para el término «fi.upm.es» muestra que 6 de los 10 mejores investigadores de la ETSIINF de la UPM son miembros de DIA."
+      }
+    },
+    "education": {
+      "number": {
+        "id": "42hwv",
+        "label": "02"
+      },
+      "text": {
+        "id": "p04ka",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>EDUCACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": "La actividad docente del DIA cubre todas las etapas formativas, participando en la impartición de todos los títulos de grado y máster de la ETSIINF, con especial presencia en el Grado en Ciencia de Datos e Inteligencia Artificial, el Máster Universitario en Ciencia de Datos, y coordinando e impartiendo toda la docencia correspondiente al Máster Universitario en Inteligencia Artificial y al Doctorado en Inteligencia Artificial. Además, también se participa en la impartición de diversos títulos en otros centros de la UPM: Grado en Ingeniería Biomédica, Máster Universitario en Biología Computacional y Máster Universitario en Neurotecnología."
+      }
+    },
+    "innovation": {
+      "number": {
+        "id": "fag3a",
+        "label": "03"
+      },
+      "text": {
+        "id": "5g8rx",
+        "preset": "button-1",
+        "titleTag": "h2",
+        "title": "<strong>INNOVACIÓN</strong>",
+        "subtitleTag": "p",
+        "subtitle": "El DIA tiene un papel relevante en el Digital Innovation Hub in Artificial Intelligence and Robotics for sustainable development goals (AIR4S), uno de los 30 Digital Innovations Hub seleccionados por la Comisión Europea como miembro de la European Network of Digital Innovation Hubs in AI, y ha obtenido el <a rel=\"noreferrer noopener\" href=\"https://digital-strategy.ec.europa.eu/en/activities/edihs\" data-type=\"link\" data-id=\"https://digital-strategy.ec.europa.eu/en/activities/edihs\" target=\"_blank\"><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-ast-global-color-8-color\">sello de excelencia para DIHs Europeos (EDIH)</mark></a>."
+      }
+    },
+    "innovationLogo": {
+      "id": "7zy3s",
+      "src": "/assets/uploads/2023/11/Logo-innovacion-1.jpg",
+      "alt": ""
+    },
+    "innovationNote": {
+      "id": "gj97s",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "p",
+      "subtitle": "El DIA participa activamente en los programas formativos en Innovación y Emprendimiento, así como con el <strong><a style=\"color: #ADD8E6;\" rel=\"noopener noreferrer\" href=\"https://montegancedo.upm.es/Transferencia/CAIT\" target=\"_blank\">CAIT</a></strong> con programas centrados en formación predoctoral y postdoctoral de estudiantes y en la creación de start-ups."
+    },
+    "video": {
+      "popupId": "88t7y",
+      "embedUrl": "https://www.youtube.com/embed/yyGrb7Zo_is?rel=0&controls=0&modestbranding=1&cc_load_policy=0",
+      "title": "YouTube video player",
+      "buttonLabel": "Reproducir vídeo de presentación"
+    }
+  },
+  "welcome": {
+    "title": "Carta de Bienvenida",
+    "columns": [
+      {
+        "id": "hm37kg9",
+        "preset": "button-1",
+        "titleTag": "p",
+        "title": "<br>Me complace presentarle el Departamento de Inteligencia Artificial (DIA) de la Universidad Politécnica de Madrid (UPM), una entidad con más de 45 años de historia y un referente en docencia e investigación tanto a nivel nacional como internacional. <br><br>Como parte integral de la Escuela Técnica Superior de Ingenieros Informáticos (ETSIInf), el DIA se enorgullece de ser parte de un centro universitario con gran prestigio en la enseñanza de la ingeniería informática superior en Madrid.<br><br>Nuestro compromiso con la educación se refleja en todas las etapas formativas, con una presencia destacada en programas como el Grado en Ciencia de Datos e Inteligencia Artificial, el Máster Universitario en Ciencia de Datos, el Máster Universitario en Inteligencia Artificial y el Doctorado en Inteligencia Artificial, entre otros. <br><br><br><br>"
+      },
+      {
+        "id": "fvxynmm",
+        "preset": "button-1",
+        "titleTag": "p",
+        "title": "<br><br>La experiencia de nuestro profesorado, junto con indicadores como un H-index elevado, demuestra nuestra dedicación y calidad en la enseñanza.<br><br>A nivel de investigación, el DIA se destaca por su productividad y calidad, con una fuerte presencia en proyectos financiados tanto a nivel europeo como nacional y regional, y colaboraciones con empresas privadas. Los resultados son notorios; 2 de los 10 principales investigadores de la UPM son miembros del DIA.<br><br>Le invito a explorar más sobre nuestra labor y las oportunidades que ofrecemos en nuestro sitio web. Estoy segura de que encontrará en nuestro departamento un líder en el campo de la Inteligencia Artificial, comprometido con la excelencia académica e investigadora.<br><br>Cordialmente,<br><strong>Director del DIA</strong><br><br>"
+      }
+    ]
+  },
+  "management": {
+    "heading": {
+      "id": "eti9iqo",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Equipo directivo"
+    },
+    "members": [
+      {
+        "person": "ocorcho",
+        "column": "0hvhglk",
+        "id": "8pt3cru",
+        "nameHtml": "Óscar Corcho <br> García",
+        "role": "Director",
+        "email": "director.dia@fi.upm.es",
+        "phone": "+34-91-067-2894",
+        "office": "2209"
+      },
+      {
+        "person": "damiano",
+        "column": "vo2fzb7",
+        "id": "54sy9tt",
+        "nameHtml": "Damiano <br>Zanardini",
+        "role": "Subdirector",
+        "email": "subdirector.dia@fi.upm.es",
+        "phone": "+34-91-067-2909",
+        "office": "2205"
+      },
+      {
+        "person": "mcsuarez",
+        "column": "f9tc6vt",
+        "id": "9mrsmxx",
+        "nameHtml": "Mª Carmen <br>Suárez de Figueroa",
+        "role": "Secretaria académica",
+        "email": "secretario.dia@fi.upm.es",
+        "phone": "+34-91-067-2913",
+        "office": "2201"
+      }
+    ]
+  },
+  "teachers": {
+    "heading": {
+      "id": "jt1qo1m",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Profesores"
+    },
+    "intro": {
+      "id": "ip7sr34",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "p",
+      "subtitle": "La experiencia docente del profesorado del DIA es amplia, como muestra el promedio de 3,71 tramos de experiencia docente reconocidos, y su calidad investigadora está acreditada tanto por indicadores como un promedio de tramos de investigación de 2,82, como un H-index superior a 20 para el 50% de los profesores del departamento, y de ellos 4 con un H-index superior a 40 (datos de abril de 2022).&nbsp;"
+    },
+    "awardsIntro": "Es de destacar los numerosos premios y distinciones, tanto nacionales como internacionales, de varios profesores del departamento:",
+    "awards": [
+      "<strong><a href=\"https://www.upm.es/?id=41f3bf1593248810VgnVCM10000009c7648a____&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\">Real Academia Española (RAE) (Asunción Gómez, académica de número, silla «q»)</a></strong>",
+      "<strong><a href=\"/la-catedratica-del-dia-asuncion-gomez-perez-ingresa-en-la-rae-para-ocupar-la-silla-q-2/\" target=\"_blank\" rel=\"noreferrer noopener\">Real Academia de Ingeniería (Asunción Gómez, académica de número)</a></strong>",
+      "<a data-type=\"link\" data-id=\"https://www.ranm.es/academicos/academicos-correspondientes/nacionales/4800-ilmo-sr-d-victor-manuel-maojo-garcia.html\" href=\"https://www.ranm.es/academicos/academicos-correspondientes/nacionales/4800-ilmo-sr-d-victor-manuel-maojo-garcia.html\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Real Academia Nacional de Medicina de España</strong> (Víctor Maojo, Académico Correspondiente)</a>",
+      "<a data-type=\"link\" data-id=\"https://www.upm.es/?id=87ee29e179994810VgnVCM10000009c7648a____&amp;prefmt=articulo&amp;fmt=detail\" href=\"https://www.upm.es/?id=87ee29e179994810VgnVCM10000009c7648a____&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Jakiunde, Academia de las Ciencias, las Letras y las Artes del País Vasco </strong>(Pedro Larrañaga)</a>",
+      "<a href=\"https://www.ae-info.org/ae/Member/Larra%C3%B1aga_Pedro\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Fellow of the Academia Europaea </strong>(Pedro Larrañaga)</a>",
+      "<a data-type=\"link\" data-id=\"https://www.fi.upm.es/web/historia/premios-y-reconocimientos/\" href=\"https://www.fi.upm.es/web/historia/premios-y-reconocimientos/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Premio Nacional de informática </strong>(Asunción Gómez, Manuel Hermenegildo, Pedro Larrañaga)</a>",
+      "<a href=\"https://www.upm.es/?id=CON04462&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>IEEE Fellow</strong>, (Pedro Larrañaga)</a>",
+      "<a href=\"https://www.upm.es/?id=CON04462&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Fellow de la Asociación de Inteligencia Artificial de Asia-Pacífico</strong>, (Pedro Larrañaga</a><a href=\"/pedro_fellowaaia/\" target=\"_blank\" rel=\"noreferrer noopener\">, Concha Bielza)</a>",
+      "<a href=\"https://www.upm.es/?id=CON04462&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Premio de la Asociación Española para Inteligencia Artificial</strong>, (Pedro Larrañaga</a><a href=\"https://www.upm.es/UPM/SalaPrensa/Noticias?fmt=detail&amp;prefmt=articulo&amp;id=6d51ab5c41870610VgnVCM10000009c7648a____\" target=\"_blank\" rel=\"noreferrer noopener\">)</a>",
+      "<a href=\"https://www.upm.es/?id=CON04462&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Fellow de la Asociación Europea para la Inteligencia Artificial</strong>, (Pedro Larrañaga</a><a href=\"https://coddii.org/el-profesor-pedro-larranaga-elegido-fellow-por-la-sociedad-europea-de-inteligencia-artificial\" target=\"_blank\" rel=\"noreferrer noopener\">)</a>",
+      "<a data-type=\"link\" data-id=\"https://software.imdea.org/es/news/2023/07-04-acm-fellow-award/\" href=\"https://software.imdea.org/es/news/2023/07-04-acm-fellow-award/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>ACM, Association for Computing Machinery</strong> (Manuel Hermenegildo, “Fellow”)</a>",
+      "<a href=\"https://www.inria.fr/en/manuel-hermenegildo-appointed-chairman-inrias-scientific-board\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Presidencia del Comité Científico del INRIA</strong> (Manuel Hermenegildo)</a>",
+      "<a href=\"https://oeg.fi.upm.es/index.php/es/last-news/358-asun-award-ada-byron-2015/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Premio Ada Byron</strong> (Asunción Gómez)</a>",
+      "<a href=\"https://gib.fi.upm.es/vmaojo/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Premio Nacional de Informática y Salud</strong> (Víctor Maojo)</a>",
+      "<a href=\"https://gib.fi.upm.es/vmaojo/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Fellow del American College of Medical Informatics</strong> (Víctor Maojo)</a>",
+      "<a href=\"https://gib.fi.upm.es/vmaojo/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Miembro de la International Academy of Health Sciences Informatics</strong> (Víctor Maojo)</a>",
+      "<a href=\"https://oeg.fi.upm.es/index.php/es/last-news/404-oscar-corcho-premio-raing-2016/index.html\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Premio de la Real Academia de Ingeniería</strong> (Óscar Corcho)</a>",
+      "<a href=\"https://oeg.fi.upm.es/index.php/es/last-news/413-agp-academy-sciences/index.html\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Fellow of the European Academy of Sciences</strong> (Asunción Gómez)</a>",
+      "<a href=\"https://www.upm.es/?id=e89799a7fb5da810VgnVCM10000009c7648a____&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Ellis Fellow </strong> (Concha Bielza, Pedro Larrañaga)</a>",
+      "<a href=\"/personaldia/mcbielza/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>Premio Nacional de Estadística </strong> (Concha Bielza)</a>"
+    ]
+  },
+  "grids": [
+    {
+      "id": "4a8k4qv",
+      "label": "Catedráticos de Universidad",
+      "filterSlug": "catedraticos",
+      "tags": [
+        "catedraticos"
+      ],
+      "orderBy": "title",
+      "order": "asc",
+      "container": {
+        "type": "column",
+        "id": "fbrtcvt"
+      }
+    },
+    {
+      "id": "qi2484h",
+      "label": "Profesores Titulares de Universidad",
+      "filterSlug": "profesor-titular",
+      "tags": [
+        "profesor-titular"
+      ],
+      "orderBy": "title",
+      "order": "asc",
+      "container": {
+        "type": "wrapper",
+        "id": "bzuyk61",
+        "align": "alignfull",
+        "anchor": "profesores_titulares",
+        "center": "outer"
+      }
+    },
+    {
+      "id": "8yekixq",
+      "label": "Profesores Contratados Doctores",
+      "filterSlug": "profesor-contratado-doctor",
+      "tags": [
+        "profesor-contratado-doctor"
+      ],
+      "orderBy": "title",
+      "order": "asc",
+      "container": {
+        "type": "wrapper",
+        "id": "stpbx",
+        "align": "alignwide",
+        "center": "outer"
+      }
+    },
+    {
+      "id": "p8f4m",
+      "label": "Profesores permanentes laborales",
+      "filterSlug": "profesores-permanentes-laborales",
+      "tags": [
+        "profesores-permanentes-laborales"
+      ],
+      "orderBy": "title",
+      "order": "asc",
+      "container": {
+        "type": "wrapper",
+        "id": "ndw7vjq",
+        "align": "alignwide",
+        "center": "outer"
+      }
+    },
+    {
+      "id": "of31zwj",
+      "label": "Profesores Ayudantes Doctores",
+      "filterSlug": "profesores-ayudantes",
+      "tags": [
+        "profesor-ayudante-doctor"
+      ],
+      "orderBy": "title",
+      "order": "asc",
+      "container": {
+        "type": "wrapper",
+        "id": "caaadbm",
+        "align": "alignwide",
+        "center": "inner"
+      }
+    },
+    {
+      "id": "n6lw1bg",
+      "label": "Investigadores",
+      "filterSlug": "investigadores",
+      "tags": [
+        "investigadores"
+      ],
+      "orderBy": "date",
+      "order": "asc",
+      "container": {
+        "type": "wrapper",
+        "id": "0g688fc",
+        "align": "alignfull",
+        "anchor": "Investigadores",
+        "center": "inner"
+      }
+    },
+    {
+      "id": "b7dytkm",
+      "label": "Personal Técnico, de Gestión, Administración y Servicios",
+      "filterSlug": "personal-tecnico-de-gestion-y-de-administracion-y-servicios",
+      "tags": [
+        "personal-tecnico-de-gestion-y-de-administracion-y-servicios"
+      ],
+      "orderBy": "title",
+      "order": "asc",
+      "container": {
+        "type": "wrapper",
+        "id": "uqgaiee",
+        "align": "alignfull",
+        "anchor": "PTGAS",
+        "center": "inner"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "mgremesal",
+  "name": "García Remesal, Miguel",
+  "image": "/assets/uploads/2016/11/garcia-remesal-miguel.png",
+  "office": "2206",
+  "web": "http://www.gib.fi.upm.es/es/mgarcia",
+  "phone": "+34-91-067-2890",
+  "orcid": "https://orcid.org/0000-0002-5948-8691",
+  "email": "mgremesal@fi.upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Grupo de Informática Biomédica",
+    "url": "http://www.gib.fi.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=6507216549",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-22T11:05:53+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/garcia-remesal-miguel.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "García Remesal, Miguel - Departamento de Inteligencia Artificial",
+    "ogTitle": "García Remesal, Miguel - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/garcia-remesal-miguel.png",
+    "modifiedTime": "2026-01-21T12:16:37+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

@@ -1,0 +1,22 @@
+{% extends "layouts/base.njk" %}
+{#- 404 page (served by the web server for unknown URLs) -#}
+{% from "components/search-form.njk" import themeSearch %}
+{% block content %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<section class="error-404 not-found">
+<div class="ast-404-layout-1">
+<header class="page-header"><h1 class="page-title">Parece que esta página no existe.</h1></header>
+<div class="page-content">
+<div class="page-sub-title">
+Parece que el enlace que apuntaba aquí no sirve. ¿Quieres probar con una búsqueda?
+</div>
+<div class="ast-404-search">
+<div class="widget widget_search">{{ themeSearch() }}</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Persona del DIA (data/personnel/<slug>.json)",
+  "type": "object",
+  "required": ["slug", "name", "image", "category", "date", "biography"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9_-]+$", "description": "Identificador estable; es la URL /personaldia/<slug>/ y debe coincidir con el nombre del fichero." },
+    "name": { "type": "string", "minLength": 1, "description": "Nombre tal como aparece en el título y las tarjetas (Apellidos, Nombre)." },
+    "image": { "type": "string", "pattern": "^/assets/", "description": "Foto de la ficha (ruta dentro de public/)." },
+    "category": { "type": ["string", "null"], "description": "Colectivo principal (slug de una etiqueta de data/taxonomies.json)." },
+    "categories": { "type": "array", "items": { "type": "string" }, "description": "Opcional: todas las etiquetas si tiene varias." },
+    "date": { "type": "string", "format": "date-time", "description": "Fecha de publicación (ordena el listado /personaldia/)." },
+    "office": { "type": "string" },
+    "web": { "type": "string" },
+    "phone": { "type": "string" },
+    "email": { "type": "string", "pattern": "^$|^[^@\\s,]+@[^@\\s,]+\\.[^@\\s,]+(\\s*,\\s*[^@\\s,]+@[^@\\s,]+\\.[^@\\s,]+)*$", "description": "Correo (o varios separados por comas). Vacío si no tiene." },
+    "orcid": { "type": "string" },
+    "researcherId": { "type": "string" },
+    "scopusId": { "type": "string" },
+    "researchGroup": {
+      "type": ["object", "null"],
+      "required": ["name", "url"],
+      "additionalProperties": false,
+      "properties": { "name": { "type": "string" }, "url": { "type": "string", "pattern": "^(https?://|/)" } }
+    },
+    "biography": {
+      "type": "array",
+      "description": "Párrafos de la biografía (HTML sencillo permitido). Un objeto {\"html\": \"...\"} inserta HTML libre (p. ej. una lista).",
+      "items": { "anyOf": [{ "type": "string" }, { "type": "object", "required": ["html"], "additionalProperties": false, "properties": { "html": { "type": "string" } } }] }
+    },
+    "thumbnail": { "$ref": "#/definitions/image", "description": "Imagen de la tarjeta en /personaldia/ y en Presentación." },
+    "gridImage": { "$ref": "#/definitions/image", "description": "Opcional: imagen distinta para las rejillas de Presentación (si no, se usa thumbnail)." },
+    "readingTime": { "type": "string" },
+    "seo": { "$ref": "#/definitions/seo" }
+  },
+  "definitions": {
+    "image": {
+      "type": "object",
+      "required": ["src"],
+      "properties": { "src": { "type": "string", "pattern": "^/assets/" }, "width": { "type": "integer" }, "height": { "type": "integer" }, "alt": { "type": "string" } }
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" }, "description": { "type": "string" }, "ogTitle": { "type": "string" }, "ogType": { "type": "string" },
+        "image": { "type": "string" }, "publishedTime": { "type": "string" }, "modifiedTime": { "type": "string" }, "robots": { "type": "string" }
+      }
+    }
+  }
+}

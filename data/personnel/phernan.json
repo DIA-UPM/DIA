@@ -1,0 +1,34 @@
+{
+  "slug": "phernan",
+  "name": "Hernández Diego, Josefa Z.",
+  "image": "/assets/uploads/2016/11/Jose-Z-Hernandez-Diego.jpg",
+  "office": "2205",
+  "web": "",
+  "phone": "+34-91-067-2894",
+  "orcid": "https://orcid.org/0000-0002-5374-1457",
+  "email": "phernan@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/D-2268-2012",
+  "researchGroup": {
+    "name": "Grupo de Análisis de Decisiones y Estadística",
+    "url": "http://www.dasg.upm.es/"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=35612122100",
+  "biography": [],
+  "category": "profesor-titular",
+  "date": "2016-11-21T11:17:42+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Jose-Z-Hernandez-Diego.jpg",
+    "width": 491,
+    "height": 492,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Hernández Diego, Josefa Z. - Departamento de Inteligencia Artificial",
+    "ogTitle": "Hernández Diego, Josefa Z. - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Jose-Z-Hernandez-Diego.jpg",
+    "modifiedTime": "2026-01-21T12:43:04+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

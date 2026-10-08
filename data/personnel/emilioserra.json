@@ -1,0 +1,34 @@
+{
+  "slug": "emilioserra",
+  "name": "Serrano Fernández, Emilio",
+  "image": "/assets/uploads/2016/11/Serrano-Emilio.jpg",
+  "office": "2201",
+  "web": "http://emilioserra.oeg-upm.net/",
+  "phone": "+34-91-067-2907",
+  "orcid": "",
+  "email": "emilioserra@fi.upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "http://www.oeg-upm.net"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=26634305600",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-22T11:17:32+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Serrano-Emilio.jpg",
+    "width": 539,
+    "height": 538,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Serrano Fernández, Emilio - Departamento de Inteligencia Artificial",
+    "ogTitle": "Serrano Fernández, Emilio - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Serrano-Emilio.jpg",
+    "modifiedTime": "2026-01-21T12:09:23+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

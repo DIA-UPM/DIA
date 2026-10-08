@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Datos globales del sitio (data/site.json)",
+  "type": "object",
+  "required": ["name", "url", "lang", "favicon", "logo", "seo", "footer", "search"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "format": "uri", "pattern": "/$" },
+    "lang": { "type": "string" },
+    "favicon": { "type": "string", "pattern": "^/assets/" },
+    "logo": {
+      "type": "object",
+      "required": ["src", "width", "height", "sticky"],
+      "properties": { "src": { "type": "string", "pattern": "^/assets/" }, "width": { "type": "integer" }, "height": { "type": "integer" } }
+    },
+    "footer": {
+      "type": "object",
+      "required": ["address", "linkColumns", "map", "copyright", "legal"],
+      "properties": {
+        "address": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "linkColumns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "links"],
+            "properties": { "links": { "type": "array", "items": { "type": "object", "required": ["label", "url"], "properties": { "url": { "type": "string", "format": "uri" } } } } }
+          }
+        },
+        "map": { "type": "object", "required": ["embedUrl"], "properties": { "embedUrl": { "type": "string", "format": "uri" } } },
+        "legal": { "type": "object", "required": ["label", "url"], "properties": { "url": { "type": "string", "format": "uri" } } }
+      }
+    }
+  }
+}

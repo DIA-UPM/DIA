@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Menú principal (data/navigation.json)",
+  "type": "object",
+  "required": ["main"],
+  "properties": { "main": { "type": "array", "items": { "$ref": "#/definitions/item" } } },
+  "definitions": {
+    "item": {
+      "type": "object",
+      "required": ["label"],
+      "additionalProperties": false,
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "pattern": "^(https?://|/|#)" },
+        "children": { "type": "array", "items": { "$ref": "#/definitions/item" } }
+      }
+    }
+  }
+}

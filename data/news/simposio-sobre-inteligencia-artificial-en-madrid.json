@@ -1,0 +1,38 @@
+{
+  "slug": "simposio-sobre-inteligencia-artificial-en-madrid",
+  "title": "Simposio sobre Inteligencia Artificial en Madrid",
+  "date": "2019-09-19T12:29:19+00:00",
+  "modified": "2019-09-19T12:29:19+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2019/09/Captura-de-pantalla-2019-09-19-a-las-12.40.55.png",
+    "width": 386,
+    "height": 216,
+    "alt": "Captura de pantalla 2019-09-19 a las 12"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2019/09/Captura-de-pantalla-2019-09-19-a-las-12.40.55.png",
+    "width": 386,
+    "height": 216,
+    "alt": "Captura de pantalla 2019-09-19 a las 12"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p class=\"rtejustify\">Los próximos días 21 y 22 de octubre, la European Academy of Sciences celebra un simposio sobre Inteligencia Artificial en Madrid.</p>\n<p class=\"rtejustify\">En dicho simposio, el día 21 de octubre, van a participar varios ponentes de gran trayectoria y reconocimiento internacional en el ámbito de la Inteligencia Artificial, que puede ser de gran interés para los alumnos del MUIA.</p>",
+  "contentHtml": "<p class=\"rtejustify\">Los próximos días 21 y 22 de octubre, la European Academy of Sciences celebra un simposio sobre Inteligencia Artificial en Madrid.</p>\n<p class=\"rtejustify\">En dicho simposio, el día 21 de octubre, van a participar varios ponentes de gran trayectoria y reconocimiento internacional en el ámbito de la Inteligencia Artificial, que puede ser de gran interés para los alumnos del MUIA.</p>\n<p>Los próximos días 21 y 22 de octubre, la European Academy of Sciences celebra un simposio sobre Inteligencia Artificial en Madrid (en el paraninfo de la UPM) en cuyo patrocinio participa la UPM, la ETSIINF y el DIA, entre otros.</p>\n<p>En dicho simposio, el día 21 de octubre, van a participar varios ponentes de gran trayectoria y reconocimiento internacional en el ámbito de la Inteligencia Artificial, que puede ser de gran interés para los alumnos del MUIA.</p>\n<p>La inscripción al simposio para el día 21 será gratuita para los alumnos del MUIA interesados en asistir</p>\n<p>La agenda del simposio está disponible en:&nbsp;<a href=\"https://www.eurasc.org/programme-eurasc2019\" target=\"_blank\" rel=\"noopener\">https://www.eurasc.org/programme-eurasc2019</a></p>",
+  "seo": {
+    "title": "Simposio sobre Inteligencia Artificial en Madrid - Departamento de Inteligencia Artificial",
+    "ogTitle": "Simposio sobre Inteligencia Artificial en Madrid - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2019/09/Captura-de-pantalla-2019-09-19-a-las-12.40.55.png",
+    "publishedTime": "2019-09-19T12:29:19+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 111
+}

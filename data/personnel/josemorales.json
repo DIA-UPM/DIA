@@ -1,0 +1,31 @@
+{
+  "slug": "josemorales",
+  "name": "Morales Caballero, José Francisco",
+  "image": "/assets/uploads/2021/03/Morales-Caballero-1.png",
+  "office": "2101",
+  "web": "",
+  "phone": "+34-91-067-2285",
+  "orcid": "",
+  "email": "josefrancisco.morales@upm.es",
+  "researcherId": "",
+  "researchGroup": null,
+  "scopusId": "",
+  "biography": [],
+  "category": "profesores-permanentes-laborales",
+  "date": "2021-03-25T11:22:36+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2021/03/Morales-Caballero.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Morales Caballero, José Francisco - Departamento de Inteligencia Artificial",
+    "ogTitle": "Morales Caballero, José Francisco - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2021/03/Morales-Caballero.png",
+    "modifiedTime": "2024-05-20T02:40:14+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

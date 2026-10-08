@@ -1,0 +1,38 @@
+{
+  "slug": "salon-internacional-de-postgrado-y-formacion-continua-2017",
+  "title": "Salón internacional de postgrado y formación continua 2017",
+  "date": "2017-03-07T11:24:47+00:00",
+  "modified": "2017-03-07T11:24:47+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2017/03/Aula_postgrado_0.jpg",
+    "width": 270,
+    "height": 480,
+    "alt": "Aula_postgrado"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2017/03/Aula_postgrado_0.jpg",
+    "width": 141,
+    "height": 250,
+    "alt": "Aula_postgrado"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p>Del 2 al 4 de marzo se ha celebrado el&nbsp;Salón internacional de postgrado y formación continua 2017 en IFEMA (Madrid) en el que la UPM […]</p>",
+  "contentHtml": "<h2 class=\"rtejustify\">Del 2 al 4 de marzo se ha celebrado el&nbsp;<a href=\"http://www.ifema.es/forodepostgrado_01\" target=\"_blank\" rel=\"noopener\">Salón internacional de postgrado y formación continua 2017 </a>en IFEMA (Madrid) en el que la UPM ha participado con un stand. El DIA ha participado en el evento para la promoción del Máster U. en Inteligencia Artificial.</h2>",
+  "seo": {
+    "title": "Salón internacional de postgrado y formación continua 2017 - Departamento de Inteligencia Artificial",
+    "ogTitle": "Salón internacional de postgrado y formación continua 2017 - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2017/03/Aula_postgrado_0.jpg",
+    "publishedTime": "2017-03-07T11:24:47+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 49
+}

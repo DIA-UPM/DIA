@@ -1,0 +1,37 @@
+{
+  "slug": "mcbielza",
+  "name": "Bielza Lozoya, Mª Concepción",
+  "image": "/assets/uploads/2016/11/Bielza-Concepcion.png",
+  "office": "2210",
+  "web": "http://cig.fi.upm.es/CIGmembers/concha_bielza",
+  "phone": "+34-91-067-2883",
+  "orcid": "https://orcid.org/0000-0001-7109-2668",
+  "email": "mcbielza@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/F-9277-2013",
+  "researchGroup": {
+    "name": "Grupo de Inteligencia Computacional",
+    "url": "http://cig.fi.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=55897143900",
+  "biography": [
+    "<strong>Concha Bielza</strong> received the M.S. degree in Mathematics from Universidad Complutense de Madrid, Madrid, Spain, in 1989 and the Ph.D. degree in Computer Science from Universidad Politécnica de Madrid, Madrid, in 1996 (extraordinary doctorate award). She is currently (since 2010) a Full Professor of Statistics and Operations Research with the Departamento de Inteligencia Artificial, Universidad Politécnica de Madrid.",
+    "Her research interests are primarily in the areas of probabilistic graphical models, especially Bayesian networks (learning from data, supervised and unsupervised classification), probabilistic machine learning, explainable machine learning, decision analysis (influence diagrams), metaheuristics for optimization, dynamic settings, and real applications, like medicine, bioinformatics, neuroscience and industry 4.0. She has published more than 160 papers in impact factor journals and has supervised 23 PhD theses. She was awarded the 2014 UPM Research Prize and the 2020 Research Award for Significant Contribution in the Field of Machine Learning (India). She is ELLIS Fellow since 2023 and Fellow of the Asia-Pacific Artificial Intelligence Association since 2024. She is Member of the Scientific Advisory Board of NorwAI (Norwegian Research Center for AI Innovation), since 2021."
+  ],
+  "category": "catedraticos",
+  "date": "2016-11-21T11:40:32+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Bielza-Concepcion.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Bielza Lozoya, Mª Concepción - Departamento de Inteligencia Artificial",
+    "ogTitle": "Bielza Lozoya, Mª Concepción - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Bielza-Concepcion.png",
+    "modifiedTime": "2026-01-23T09:16:49+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

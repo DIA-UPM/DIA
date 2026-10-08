@@ -1,0 +1,39 @@
+{
+  "slug": "topdia",
+  "title": "Investigadores del DIA en la «World’s Top 2% Scientist List» de la Universidad de Standford",
+  "date": "2021-11-10T09:08:20+00:00",
+  "modified": "2023-08-18T16:37:57+00:00",
+  "author": "dia_admin",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2021/11/pedro-asun-oscar-david.png",
+    "width": 774,
+    "height": 1024,
+    "alt": "pedro-asun-oscar-david"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2021/11/pedro-asun-oscar-david-400x250.png",
+    "width": 400,
+    "height": 250,
+    "alt": "pedro-asun-oscar-david"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p>Los profesores del MUIA&nbsp;Asunción Gómez,&nbsp;Pedro Larrañaga,&nbsp;Óscar Corcho y David Pearce se encuentran en la lista «World’s Top 2% Scientists List» recientemente publicada por la Universidad</p>",
+  "contentHtml": "<p>Los profesores del MUIA&nbsp;Asunción Gómez,&nbsp;Pedro Larrañaga,&nbsp;Óscar Corcho y David Pearce se encuentran en la lista «World’s Top 2% Scientists List» recientemente publicada por la Universidad de Stanford.</p>\n<p>La Universidad de Stanford ha publicado recientemente la lista del 2% de los científicos más citados del mundo en todas las áreas del conocimiento. Dicha lista se ha elaborado en base a las citas recibidas por los científicos&nbsp;a sus publicaciones incluidas en las bases de datos de Scopus. De los casi 190.000 integrantes de la lista, 56 pertenecen a la Universidad Politécnica de Madrid y de entre ellos,&nbsp;los Catedráticos del Departamento de Inteligencia Artificial y profesores del MUIA son&nbsp;Pedro Larrañaga, Asunción Gómez y Óscar Corcho y David Pearce.</p>\n<p><a href=\"https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/3\">Fuente</a></p>",
+  "seo": {
+    "title": "Investigadores del DIA en la \"World's Top 2% Scientist List\" de la Universidad de Standford - Departamento de Inteligencia Artificial",
+    "ogTitle": "Investigadores del DIA en la \"World's Top 2% Scientist List\" de la Universidad de Standford - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2021/11/pedro-asun-oscar-david-774x1024.png",
+    "publishedTime": "2021-11-10T09:08:20+00:00",
+    "modifiedTime": "2023-08-18T16:37:57+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 186
+}

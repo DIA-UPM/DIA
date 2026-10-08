@@ -1,0 +1,37 @@
+{
+  "slug": "dmanrique",
+  "name": "Manrique Gamo, Daniel",
+  "image": "/assets/uploads/2016/11/manrique-gamo-daniel.png",
+  "office": "2109",
+  "web": "",
+  "phone": "+34-91-067-2897",
+  "orcid": "https://orcid.org/0000-0003-2574-7568",
+  "email": "dmanrique@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/F-9625-2013",
+  "researchGroup": {
+    "name": "Laboratorio de Inteligencia Artificial",
+    "url": "http://www.lia.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=55999150900",
+  "biography": [
+    "Daniel Manrique&nbsp;es Profesor Titular de Universidad, adscrito al Departamento de Inteligencia Artificial de la Facultad de Informática de la Universidad Politécnica de Madrid, y forma parte del grupo de investigación&nbsp;LIA&nbsp;de esta Universidad, dedicado fundamentalmente a la Computación Natural. El Profesor Manrique es Licenciado en Informática (1997) y Doctor en Informática (2001) por la Universidad Politécnica de Madrid. Recibió el premio a la Investigación o al Desarrollo Tecnológico a profesores menores de 35 años en 2006.",
+    "Sus actividades de investigación se centran en la enseñanza a distancia (e-learning) y la Computación Evolutiva, fundamentalmente algoritmos genéticos, programación genética y sus sinergias con los sistemas inteligentes simbólicos y subsimbólicos para la construcción evolutiva de sistemas robustos (capaces de adaptarse a objetivos cambiantes). Sobre estos temas ha publicado más de 50 trabajos de investigación en revistas y congresos de ámbito internacional, libros y capítulos de libro. Es revisor de revistas internacionales de prestigio, como Computers &amp; Education, y forma parte con frecuencia del Comité de programa de Congresos Internacionales relacionados con estás áreas de investigación, como el International Conference on Artificial Intelligence, que se celebra anualmente en la Universidad de Cambridge."
+  ],
+  "category": "profesor-titular",
+  "date": "2016-11-22T10:56:52+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/manrique-gamo-daniel.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Manrique Gamo, Daniel - Departamento de Inteligencia Artificial",
+    "ogTitle": "Manrique Gamo, Daniel - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/manrique-gamo-daniel.png",
+    "modifiedTime": "2024-01-15T22:23:51+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

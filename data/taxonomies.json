@@ -1,0 +1,154 @@
+{
+  "tags": [
+    {
+      "slug": "catedraticos",
+      "name": "Catedráticos de Universidad",
+      "archive": true,
+      "seo": {
+        "title": "Catedráticos de Universidad archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "Catedráticos de Universidad archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "equipo-de-direccion",
+      "name": "Equipo de direccion",
+      "archive": true,
+      "seo": {
+        "title": "Equipo de direccion archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "Equipo de direccion archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "noticias",
+      "name": "noticias",
+      "archive": true,
+      "seo": {
+        "title": "noticias archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "noticias archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "personal-tecnico-de-gestion-y-de-administracion-y-servicios",
+      "name": "Personal Técnico, de Gestión, Administración y Servicios",
+      "archive": true,
+      "seo": {
+        "title": "Personal Técnico, de Gestión, Administración y Servicios archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "Personal Técnico, de Gestión, Administración y Servicios archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "profesor-ayudante-doctor",
+      "name": "Profesor Ayudante Doctor",
+      "archive": true,
+      "seo": {
+        "title": "Profesor Ayudante Doctor archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "Profesor Ayudante Doctor archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "profesor-contratado-doctor",
+      "name": "Profesores Contratados Doctores",
+      "archive": true,
+      "seo": {
+        "title": "Profesores Contratados Doctores archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "Profesores Contratados Doctores archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "profesores-permanentes-laborales",
+      "name": "Parece que esta página no existe.",
+      "archive": false
+    },
+    {
+      "slug": "profesor-titular",
+      "name": "Profesores Titulares de Universidad",
+      "archive": true,
+      "seo": {
+        "title": "Profesores Titulares de Universidad archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "Profesores Titulares de Universidad archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "top",
+      "name": "top",
+      "archive": true,
+      "seo": {
+        "title": "top archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "top archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    },
+    {
+      "slug": "top-stories",
+      "name": "top stories",
+      "archive": true,
+      "seo": {
+        "title": "top stories archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "top stories archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "slug": "uncategorized",
+      "name": "TODAS LAS NOTICIAS",
+      "archive": true,
+      "seo": {
+        "title": "TODAS LAS NOTICIAS archivos - Departamento de Inteligencia Artificial",
+        "ogTitle": "TODAS LAS NOTICIAS archivos - Departamento de Inteligencia Artificial",
+        "ogType": "article",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      }
+    }
+  ],
+  "authors": [
+    {
+      "slug": "admin",
+      "name": "admin",
+      "archive": true,
+      "seo": {
+        "title": "admin, autor en Departamento de Inteligencia Artificial",
+        "ogTitle": "admin, autor en Departamento de Inteligencia Artificial",
+        "ogType": "profile",
+        "image": "https://secure.gravatar.com/avatar/29712215683827de306cf4b17826caa3?s=500&d=mm&r=g",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      },
+      "banner": true,
+      "posts": [
+        "la-catedratica-del-dia-asuncion-gomez-perez-ingresa-en-la-rae-para-ocupar-la-silla-q-3",
+        "pedro-larranaga-galardon-upm-2026"
+      ]
+    },
+    {
+      "slug": "dia-fi-upm",
+      "name": "admin",
+      "archive": true,
+      "seo": {
+        "title": "admin, autor en Departamento de Inteligencia Artificial",
+        "ogTitle": "admin, autor en Departamento de Inteligencia Artificial",
+        "ogType": "profile",
+        "image": "https://secure.gravatar.com/avatar/1271fda4ca8eef1bc82f68795e8c00aa?s=500&d=mm&r=g",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      },
+      "banner": false,
+      "posts": []
+    }
+  ]
+}

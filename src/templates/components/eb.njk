@@ -1,0 +1,55 @@
+{#-
+  Reusable layout/content components. They output the same markup as the Essential Blocks
+  blocks of the original site, so the migrated CSS (src/css/theme/*.css) styles them exactly.
+  `id` is the original block identifier (it selects the block's own generated CSS).
+  `anim` is an optional entrance animation name (fadeIn, fadeInLeft, zoomIn…) run by site.js.
+-#}
+{% macro parentClass(block, id, anim) %}eb-parent-wrapper eb-parent-eb-{{ block }}-{{ id }}{% if anim %} eb_animation eb___animated eb___{{ anim }}{% else %} {% endif %}{% endmacro %}
+
+{#- Section wrapper. opts: { align: 'alignfull'|'alignwide'|'', anchor, center: 'outer'|'inner'|none } -#}
+{% macro wrapper(id, opts={}) %}
+<div class="wp-block-essential-blocks-wrapper {{ opts.align if opts.align !== undefined else 'alignfull' }}  root-eb-wrapper-{{ id }}"{% if opts.anchor %} id="{{ opts.anchor }}"{% endif %}{% for k, v in opts.data or {} %} data-{{ k }}="{{ v }}"{% endfor %}><div class="eb-parent-wrapper eb-parent-eb-wrapper-{{ id }} "><div class="eb-wrapper-outer eb-wrapper-{{ id }}{% if opts.center == 'outer' %} eb-wrapper-align-center{% endif %}"><div class="eb-wrapper-inner"><div class="eb-wrapper-inner-blocks{% if opts.center == 'inner' %} eb-wrapper-align-center{% endif %}">
+{{ caller() if caller }}
+</div></div></div></div></div>
+{% endmacro %}
+
+{% macro row(id, opts={}) %}
+<div class="wp-block-essential-blocks-row {{ opts.align if opts.align !== undefined else 'alignfull' }}  root-eb-row-{{ id }}"{% if opts.anchor %} id="{{ opts.anchor }}"{% endif %}><div class="eb-parent-wrapper eb-parent-eb-row-{{ id }} "><div class="eb-row-root-container eb-row-{{ id }}" data-id="eb-row-{{ id }}"><div class="eb-row-wrapper"><div class="eb-row-inner">
+{{ caller() if caller }}
+</div></div></div></div></div>
+{% endmacro %}
+
+{% macro column(id) %}
+<div class="wp-block-essential-blocks-column  root-eb-column-{{ id }}"><div class="eb-parent-wrapper eb-parent-eb-column-{{ id }} "><div class="eb-column-wrapper eb-column-{{ id }}"><div class="eb-column-inner">
+{{ caller() if caller }}
+</div></div></div></div>
+{% endmacro %}
+
+{#- Heading block. h: { id, anim, preset, titleTag, title (HTML), subtitleTag, subtitle (HTML), anchor } -#}
+{% macro heading(h) %}
+<div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-{{ h.id }}"{% if h.anchor %} id="{{ h.anchor }}"{% endif %}><div class="{{ parentClass('advance-heading', h.id, h.anim) }}"><div class="eb-advance-heading-wrapper eb-advance-heading-{{ h.id }} {{ h.preset or 'button-1' }}" data-id="eb-advance-heading-{{ h.id }}"><{{ h.titleTag or 'h2' }} class="eb-ah-title">{{ (h.title or '') | safe }}</{{ h.titleTag or 'h2' }}>{% if h.subtitleTag %}<{{ h.subtitleTag }} class="eb-ah-subtitle">{{ (h.subtitle or '') | safe }}</{{ h.subtitleTag }}>{% endif %}</div></div></div>
+{% endmacro %}
+
+{#- Image block. img: { id, src, alt, link, caption } -#}
+{% macro image(img) %}
+<div class="wp-block-essential-blocks-advanced-image  root-eb-advanced-image-{{ img.id }}"><div class="eb-parent-wrapper eb-parent-eb-advanced-image-{{ img.id }} "><figure class="eb-advanced-image-wrapper eb-advanced-image-{{ img.id }} img-style-rounded caption-style-1 caption-horizontal-center caption-vertical-bottom bottom no-effect" data-id="eb-advanced-image-{{ img.id }}"><div class="image-wrapper">{% if img.link %}<a class="eb-advimg-link" href="{{ img.link }}" target="_blank" rel="noopener" aria-label="{{ img.linkLabel or img.alt }}"></a>{% endif %}<img decoding="async" src="{{ img.src }}" alt="{{ img.alt or '' }}">{% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}</div></figure></div></div>
+{% endmacro %}
+
+{#- Number counter (animated by site.js). c: { id, anim, value, title, separator, showSeparator, image } -#}
+{% macro counter(c) %}
+<div class="wp-block-essential-blocks-number-counter  root-eb-counter-{{ c.id }}"><div class="{{ parentClass('counter', c.id, c.anim) }}"><div class="eb-counter-{{ c.id }} eb-counter-wrapper">{% if c.image %}<div class="icon-img-wrapper"><div class="eb-counter-image-wrapper"><img decoding="async" class="eb-counter-image" src="{{ c.image }}" alt=""></div></div>{% endif %}<div class="counter-contents-wrapper"><h4 class="eb-counter-number"><span class="eb-counter-prefix"></span><span class="eb-counter eb-counter-number" data-duration="1000" data-startvalue="0" data-target="{{ c.value }}" data-separator="{{ c.separator or '.' }}" data-isshowseparator="{{ 'true' if c.showSeparator else 'false' }}">{{ c.value }}</span><span class="eb-counter-suffix"></span></h4><h3 class="eb-counter-title">{{ c.title }}</h3></div></div></div></div>
+{% endmacro %}
+
+{#- Info box / card with link. b: { id, anim, url, image, title (HTML), description } -#}
+{% macro infobox(b) %}
+<div class="wp-block-essential-blocks-infobox  root-eb-infobox-{{ b.id }}"><a href="{{ b.url }}" target="_blank" rel="noopener noreferrer" class="info-click-link info-wrap-link"><div class="{{ parentClass('infobox', b.id, b.anim) }}"><div class="eb-infobox-{{ b.id }} eb-infobox-wrapper"><div class="infobox-wrapper-inner">{% if b.image %}<div class="icon-img-wrapper"><div class="eb-infobox-image-wrapper"><img decoding="async" class="eb-infobox-image" src="{{ b.image }}" alt=""></div></div>{% endif %}<div class="contents-wrapper"><h2 class="title">{{ b.title | safe }}</h2>{% if b.description %}<p class="description">{{ b.description | safe }}</p>{% endif %}</div></div></div></div></a></div>
+{% endmacro %}
+
+{% macro button(b) %}
+<div class="wp-block-essential-blocks-button  root-eb-button-{{ b.id }}"><div class="eb-parent-wrapper eb-parent-eb-button-{{ b.id }} "><div class="eb-button-wrapper eb-button-alignment eb-button-{{ b.id }}"><div class="eb-button"><a class="eb-button-anchor" href="{{ b.url }}"{% if b.newTab !== false %} target="_blank"{% endif %} rel="noopener">{{ b.label }}</a></div></div></div></div>
+{% endmacro %}
+
+{#- Icon list. l: { id, items: [{ label, url, newTab }] , icon, iconColor } -#}
+{% macro featureList(l) %}
+<div class="wp-block-essential-blocks-feature-list root-eb-feature-list-{{ l.id }}"><div class="eb-parent-wrapper eb-parent-eb-feature-list-{{ l.id }} "><div class="eb-feature-list-{{ l.id }} eb-feature-list-wrapper eb-icon-position-left eb-tablet-icon-position-left eb-mobile-icon-position-left eb-feature-list-left"><ul class="eb-feature-list-items none">{% for it in l.items %}<li class="eb-feature-list-item" data-new-tab="{{ 'true' if it.newTab else 'false' }}" data-icon-type="icon" data-icon="{{ l.icon }}" data-icon-color="{{ l.iconColor }}" data-link="{{ it.url }}"><div class="eb-feature-list-icon-box"><div class="eb-feature-list-icon-inner"><span class="eb-feature-list-icon" style="color:{{ l.iconColor }}"><i class="{{ l.icon }}" aria-hidden="true"></i></span></div></div><div class="eb-feature-list-content-box"><h3 class="eb-feature-list-title"><a href="{{ it.url }}" target="{{ '_blank' if it.newTab else '_self' }}" rel="noopener">{{ it.label }}</a></h3><p class="eb-feature-list-content"></p></div></li>{% endfor %}</ul></div></div></div>
+{% endmacro %}

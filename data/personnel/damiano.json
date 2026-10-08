@@ -1,0 +1,35 @@
+{
+  "slug": "damiano",
+  "name": "Zanardini, Damiano",
+  "image": "/assets/uploads/2023/10/Zanardini-Damiano.png",
+  "office": "2205",
+  "web": "http://costa.ls.fi.upm.es/~damiano/",
+  "phone": "+34-91-067-2909",
+  "orcid": "https://orcid.org/0000-0002-8792-1157",
+  "email": "damiano@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/F-9133-2013",
+  "researchGroup": null,
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=17347009000",
+  "biography": [],
+  "category": "equipo-de-direccion",
+  "categories": [
+    "equipo-de-direccion",
+    "profesor-titular"
+  ],
+  "date": "2016-11-22T11:01:10+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2023/10/Zanardini-Damiano.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Zanardini, Damiano - Departamento de Inteligencia Artificial",
+    "ogTitle": "Zanardini, Damiano - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2023/10/Zanardini-Damiano.png",
+    "modifiedTime": "2024-01-16T23:14:21+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "page": {
+    "seo": {
+      "title": "Departamento de Inteligencia Artificial - ETS Ing. Informáticos - UPM",
+      "description": "El Departamento de Inteligencia Artificial une investigación y educación desde 1976 con destacados académicos que persiguen la excelencia",
+      "ogTitle": "Departamento de Inteligencia Artificial - ETS Ing. Informáticos - UPM",
+      "ogType": "website",
+      "image": "/assets/uploads/2023/08/cyborg8.png",
+      "modifiedTime": "2026-02-04T16:04:08+00:00",
+      "robots": "index, nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    },
+    "alternates": [
+      {
+        "url": "/",
+        "hreflang": "es"
+      },
+      {
+        "url": "/en/",
+        "hreflang": "en"
+      }
+    ]
+  },
+  "hero": {
+    "kicker": {
+      "id": "ptwchyu",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Innovando para el futuro"
+    },
+    "title": {
+      "id": "haqt3kp",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Departamento de Inteligencia Artificial de la UPM"
+    },
+    "image": {
+      "id": "fm836dk",
+      "src": "/assets/uploads/2023/08/cyborg8.png",
+      "alt": ""
+    },
+    "claim": {
+      "id": "su69xq8",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Uniendo investigación <br>y educación desde 1976"
+    },
+    "claimText": {
+      "id": "8jmz39e",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "con destacados académicos que persiguen la excelencia en el campo de la Inteligencia Artificial"
+    },
+    "logo": {
+      "id": "ppur0p4",
+      "src": "/assets/uploads/2023/07/Logo-politecnica-blanco.png",
+      "alt": "Universidad Politécnica de Madrid",
+      "link": "https://www.upm.es/"
+    }
+  },
+  "reference": {
+    "heading": {
+      "id": "ap8s6rv",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Referente nacional e internacional",
+      "subtitleTag": "p",
+      "subtitle": "TEST: Con más de 27 millones de euros conseguidos en la última década en proyectos de investigación en financiación competitiva internacional, nacional, regional y en contratos con empresas."
+    },
+    "stats": [
+      {
+        "column": "irct77j",
+        "counter": {
+          "id": "qo43u90",
+          "anim": "fadeIn",
+          "value": 32,
+          "separator": ".",
+          "showSeparator": true,
+          "title": "Proyectos con financiación internacional"
+        },
+        "note": {
+          "id": "hvdn7gt",
+          "preset": "button-1",
+          "titleTag": "h2",
+          "title": "",
+          "subtitleTag": "p",
+          "subtitle": "Financiados por la Comisión Europea, logrando la creación de consorcios con más de 400 entidades de 33 países de Europa, América y Asia."
+        }
+      },
+      {
+        "column": "eg26tt0",
+        "counter": {
+          "id": "mwhgti2",
+          "anim": "fadeIn",
+          "value": 26,
+          "separator": ".",
+          "showSeparator": true,
+          "title": "Proyectos con financiación nacional y regional"
+        },
+        "note": {
+          "id": "5vsqzp0",
+          "preset": "button-1",
+          "titleTag": "h2",
+          "title": "",
+          "subtitleTag": "p",
+          "subtitle": "Con apoyo del Min. de Ciencia, Innovación y Universidades, Min. de Economía, Industria y Competitividad, Inst. de Salud Carlos III, CAM y otros."
+        }
+      },
+      {
+        "column": "b1mmwig",
+        "counter": {
+          "id": "wq16nd5",
+          "anim": "fadeIn",
+          "value": 146,
+          "separator": ".",
+          "showSeparator": true,
+          "title": "Contratos de colaboración con empresas"
+        },
+        "note": {
+          "id": "rsd060r",
+          "preset": "button-1",
+          "titleTag": "h2",
+          "title": "",
+          "subtitleTag": "p",
+          "subtitle": "Establecidos a través de colaboraciones con empresas de prestigio, tanto públicas como privadas, a nivel nacional e internacional."
+        }
+      }
+    ]
+  },
+  "research": {
+    "heading": {
+      "id": "eti9iqo",
+      "preset": "button-1",
+      "titleTag": "h5",
+      "title": "Nueve grupos de investigación"
+    },
+    "intro": {
+      "id": "25qox4o",
+      "anim": "fadeInLeft",
+      "preset": "preset-0",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "h2",
+      "subtitle": "La actividad investigadora del Departamento de Inteligencia Artificial (DIA) cubre un amplio abanico de líneas de investigación en inteligencia artificial y se realiza en el contexto de diversos grupos consolidados"
+    },
+    "rows": [
+      [
+        {
+          "column": "ha410x2",
+          "id": "7hunqcg",
+          "anim": "zoomIn",
+          "url": "http://www.dasg.upm.es/",
+          "image": "/assets/uploads/2023/07/logo-dasg-1.jpg",
+          "title": "Grupo de <br>análisis de decisiones y estadística"
+        },
+        {
+          "column": "xpw7028",
+          "id": "iaxdqeb",
+          "anim": "zoomIn",
+          "url": "https://cliplab.org/",
+          "image": "/assets/uploads/2023/11/clip-relief-64g-1.png",
+          "title": "Grupo de computación lógica, lenguajes, implementación y paralelismo"
+        },
+        {
+          "column": "4nda9gq",
+          "id": "v6rlpu3",
+          "anim": "zoomIn",
+          "url": "http://www.ecsen.es/",
+          "image": "/assets/uploads/2023/07/ECONOMIA-Y-SOSTENIBILIDAD.png",
+          "title": "Grupo de<br>economía, sostenibilidad, y medio natural"
+        },
+        {
+          "column": "w664afe",
+          "id": "1d8j5v3",
+          "anim": "zoomIn",
+          "url": "http://gib.fi.upm.es/",
+          "image": "/assets/uploads/2023/07/GIB.jpg",
+          "title": "Grupo de informática biomédica"
+        },
+        {
+          "column": "hvlwgsm",
+          "id": "ylkp43c",
+          "anim": "zoomIn",
+          "url": "https://oeg.fi.upm.es/",
+          "image": "/assets/uploads/2023/11/ONTOLOGY.png",
+          "title": "Grupo de<br>ingeniería<br>ontológica"
+        }
+      ],
+      [
+        {
+          "column": "adty7",
+          "id": "ps6w44c",
+          "anim": "zoomIn",
+          "url": "http://cig.fi.upm.es/",
+          "image": "/assets/uploads/2023/07/CIG2.png",
+          "title": "Grupo de <br>inteligencia computacional"
+        },
+        {
+          "column": "l7nqp",
+          "id": "ad7vzkz",
+          "anim": "zoomIn",
+          "url": "https://pcr-upm.github.io/",
+          "image": "/assets/uploads/2023/07/pcr.png",
+          "title": "Grupo de <br>percepción computacional y robótica"
+        },
+        {
+          "column": "al70m",
+          "id": "rdbqndj",
+          "anim": "zoomIn",
+          "url": "https://cvar-upm.github.io/",
+          "image": "/assets/uploads/2023/07/vision.png",
+          "title": "Grupo de<br>visión por computador y robótica aérea"
+        },
+        {
+          "column": "eazvt",
+          "id": "3i04g",
+          "anim": "zoomIn",
+          "url": "http://www.lia.upm.es/",
+          "image": "/assets/uploads/2023/11/LIA-Group-logo-cuadrado.png",
+          "title": "Laboratorio de inteligencia <br>artificial"
+        }
+      ]
+    ],
+    "emptyColumns": [
+      "9rn8j"
+    ]
+  },
+  "education": {
+    "heading": {
+      "id": "069ksky",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Oferta académica",
+      "subtitleTag": "p",
+      "subtitle": "La actividad docente del DIA cubre todas las etapas formativas universitarias, que se concretan con su participación en la impartición de varios títulos oficiales, tanto en la ETSIINF como en otros centros de la UPM."
+    },
+    "tabs": [
+      {
+        "tabId": "1",
+        "title": "Programas centrados en la IA",
+        "list": {
+          "id": "98t72c0",
+          "icon": "fas fa-graduation-cap",
+          "iconColor": "var(--eb-global-button-text-color)",
+          "items": [
+            {
+              "label": "Grado en Ciencia de Datos e Inteligencia Artificial",
+              "url": "https://www.etsiinf.upm.es/?id=gcdia",
+              "newTab": true
+            },
+            {
+              "label": "Máster Universitario en Ciencia de Datos",
+              "url": "https://mucd.dia.fi.upm.es/",
+              "newTab": false
+            },
+            {
+              "label": "Máster Universitario en Inteligencia Artificial",
+              "url": "https://muia.dia.fi.upm.es/es/",
+              "newTab": true
+            },
+            {
+              "label": "Doctorado en Inteligencia Artificial",
+              "url": "https://doctoradoia.dia.fi.upm.es/",
+              "newTab": true
+            }
+          ]
+        }
+      },
+      {
+        "tabId": "2",
+        "title": "Programas con módulos de IA",
+        "list": {
+          "id": "2hfppkl",
+          "icon": "fas fa-graduation-cap",
+          "iconColor": "var(--eb-global-button-text-color)",
+          "items": [
+            {
+              "label": "Grado en Ingeniería Informática",
+              "url": "https://www.etsiinf.upm.es/?id=gradoingenieriainformatica",
+              "newTab": true
+            },
+            {
+              "label": "Grado en Matemáticas e Informática",
+              "url": "https://www.etsiinf.upm.es/?id=gradomatematicasinformatica",
+              "newTab": true
+            },
+            {
+              "label": "Doble grado en Ingeniería Informática y Administración y Dirección de Empresas",
+              "url": "https://www.etsiinf.upm.es/?id=Informatica-ADE",
+              "newTab": true
+            },
+            {
+              "label": "Grado en Ingeniería Biomédica (ETSIT)",
+              "url": "https://www.etsit.upm.es/estudios/grado-en-ingenieria-biomedica.html",
+              "newTab": true
+            },
+            {
+              "label": "Máster Universitario en Innovación Digital, especialidad Ciencia de Datos",
+              "url": "http://www.fi.upm.es/?pagina=2759",
+              "newTab": true
+            },
+            {
+              "label": "Máster Universitario en Innovación Digital, especialidad Análisis de Datos Médicos y Salud",
+              "url": "http://www.fi.upm.es/?pagina=2759",
+              "newTab": true
+            },
+            {
+              "label": "Máster Universitario en Biología Computacional (ETSIAAB)",
+              "url": "https://www.etsiaab.upm.es/Docencia/Masteres/Especializacion/Biologia_computacional",
+              "newTab": true
+            },
+            {
+              "label": "Máster Universitario en Neurotecnología (ETSIT)",
+              "url": "https://www.etsit.upm.es/estudios/otros-masteres-oficiales/programas-ofertados/master-u-ingenieria-biomedica.html",
+              "newTab": true
+            }
+          ]
+        }
+      }
+    ],
+    "officialIntro": {
+      "id": "asox4n5",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "p",
+      "subtitle": "Es destacable la coordinación e impartición completa por parte del DIA del Máster Universitario en Inteligencia Artificial, acreditado con el <a href=\"https://muia.dia.fi.upm.es/es/calidad/#acreditaciones-sello-euro-inf\" target=\"_blank\" rel=\"noreferrer noopener\"><strong><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-ast-global-color-8-color\">sello internacional de calidad  EURO-INF</mark></strong> </a>hasta 2026 y reconocido en el ranking de mejores másteres de España en informática especializada, publicado por el periódico El Mundo, entre los tres mejores durante catorce ediciones consecutivas, desde el curso 2010-2011 hasta el 2023-2024. <br><br>El Máster Universitario en Inteligencia Artificial es un máster de investigación que da acceso al programa de Doctorado en Inteligencia Artificial, con más de 40 años de existencia y numerosas tesis doctorales de alta calidad, que ha renovado su acreditación en 2019."
+    },
+    "officialPrograms": [
+      {
+        "column": "57k23ah",
+        "id": "yfdg9am",
+        "url": "https://muia.dia.fi.upm.es/es/",
+        "image": "/assets/uploads/2023/08/Clase-de-mater-sello.jpg",
+        "title": "Máster Universitario<br> en Inteligencia Artificial",
+        "description": "Este programa está diseñado para proporcionar una comprensión completa de las técnicas utilizadas en IA y cómo se pueden aplicar en el mundo real"
+      },
+      {
+        "column": "nuu0nnf",
+        "id": "5epu67m",
+        "url": "https://doctoradoia.dia.fi.upm.es/",
+        "image": "/assets/uploads/2023/08/Alumna-doctorado.jpg",
+        "title": "Doctorado <br>en Inteligencia Artificial",
+        "description": "Este programa capacita a los estudiantes con técnicas avanzadas de investigación y les habilita para resolver problemas científicos y tecnológicos en Inteligencia Artificial"
+      }
+    ],
+    "ownIntro": {
+      "id": "yf8nuc2",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "p",
+      "subtitle": "Además de la docencia oficial mencionada, el DIA imparte varios títulos propios de postgrado especialmente orientados a profesionales que trabajen en dominios científico-técnicos en ámbitos de aplicación empresariales e industriales, que tienen como objetivo proporcionar a los asistentes una visión global de los conceptos, métodos y técnicas empleados en inteligencia artificial con una orientación eminentemente práctica."
+    },
+    "ownPrograms": [
+      {
+        "column": "zemmcax",
+        "id": "ze2e9wx",
+        "url": "https://mfaia.ws.fi.upm.es/",
+        "image": "/assets/uploads/2023/09/ROBOT-BLANCO-boca-scaled-e1705006112820.jpeg",
+        "title": "Máster en <br>Fundamentos y Aplicaciones <br>de la Inteligencia Artificial",
+        "description": "Aprenderás a evaluar de manera realista las aplicaciones potenciales de la Inteligencia Artificial"
+      },
+      {
+        "column": "qassnjp",
+        "id": "7269rts",
+        "url": "https://www.ai4gov-hub.eu/",
+        "image": "/assets/uploads/2023/09/master-in-public-services-e1705006079426.jpg",
+        "title": "Master in <br>Artificial Intelligence <br>for Public Services",
+        "description": "You will learn how to plan, design and use Artificial Intelligence in the delivery of public services"
+      }
+    ],
+    "expertCourses": [
+      {
+        "column": "p9iesyd",
+        "url": "https://mfaia.ws.fi.upm.es/experto-en-analitica-de-datos/",
+        "image": "/assets/images/mfaia/diagrama-anlitica-de-datos.png",
+        "title": "Experto en Analítica de Datos"
+      },
+      {
+        "column": "xqt9c39",
+        "url": "https://mfaia.ws.fi.upm.es/experto-en-aprendizaje-automatico/",
+        "image": "/assets/images/mfaia/Esquema-retropropagacion.png",
+        "title": "Experto en Aprendizaje Automático"
+      },
+      {
+        "column": "yk57f8b",
+        "url": "https://mfaia.ws.fi.upm.es/experto-en-representacion-del-conocimiento-y-el-razonamiento/",
+        "image": "/assets/images/mfaia/red-semantica.png",
+        "title": "Experto en Representación del Conocimiento y Razonamiento"
+      }
+    ],
+    "coursesIntro": {
+      "id": "zqcs1aa",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "p",
+      "subtitle": "Adicionalmente, el DIA ofrece otros cursos en colaboración con otras universidades o empresas."
+    },
+    "courses": [
+      {
+        "column": "b3r0kyp",
+        "id": "6rcn9g7",
+        "url": "https://cig.fi.upm.es/mlas/",
+        "title": "Machine Learning and Advanced Statistics"
+      },
+      {
+        "column": "1gn17cq",
+        "id": "24nwcmd",
+        "url": "https://summerschool.eitdigital.eu/ai4green-business-lab",
+        "title": "EIT Summer School AI4Green"
+      }
+    ]
+  },
+  "topStories": {
+    "heading": {
+      "id": "e3mdc0b",
+      "preset": "button-1",
+      "titleTag": "h2",
+      "title": "Top Stories"
+    },
+    "intro": {
+      "id": "chg0qla",
+      "anim": "fadeInLeft",
+      "preset": "preset-0",
+      "titleTag": "h2",
+      "title": "",
+      "subtitleTag": "h2",
+      "subtitle": "Conoce los premios y reconocimientos nacionales e internacionales de los miembros del Departamento de Inteligencia Artificial de la ETS de Ingenieros Informáticos de la UPM"
+    },
+    "perPage": 4
+  }
+}

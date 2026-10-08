@@ -1,0 +1,18 @@
+{
+  "note": "Links that were ALREADY broken on the original WordPress site (verified during the crawl, 2026-09-26). They are content issues, not migration defects, and are kept unchanged so that no public content is silently modified. check-links reports them as warnings.",
+  "links": [
+    { "url": "/la-catedratica-del-dia-asuncion-gomez-perez-ingresa-en-la-rae-para-ocupar-la-silla-q/", "reason": "Post listed everywhere on the original site but its own page returns 404 there (data/news/…-silla-q.json has publishPage: false)." },
+    { "url": "/es/node/140", "reason": "Legacy Drupal URL inside post content; 404 on the original site." },
+    { "url": "/es/grupos-investigacion", "reason": "Legacy Drupal URL inside the CLIP group description; 404 on the original site." },
+    { "url": "/uploads/asdm16/leaflet-asdm-2016.pdf", "reason": "Old document link in a 2016 post; 404 on the original site." },
+    { "url": "/dasg/", "reason": "'Grupo de investigación' link of several profiles; 404 on the original site." },
+    { "url": "/~arminda/index.html", "reason": "Personal page link (profile Web field); 404 on the original site." },
+    { "url": "/jafernandez", "reason": "Personal page link (profile Web field); 404 on the original site." },
+    { "url": "/~ccr/", "reason": "Personal page link (profile Web field); 404 on the original site." },
+    { "url": "/~jgpachon", "reason": "Personal page link (profile Web field); 404 on the original site." },
+    { "url": "/~lbaumela", "reason": "Personal page link (profile Web field); 404 on the original site." },
+    { "url": "https://", "reason": "Empty 'Grupo de investigación' link in the pareja profile, identical on the original site." },
+    { "url": "http://cena de gala ofrecida por los Reyes al presidente de China, Xi Jinping, y a su esposa, Peng Liyuan, este miércoles en el Palacio Real", "reason": "Malformed href (text pasted as URL) in post content on the original site." },
+    { "url": "http://fuente de noticias y análisis escritos por la comunidad académica e investigadora y dirigida directamente a la sociedad.", "reason": "Malformed href (text pasted as URL) in post content on the original site." }
+  ]
+}

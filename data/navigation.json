@@ -1,0 +1,59 @@
+{
+  "main": [
+    { "label": "INICIO", "url": "/" },
+    {
+      "label": "NOSOTROS",
+      "children": [
+        { "label": "Presentación", "url": "/el-departamento-de-inteligencia-artificial-presentacion/" },
+        { "label": "Equipo directivo", "url": "/el-departamento-de-inteligencia-artificial-presentacion/#equipo-directivo" },
+        { "label": "Profesores", "url": "/el-departamento-de-inteligencia-artificial-presentacion/#profesores" },
+        { "label": "Investigadores", "url": "/el-departamento-de-inteligencia-artificial-presentacion/#Investigadores" },
+        { "label": "PTGAS", "url": "/el-departamento-de-inteligencia-artificial-presentacion/#PTGAS" }
+      ]
+    },
+    {
+      "label": "DOCENCIA",
+      "children": [
+        { "label": "Docencia en el DIA", "url": "/#oferta-academica" },
+        {
+          "label": "Títulos oficiales",
+          "url": "#",
+          "children": [
+            { "label": "Máster U. en Inteligencia Artificial", "url": "https://muia.dia.fi.upm.es" },
+            { "label": "Máster U. en Ciencia de Datos", "url": "https://mucd.dia.fi.upm.es/" },
+            { "label": "Doctorado en Inteligencia Artificial", "url": "https://doctoradoia.dia.fi.upm.es/" }
+          ]
+        },
+        {
+          "label": "Títulos propios",
+          "url": "#",
+          "children": [
+            { "label": "Master in Artificial Intelligence for Public Services", "url": "https://ai4gov-master.eu/" },
+            { "label": "Máster en Fundamentos y Aplicaciones de la Inteligencia Artificial", "url": "https://mfaia.dia.fi.upm.es/" },
+            { "label": "Experto en analítica de datos", "url": "https://mfaia.dia.fi.upm.es/experto-en-analitica-de-datos/" },
+            { "label": "Experto en Aprendizaje Automático", "url": "https://mfaia.dia.fi.upm.es/experto-en-aprendizaje-automatico/" },
+            { "label": "Experto en representación del conocimiento y el razonamiento", "url": "https://mfaia.dia.fi.upm.es/experto-en-representacion-del-conocimiento-y-el-razonamiento/" }
+          ]
+        },
+        {
+          "label": "Cursos",
+          "url": "#",
+          "children": [
+            { "label": "Machine Learning and Advanced Statistics", "url": "https://cig.fi.upm.es/mlas/" },
+            { "label": "EIT Summer School AI4Green", "url": "https://summerschool.eitdigital.eu/ai4green-business-lab" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "INVESTIGACIÓN",
+      "children": [
+        { "label": "Investigación en el DIA", "url": "/investigacion_dia/" },
+        { "label": "Grupos de investigación", "url": "/investigacion_dia/#grupos-investigacion" }
+      ]
+    },
+    { "label": "INTRANET", "url": "http://sol.dia.fi.upm.es/Local/soporte/index.php" },
+    { "label": "NOTICIAS", "url": "/noticias/" },
+    { "label": "CONTACTO", "url": "/contacto/" }
+  ]
+}

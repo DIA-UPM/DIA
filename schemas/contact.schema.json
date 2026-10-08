@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Contacto (data/contact.json)",
+  "type": "object",
+  "required": ["page", "title", "locationHtml", "campusAccess", "contact", "image", "map"],
+  "properties": {
+    "page": { "type": "object", "required": ["seo"] },
+    "title": { "type": "string", "minLength": 1 },
+    "locationHtml": { "type": "string" },
+    "campusAccess": { "type": "object", "required": ["label", "text"] },
+    "contact": { "type": "object", "required": ["label", "lines"], "properties": { "lines": { "type": "array", "items": { "type": "string" }, "minItems": 1 } } },
+    "image": { "type": "object", "required": ["src"], "properties": { "src": { "type": "string", "pattern": "^/assets/" } } },
+    "map": { "type": "object", "required": ["embedUrl"], "properties": { "embedUrl": { "type": "string", "format": "uri" } } }
+  }
+}

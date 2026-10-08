@@ -1,0 +1,6 @@
+{
+  "note": "Old URLs that WordPress redirected. The build writes a small HTML redirect page for each 'from' (works on any static server); docs/url-migration.md lists the equivalent nginx/Apache 301 rules.",
+  "redirects": [
+    { "from": "/es/marianorico/", "to": "/personaldia/marianorico/", "reason": "WordPress redirected this legacy Drupal URL (linked from the profile's Web field)." }
+  ]
+}

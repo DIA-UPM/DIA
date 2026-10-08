@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Investigación (data/research.json)",
+  "type": "object",
+  "required": ["page", "pageTitle", "intro", "counters", "groupsIntro", "image", "areasTitle", "areas", "groups"],
+  "properties": {
+    "page": { "type": "object", "required": ["seo"] },
+    "pageTitle": { "type": "string" },
+    "intro": { "type": "object", "required": ["title", "textHtml"] },
+    "counters": {
+      "type": "array",
+      "items": { "type": "object", "required": ["value", "text", "style"], "properties": { "value": { "type": "number" }, "text": { "type": "string" }, "image": { "type": "string", "pattern": "^/assets/" }, "style": { "type": "string" } } }
+    },
+    "groupsIntro": { "type": "object", "required": ["title", "text"] },
+    "image": { "type": "object", "required": ["src"], "properties": { "src": { "type": "string", "pattern": "^/assets/" } } },
+    "areasTitle": { "type": "string" },
+    "areas": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "groups": {
+      "type": "array",
+      "description": "Grupos de investigación (una pestaña cada uno). Al añadir uno nuevo, copiar el 'style' de otro y darle un tabId único.",
+      "items": {
+        "type": "object",
+        "required": ["name", "logo", "title", "descriptionHtml", "url", "buttonLabel", "style"],
+        "properties": {
+          "name": { "type": "string" }, "logo": { "type": "string", "pattern": "^/assets/" }, "title": { "type": "string" },
+          "descriptionHtml": { "type": "string" }, "url": { "type": "string", "format": "uri" }, "buttonLabel": { "type": "string" },
+          "style": { "type": "object", "required": ["tabId", "wrapper", "heading", "button"] }
+        }
+      }
+    }
+  }
+}

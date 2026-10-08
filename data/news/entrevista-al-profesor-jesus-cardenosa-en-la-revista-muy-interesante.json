@@ -1,0 +1,38 @@
+{
+  "slug": "entrevista-al-profesor-jesus-cardenosa-en-la-revista-muy-interesante",
+  "title": "Entrevista al profesor Jesús Cardeñosa en la revista Muy Interesante",
+  "date": "2018-04-13T09:15:02+00:00",
+  "modified": "2018-04-13T09:15:02+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2018/04/Captura-de-pantalla-2018-04-13-a-las-11.08.19.png",
+    "width": 1356,
+    "height": 1458,
+    "alt": "Captura de pantalla 2018-04-13 a las 11"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2018/04/Captura-de-pantalla-2018-04-13-a-las-11.08.19-400x250.png",
+    "width": 400,
+    "height": 250,
+    "alt": "Captura de pantalla 2018-04-13 a las 11"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p class=\"rtejustify\">El profesor del MUIA, Jesús Cardeñosa Lera, ha concedido una entrevista en la revista «Muy interesante» titulada «Los robots no harán nunca lo que no se les diga que hagan».</p>",
+  "contentHtml": "<p class=\"rtejustify\">El profesor del MUIA, Jesús Cardeñosa Lera, ha concedido una entrevista en la revista «Muy interesante» titulada «Los robots no harán nunca lo que no se les diga que hagan».</p>\n<p class=\"rtejustify\">El profesor del MUIA, Jesús Cardeñosa Lera, ha concedido una entrevista en la revista «Muy interesante» titulada «Los robots no harán nunca lo que no se les diga que hagan».</p>\n<p class=\"rtejustify\">La entrevista se encuentra disponible en :&nbsp;<a href=\"https://www.muyinteresante.es/tecnologia/inteligencia-artificial/video/jesus-cardenosa-los-robots-no-haran-nunca-lo-que-no-se-les-diga-que-hagan\">https://www.muyinteresante.es/tecnologia/inteligencia-artificial/video/jesus-cardenosa-los-robots-no-haran-nunca-lo-que-no-se-les-diga-que-hagan</a></p>",
+  "seo": {
+    "title": "Entrevista al profesor Jesús Cardeñosa en la revista Muy Interesante - Departamento de Inteligencia Artificial",
+    "ogTitle": "Entrevista al profesor Jesús Cardeñosa en la revista Muy Interesante - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2018/04/Captura-de-pantalla-2018-04-13-a-las-11.08.19.png",
+    "publishedTime": "2018-04-13T09:15:02+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 75
+}

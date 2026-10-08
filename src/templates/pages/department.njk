@@ -1,0 +1,129 @@
+{% extends "layouts/base.njk" %}
+{#- /el-departamento-de-inteligencia-artificial-presentacion/
+    Content: data/department.json. The staff grids are generated from data/personnel/*.json:
+    each grid lists the people whose "category" (or "categories") is one of the grid "tags",
+    ordered alphabetically by name, like the original site. -#}
+{% import "components/eb.njk" as eb %}
+{% macro numbered(n, t) %}{{ eb.button({ id: n.number.id, label: n.number.label, url: '', newTab: false }) }}{{ eb.heading(n.text) }}{% endmacro %}
+{% macro staffGrid(g) %}
+{% set people = peopleFor(g.tags) %}
+<div class="root-eb-post-grid-{{ g.id }} wp-block-essential-blocks-post-grid">
+<div class="eb-parent-wrapper eb-parent-eb-post-grid-{{ g.id }} ">
+<div class="eb-post-grid-{{ g.id }} style-3 eb-post-grid-wrapper" data-id="eb-post-grid-{{ g.id }}">
+<div class="eb-post-grid-category-filter" data-ebpgtaxonomy="post_tag">
+<ul class="ebpg-category-filter-list">
+<li class="ebpg-category-filter-list-item " data-ebpgcategory="{{ g.filterSlug }}">{{ g.label }}</li></ul>
+</div>
+{% if people.length %}
+<div class="eb-post-grid-posts-wrapper">{% for p in people %}{% set img = p.gridImage or p.thumbnail %}<article class="ebpg-grid-post ebpg-post-grid-column"><div class="ebpg-grid-post-holder"><div class="ebpg-entry-wrapper"><div class="ebpg-entry-media">
+<div class="ebpg-entry-thumbnail">
+<a class="ebpg-post-link-wrapper eb-sr-only" href="/personaldia/{{ p.slug }}/">{{ p.name }}</a>
+<img{% if not loop.first %} loading="lazy"{% endif %} decoding="async" width="{{ img.width }}" height="{{ img.height }}" src="{{ img.src }}" class="attachment-full size-full" alt="{{ img.alt }}">
+</div>
+</div><header class="ebpg-entry-header">
+<h2 class="ebpg-entry-title">
+<a class="ebpg-grid-post-link" href="/personaldia/{{ p.slug }}/" title="{{ p.name }}">{{ p.name }}</a>
+</h2>
+</header></div></div></article>{% endfor %}
+</div>
+{% else %}
+<p>
+No Posts Found</p>
+{% endif %}
+</div>
+</div>
+</div>
+{% endmacro %}
+{% block content %}
+{% set d = dept %}
+{% set e = d.ecosystem %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article class="page type-page status-publish ast-article-single">
+<header class="entry-header ast-no-title ast-header-without-markup">
+</header>
+<div class="entry-content clear">
+
+{#- ================================================================ ecosistema del DIA -#}
+{% call eb.wrapper('jfo7239', { center: 'outer', anchor: 'contenedor_portada_presentacion', data: { 'video-bg-mp4': e.backgroundVideo.mp4, 'video-bg-poster': e.backgroundVideo.poster, 'video-bg-overlay': e.backgroundVideo.overlay } }) %}
+{{ eb.heading(e.heading) }}
+{{ eb.heading(e.labels[0]) }}
+{{ eb.image(e.diagram) }}
+{{ eb.heading(e.labels[1]) }}
+{{ eb.heading(e.labels[2]) }}
+{{ numbered(e.research) }}
+{% call eb.row('4k418', { align: '' }) %}
+{% call eb.column('dris2') %}{{ numbered(e.education) }}{% endcall %}
+{% call eb.column('qqdab') %}
+{{ eb.image(e.diagramMobile) }}
+{{ numbered(e.innovation) }}
+{{ eb.image(e.innovationLogo) }}
+{{ eb.heading(e.innovationNote) }}
+<div class="wp-block-essential-blocks-popup  root-eb-popup-{{ e.video.popupId }}"><div class="eb-parent-wrapper"><div id="eb-popup-{{ e.video.popupId }}" class="eb-popup-container eb-popup-{{ e.video.popupId }}" data-block-id="eb-popup-{{ e.video.popupId }}" data-popup-type="btn_click" data-close-btn="true" data-esc-btn="false" data-click-exit="false"><div class="eb-popup-btn-wrapper eb-parent-eb-popup-{{ e.video.popupId }} "><div class="eb-popup-button alignment-center"><a class="eb-popup-button-anchor" role="button" tabindex="0" aria-label="{{ e.video.buttonLabel }}"><i class="fas fa-play" aria-hidden="true"></i></a></div></div><div class="eb-popup-overlay"></div><div class="modal-main-wrap" role="dialog" aria-modal="true" aria-label="{{ e.video.title }}"><div class="eb-modal-container eb_popup_middle_center"><div class="eb-popup-content"><div class="eb-popup-close-icon" role="button" tabindex="0" aria-label="Cerrar">X</div>
+<iframe width="560" height="315" data-src="{{ e.video.embedUrl }}" title="{{ e.video.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div></div></div></div></div></div>
+{% endcall %}
+{% call eb.column('9g00j') %}{{ numbered(e.researchMobile) }}{% endcall %}
+{% endcall %}
+{% endcall %}
+
+{#- ================================================================ carta de bienvenida -#}
+{% call eb.wrapper('8f234pd', { center: 'inner', anchor: 'carta-bienvenida' }) %}
+{% call eb.row('r9zmhuz') %}
+{% call eb.column('3yybyxk') %}
+<h1 class="wp-block-heading has-text-color" style="color:#ffffff;padding-top:52px;padding-bottom:52px;font-size:52px;font-style:normal;font-weight:600">{{ d.welcome.title }}</h1>
+{% endcall %}
+{% call eb.column('wjeeh45') %}{{ eb.heading(d.welcome.columns[0]) }}{% endcall %}
+{% call eb.column('4vlj2qr') %}{{ eb.heading(d.welcome.columns[1]) }}{% endcall %}
+{% endcall %}
+{% endcall %}
+
+{#- ================================================================ equipo directivo -#}
+{% call eb.wrapper('fwpll66', { center: 'outer', anchor: 'equipo-directivo' }) %}
+{% call eb.row('c3keojq') %}
+{% call eb.column('tugi4pg') %}{{ eb.heading(d.management.heading) }}{% endcall %}
+{% call eb.column('0uuvp9b') %}{% endcall %}
+{% endcall %}
+{% endcall %}
+{% call eb.wrapper('tflhd3i', { center: 'inner' }) %}{% endcall %}
+{% call eb.wrapper('4x582v7', { center: 'inner' }) %}
+{% call eb.row('fb2ii95') %}
+{% for m in d.management.members %}
+{% set p = personnel[m.person] %}
+{% call eb.column(m.column) %}
+<div class="wp-block-essential-blocks-team-member  root-eb-team-member-{{ m.id }}"><div class="eb-parent-wrapper eb-parent-eb-team-member-{{ m.id }} "><div class="eb-team-member-{{ m.id }} eb-team-wrapper preset1  "><div class="eb-team-inner"><div class="eb-team-member-image"><a href="/personaldia/{{ m.person }}/" target="_blank" rel="noopener"><img decoding="async" class="eb-team-member-avatar" src="{{ p.image }}" alt="{{ p.name }}"></a></div><div class="eb-team-member-contents"><div class="eb-team-member-texts"><h3 class="eb-team-member-name">{{ m.nameHtml | safe }} </h3><h4 class="eb-team-member-job-title">{{ m.role }}</h4><p class="eb-team-member-description"><a href="mailto:{{ m.email }}" target="_blank" rel="noreferrer noopener">{{ m.email }}</a><br>{{ m.phone }}<br>Despacho: {{ m.office }}</p></div></div></div></div></div></div>
+{% endcall %}
+{% endfor %}
+{% endcall %}
+{% endcall %}
+
+{#- ================================================================ profesores -#}
+{% call eb.wrapper('rxgnzjm', { center: 'outer', anchor: 'profesores' }) %}
+{% call eb.row('p9uwn3q') %}
+{% call eb.column('haogeo3') %}{{ eb.heading(d.teachers.heading) }}{% endcall %}
+{% call eb.column('nv716nn') %}{% endcall %}
+{% endcall %}
+{% endcall %}
+{% call eb.wrapper('k40mnne', { center: 'inner' }) %}{% endcall %}
+{% call eb.wrapper('bnv8eq7', { center: 'outer' }) %}{{ eb.heading(d.teachers.intro) }}{% endcall %}
+
+{% call eb.row('bwjiv1j') %}
+{% call eb.column('6bsg4x9') %}
+<p class="has-text-color" style="color:#030c25;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50);font-size:18px;line-height:1.8">{{ d.teachers.awardsIntro }}</p>
+<ul style="color:#030c25;padding-top:0;padding-bottom:0" class="wp-block-list has-text-color">
+{% for a in d.teachers.awards %}<li style="font-size:18px">{{ a | safe }}<br></li>
+{% endfor %}</ul>
+{% endcall %}
+{% for g in d.grids %}{% if g.container.type == 'column' %}{% call eb.column(g.container.id) %}{{ staffGrid(g) }}{% endcall %}{% endif %}{% endfor %}
+{% endcall %}
+
+{#- ================================================================ rejillas de personal por colectivo -#}
+{% for g in d.grids %}{% if g.container.type == 'wrapper' %}
+{% call eb.wrapper(g.container.id, { align: g.container.align, anchor: g.container.anchor, center: g.container.center }) %}{{ staffGrid(g) }}{% endcall %}
+{% endif %}{% endfor %}
+
+</div>
+</article>
+</main>
+</div>
+{% endblock %}

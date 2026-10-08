@@ -1,0 +1,34 @@
+{
+  "slug": "amateos",
+  "name": "Mateos Caballero, Alfonso",
+  "image": "/assets/uploads/2016/11/Mateos-Caballero-Alfonso.png",
+  "office": "2104",
+  "web": "",
+  "phone": "+34-91-067-2901",
+  "orcid": "https://orcid.org/0000-0003-4764-6047",
+  "email": "amateos@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/G-1450-2013",
+  "researchGroup": {
+    "name": "Grupo de Análisis de Decisiones y Estadística",
+    "url": "/dasg/"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=7007026485",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-22T10:57:13+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Mateos-Caballero-Alfonso.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Mateos Caballero, Alfonso - Departamento de Inteligencia Artificial",
+    "ogTitle": "Mateos Caballero, Alfonso - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Mateos-Caballero-Alfonso.png",
+    "modifiedTime": "2024-01-16T23:11:51+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

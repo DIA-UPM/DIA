@@ -1,0 +1,34 @@
+{
+  "slug": "victor_rodriguez",
+  "name": "Rodríguez Doncel, Víctor",
+  "image": "/assets/uploads/2017/02/rodriguez-donce-victor.png",
+  "office": "3205",
+  "web": "",
+  "phone": "+34-91-067-2919",
+  "orcid": "https://orcid.org/0000-0003-1076-2511",
+  "email": "vrodriguez@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/J-5779-2012",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "http://www.oeg-upm.net"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=35204031900",
+  "biography": [],
+  "category": "profesor-titular",
+  "date": "2017-02-03T12:15:22+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2017/02/rodriguez-donce-victor.png",
+    "width": 450,
+    "height": 450,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Rodríguez Doncel, Víctor - Departamento de Inteligencia Artificial",
+    "ogTitle": "Rodríguez Doncel, Víctor - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2017/02/rodriguez-donce-victor.png",
+    "modifiedTime": "2026-07-03T08:24:23+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

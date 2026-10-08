@@ -1,0 +1,35 @@
+{% extends "layouts/base.njk" %}
+{#- /contacto/ — data/contact.json -#}
+{% block content %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article class="page type-page status-publish ast-article-single">
+<header class="entry-header ast-no-title ast-header-without-markup">
+<h1 class="screen-reader-text">{{ contact.title }}</h1>
+</header>
+<div class="entry-content clear">
+<div class="wp-block-essential-blocks-wrapper alignfull"><div class="eb-parent-wrapper eb-parent-eb-wrapper-qrr82t6 "><div class="eb-wrapper-outer eb-wrapper-qrr82t6"><div class="eb-wrapper-inner"><div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+<div class="wp-block-essential-blocks-row alignfull"><div class="eb-parent-wrapper eb-parent-eb-row-e0wd3lk "><div class="eb-row-root-container eb-row-e0wd3lk" data-id="eb-row-e0wd3lk"><div class="eb-row-wrapper"><div class="eb-row-inner">
+<div class="eb-parent-wrapper eb-parent-eb-column-ph638ml  wp-block-essential-blocks-column"><div class="eb-column-wrapper eb-column-ph638ml"><div class="eb-column-inner">
+<div class="wp-block-essential-blocks-advanced-heading"><div class="eb-parent-wrapper eb-parent-eb-advance-heading-vha4zvk "><div class="eb-advance-heading-wrapper eb-advance-heading-vha4zvk button-1" data-id="eb-advance-heading-vha4zvk"><h2 class="eb-ah-title">{{ contact.title }}<br></h2></div></div></div>
+</div></div></div>
+<div class="eb-parent-wrapper eb-parent-eb-column-rl5043u  wp-block-essential-blocks-column"><div class="eb-column-wrapper eb-column-rl5043u"><div class="eb-column-inner"></div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div>
+
+<div class="wp-block-essential-blocks-wrapper alignfull"><div class="eb-parent-wrapper eb-parent-eb-wrapper-d59ipce "><div class="eb-wrapper-outer eb-wrapper-d59ipce eb-wrapper-align-center"><div class="eb-wrapper-inner"><div class="eb-wrapper-inner-blocks">
+<div class="wp-block-essential-blocks-row alignfull"><div class="eb-parent-wrapper eb-parent-eb-row-rpqk2l6 "><div class="eb-row-root-container eb-row-rpqk2l6" data-id="eb-row-rpqk2l6"><div class="eb-row-wrapper"><div class="eb-row-inner">
+<div class="eb-parent-wrapper eb-parent-eb-column-errvxes  wp-block-essential-blocks-column"><div class="eb-column-wrapper eb-column-errvxes"><div class="eb-column-inner">
+<h2 class="wp-block-heading has-black-color has-text-color has-link-color wp-elements-26f514877aabb2463ef14800b2451dbc" style="font-size:18px">{{ contact.locationHtml | safe }}<br><br><strong>{{ contact.campusAccess.label }}</strong>&nbsp;{{ contact.campusAccess.text }}<br><br><strong>{{ contact.contact.label }}</strong> <br>{% for line in contact.contact.lines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</h2>
+</div></div></div>
+<div class="eb-parent-wrapper eb-parent-eb-column-e2crb4d  wp-block-essential-blocks-column"><div class="eb-column-wrapper eb-column-e2crb4d"><div class="eb-column-inner">
+<div class="wp-block-essential-blocks-advanced-image"><div class="eb-parent-wrapper eb-parent-eb-advanced-image-fbf4tyf "><figure class="eb-advanced-image-wrapper eb-advanced-image-fbf4tyf img-style-rounded caption-style-1 caption-horizontal-center caption-vertical-bottom bottom no-effect" data-id="eb-advanced-image-fbf4tyf"><div class="image-wrapper"><img decoding="async" src="{{ contact.image.src }}" alt="{{ contact.image.alt }}"></div></figure></div></div>
+</div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div>
+<iframe src="{{ contact.map.embedUrl }}" width="1320" height="660" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ contact.map.title }}"></iframe>
+</div>
+</article>
+</main>
+</div>
+{% endblock %}

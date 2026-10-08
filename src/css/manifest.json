@@ -1,0 +1,32 @@
+{
+  "generatedBy": "scripts/migrate/extract-css.mjs",
+  "groups": {
+    "home": [
+      "theme/home.css"
+    ],
+    "en": [
+      "theme/en.css"
+    ],
+    "archive": [
+      "theme/archive.css"
+    ],
+    "post": [
+      "theme/post.css"
+    ],
+    "contacto": [
+      "theme/contacto.css"
+    ],
+    "investigacion": [
+      "theme/investigacion.css"
+    ],
+    "presentacion": [
+      "theme/presentacion.css"
+    ],
+    "personal-archive": [
+      "theme/personal-archive.css"
+    ],
+    "personal": [
+      "theme/personal.css"
+    ]
+  }
+}

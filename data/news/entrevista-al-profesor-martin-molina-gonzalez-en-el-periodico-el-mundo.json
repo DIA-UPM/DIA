@@ -1,0 +1,38 @@
+{
+  "slug": "entrevista-al-profesor-martin-molina-gonzalez-en-el-periodico-el-mundo",
+  "title": "Entrevista al profesor Martín Molina González en el periódico El Mundo",
+  "date": "2017-08-01T14:56:00+00:00",
+  "modified": "2017-08-01T14:56:00+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias",
+    "top-stories"
+  ],
+  "image": {
+    "src": "/assets/uploads/2017/08/15015193593721.jpg",
+    "width": 660,
+    "height": 439,
+    "alt": "15015193593721"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2017/08/15015193593721-400x250.jpg",
+    "width": 400,
+    "height": 250,
+    "alt": "15015193593721"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p>El día 1 de Agosto se ha publicado en el periódico El Mundo una entrevista a&nbsp;Martín Molina González,&nbsp;Catedrático de Universidad y profesor del Departamento de</p>",
+  "contentHtml": "<h3 class=\"rtejustify\">El día 1 de Agosto se ha publicado en el periódico El Mundo una <a href=\"http://www.elmundo.es/tecnologia/2017/08/01/597f5de6468aeb14378b4649.html\" target=\"_blank\" rel=\"noopener\">entrevista</a> a&nbsp;Martín Molina González,&nbsp;Catedrático de Universidad y profesor del Departamento de Inteligencia Artificial, titulada «¿Inteligencia artificial? Primero hay que conocer bien nuestra propia mente».&nbsp;</h3>",
+  "seo": {
+    "title": "Entrevista al profesor Martín Molina González en el periódico El Mundo - Departamento de Inteligencia Artificial",
+    "ogTitle": "Entrevista al profesor Martín Molina González en el periódico El Mundo - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2017/08/15015193593721.jpg",
+    "publishedTime": "2017-08-01T14:56:00+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 59
+}

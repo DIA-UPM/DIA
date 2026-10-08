@@ -1,0 +1,34 @@
+{
+  "slug": "canobenito",
+  "name": "Cano Benito, Juan",
+  "image": "/assets/uploads/2016/04/CanoDeBenito512.jpg",
+  "office": "3205",
+  "web": "https://",
+  "phone": "+34-91-067-2914",
+  "orcid": "https://orcid.org/0000-0002-5638-4977",
+  "email": "juan.cano@upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Ontology Engineering Group",
+    "url": "https://oeg.fi.upm.es/"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=57212930318",
+  "biography": [],
+  "category": "profesor-ayudante-doctor",
+  "date": "2026-01-23T14:26:12+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/04/CanoDeBenito512.jpg",
+    "width": 512,
+    "height": 512,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Cano Benito, Juan - Departamento de Inteligencia Artificial",
+    "ogTitle": "Cano Benito, Juan - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/04/CanoDeBenito512.jpg",
+    "modifiedTime": "2026-05-20T10:15:01+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

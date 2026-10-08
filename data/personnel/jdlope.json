@@ -1,0 +1,34 @@
+{
+  "slug": "jdlope",
+  "name": "de Lope Asiaín, Javier",
+  "image": "/assets/uploads/2016/11/javier-de-lopez-asiain.png",
+  "office": "2204",
+  "web": "https://jdlope.github.io",
+  "phone": "+34-91-067-7291",
+  "orcid": "https://orcid.org/0000-0001-9779-6057",
+  "email": "jdlope@fi.upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Grupo de Robótica Cognitiva Computacional",
+    "url": "/~ccr/"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=55888684400",
+  "biography": [],
+  "category": "profesor-titular",
+  "date": "2016-11-22T10:56:40+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/javier-de-lopez-asiain.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "de Lope Asiaín, Javier - Departamento de Inteligencia Artificial",
+    "ogTitle": "de Lope Asiaín, Javier - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/javier-de-lopez-asiain.png",
+    "modifiedTime": "2026-02-04T15:04:32+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "arpaton",
+  "name": "Rodríguez-Patón Aradas, Alfonso",
+  "image": "/assets/uploads/2016/11/Rodriguez-Paton-Aradas-Alfonso.png",
+  "office": "2106",
+  "web": "www.lia.upm.es",
+  "phone": "+34-91-067-2906",
+  "orcid": "https://orcid.org/0000-0001-7289-2114",
+  "email": "arpaton@fi.upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Laboratorio de Inteligencia Artificial",
+    "url": "http://www.lia.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=8882795400",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-22T10:57:55+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Rodriguez-Paton-Aradas-Alfonso.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Rodríguez-Patón Aradas, Alfonso - Departamento de Inteligencia Artificial",
+    "ogTitle": "Rodríguez-Patón Aradas, Alfonso - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Rodriguez-Paton-Aradas-Alfonso.png",
+    "modifiedTime": "2024-01-16T23:13:27+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

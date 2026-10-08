@@ -1,0 +1,44 @@
+{% extends "layouts/base.njk" %}
+{#- /investigacion_dia/ — data/research.json -#}
+{% block content %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article class="page type-page status-publish ast-article-single">
+<header class="entry-header ">
+<h1 class="entry-title">{{ research.pageTitle }}</h1>			</header>
+<div class="entry-content clear">
+<div class="wp-block-essential-blocks-wrapper alignfull  root-eb-wrapper-c88gsp3"><div class="eb-parent-wrapper eb-parent-eb-wrapper-c88gsp3 "><div class="eb-wrapper-outer eb-wrapper-c88gsp3"><div class="eb-wrapper-inner"><div class="eb-wrapper-inner-blocks eb-wrapper-align-center">
+<div class="wp-block-essential-blocks-row alignfull  root-eb-row-kc5kr7f"><div class="eb-parent-wrapper eb-parent-eb-row-kc5kr7f "><div class="eb-row-root-container eb-row-kc5kr7f" data-id="eb-row-kc5kr7f"><div class="eb-row-wrapper"><div class="eb-row-inner">
+<div class="wp-block-essential-blocks-column  root-eb-column-1u50nlq"><div class="eb-parent-wrapper eb-parent-eb-column-1u50nlq "><div class="eb-column-wrapper eb-column-1u50nlq"><div class="eb-column-inner">
+<div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-jtzjtfs"><div class="eb-parent-wrapper eb-parent-eb-advance-heading-jtzjtfs "><div class="eb-advance-heading-wrapper eb-advance-heading-jtzjtfs button-1" data-id="eb-advance-heading-jtzjtfs"><h2 class="eb-ah-title">{{ research.intro.title }} </h2><p class="eb-ah-subtitle">{{ research.intro.textHtml | safe }}</p></div></div></div>
+{% for c in research.counters %}
+<div class="wp-block-essential-blocks-number-counter  root-eb-counter-{{ c.style }}"><div class="eb-parent-wrapper eb-parent-eb-counter-{{ c.style }} "><div class="eb-counter-{{ c.style }} eb-counter-wrapper">{% if c.image %}<div class="icon-img-wrapper"><div class="eb-counter-image-wrapper"><img decoding="async" class="eb-counter-image" src="{{ c.image }}" alt=""></div></div>{% endif %}<div class="counter-contents-wrapper"><h4 class="eb-counter-number"><span class="eb-counter-prefix"></span><span class="eb-counter eb-counter-number" data-duration="1000" data-startvalue="0" data-target="{{ c.value }}" data-separator="," data-isshowseparator="false">0</span><span class="eb-counter-suffix"></span></h4><h3 class="eb-counter-title">{{ c.text }}</h3></div></div></div></div>
+{% endfor %}
+<div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-mj42vni" id="grupos-investigacion"><div class="eb-parent-wrapper eb-parent-eb-advance-heading-mj42vni eb_animation eb___animated eb___fadeInUp"><div class="eb-advance-heading-wrapper eb-advance-heading-mj42vni button-1" data-id="eb-advance-heading-mj42vni"><h2 class="eb-ah-title">{{ research.groupsIntro.title }} </h2><p class="eb-ah-subtitle">{{ research.groupsIntro.text }}</p></div></div></div>
+</div></div></div></div>
+<div class="wp-block-essential-blocks-column  root-eb-column-ool3b66"><div class="eb-parent-wrapper eb-parent-eb-column-ool3b66 "><div class="eb-column-wrapper eb-column-ool3b66"><div class="eb-column-inner">
+<div class="wp-block-essential-blocks-advanced-image  root-eb-advanced-image-inxkbd8"><div class="eb-parent-wrapper eb-parent-eb-advanced-image-inxkbd8 "><figure class="eb-advanced-image-wrapper eb-advanced-image-inxkbd8 img-style-rounded caption-style-1 caption-horizontal-center caption-vertical-bottom bottom no-effect" data-id="eb-advanced-image-inxkbd8"><div class="image-wrapper"><img decoding="async" src="{{ research.image.src }}" alt="{{ research.image.alt }}"><figcaption>{{ research.image.caption }}</figcaption></div></figure></div></div>
+<div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-jw5b0j2"><div class="eb-parent-wrapper eb-parent-eb-advance-heading-jw5b0j2 "><div class="eb-advance-heading-wrapper eb-advance-heading-jw5b0j2 button-1" data-id="eb-advance-heading-jw5b0j2"><h2 class="eb-ah-title">{{ research.areasTitle }}</h2><h5 class="eb-ah-subtitle"></h5></div></div></div>
+<ul style="font-size:16px" class="wp-block-list has-ast-global-color-5-color has-text-color has-link-color wp-elements-89f7591dc8fea99b14a76d5e44ce1a1a">
+{% for a in research.areas %}<li>{{ a | safe }}</li>
+{% endfor %}</ul>
+</div></div></div></div>
+</div></div></div></div></div>
+
+<div class="wp-block-essential-blocks-advanced-tabs alignwide algomindai_tabmark  root-eb-advanced-tabs-cg12jgf"><div class="eb-parent-wrapper eb-parent-eb-advanced-tabs-cg12jgf eb_animation eb___animated eb___fadeInUp"><div class="eb-advanced-tabs-cg12jgf eb-advanced-tabs-wrapper horizontal" data-min-height="true"><div class="eb-tabs-nav"><ul class="tabTitles" data-tabs-ul-id="eb-advanced-tabs-cg12jgf" role="tablist">{% for g in research.groups %}<li data-title-tab-id="{{ g.style.tabId }}" class="{{ 'active' if loop.first else 'inactive' }}" role="tab" tabindex="0" aria-selected="{{ 'true' if loop.first else 'false' }}"><img decoding="async" src="{{ g.logo }}" alt=""><h6 class="tab-title-text">{{ g.name }}</h6></li>{% endfor %}</ul></div>
+<div class="eb-tabs-contents">
+{% for g in research.groups %}
+<div class="eb-tab-wrapper {{ 'active' if loop.first else 'inactive' }}" data-tab-id="{{ g.style.tabId }}" data-tab-parent-id="eb-advanced-tabs-cg12jgf" role="tabpanel"><div class="eb-tab-inner">
+<div class="wp-block-essential-blocks-wrapper {{ 'alignwide' if g.style.wrapperAlignWide else 'alignfull' }}  root-eb-wrapper-{{ g.style.wrapper }}"><div class="eb-parent-wrapper eb-parent-eb-wrapper-{{ g.style.wrapper }} "><div class="eb-wrapper-outer eb-wrapper-{{ g.style.wrapper }}{% if g.style.wrapperAlign == 'outer' %} eb-wrapper-align-center{% endif %}"><div class="eb-wrapper-inner"><div class="eb-wrapper-inner-blocks{% if g.style.wrapperAlign == 'inner' %} eb-wrapper-align-center{% endif %}">
+<div class="wp-block-essential-blocks-advanced-heading  root-eb-advance-heading-{{ g.style.heading }}"><div class="eb-parent-wrapper eb-parent-eb-advance-heading-{{ g.style.heading }} "><div class="eb-advance-heading-wrapper eb-advance-heading-{{ g.style.heading }} button-1" data-id="eb-advance-heading-{{ g.style.heading }}"><h2 class="eb-ah-title"><strong>🔵</strong>  {{ g.title | safe }}</h2><p class="eb-ah-subtitle">{{ g.descriptionHtml | safe }}</p></div></div></div>
+<div class="wp-block-essential-blocks-button  root-eb-button-{{ g.style.button }}"><div class="eb-parent-wrapper eb-parent-eb-button-{{ g.style.button }} "><div class="eb-button-wrapper eb-button-alignment eb-button-{{ g.style.button }}"><div class="eb-button"><a class="eb-button-anchor" href="{{ g.url }}" target="_blank" rel="noopener">{{ g.buttonLabel }}</a></div></div></div></div>
+</div></div></div></div></div>
+</div></div>
+{% endfor %}
+</div></div></div></div>
+</div></div></div></div></div>
+</div>
+</article>
+</main>
+</div>
+{% endblock %}

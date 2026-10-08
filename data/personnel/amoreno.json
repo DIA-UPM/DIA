@@ -1,0 +1,34 @@
+{
+  "slug": "amoreno",
+  "name": "Moreno Díaz, Arminda",
+  "image": "/assets/uploads/2016/11/Moreno-Arminda.png",
+  "office": "2204",
+  "web": "https://dia.fi.upm.es/~arminda/index.html",
+  "phone": "+34-91-067-2902",
+  "orcid": "https://orcid.org/0000-0001-7735-477X",
+  "email": "amoreno@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/F-8572-2013",
+  "researchGroup": {
+    "name": "Grupo de Análisis de Decisiones y Estadística",
+    "url": "/dasg/"
+  },
+  "scopusId": "",
+  "biography": [],
+  "category": "profesor-titular",
+  "date": "2016-11-22T10:57:21+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Moreno-Arminda.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Moreno Díaz, Arminda - Departamento de Inteligencia Artificial",
+    "ogTitle": "Moreno Díaz, Arminda - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Moreno-Arminda.png",
+    "modifiedTime": "2024-01-16T23:12:21+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

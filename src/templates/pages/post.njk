@@ -1,0 +1,22 @@
+{% extends "layouts/base.njk" %}
+{#- Single news post. Data: data/news/<slug>.json -#}
+{% block banner %}
+<section class="ast-single-entry-banner" data-post-type="post" data-banner-layout="layout-2" data-banner-background-type="featured"{% if post.bannerImage or post.image %} style="--dia-banner-image:url('{{ post.bannerImage or post.image.src }}')"{% endif %}>
+<div class="ast-container">
+<h1 class="entry-title">{{ post.title }}</h1>	</div>
+</section>
+{% endblock %}
+{% block content %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article class="post type-post status-publish format-standard{% if post.image %} has-post-thumbnail{% endif %} hentry{% for c in post.categories %} category-{{ c }}{% endfor %}{% for t in post.tags %} tag-{{ t }}{% endfor %} ast-article-single">
+<div class="ast-post-format- single-layout-1 ast-no-date-box">
+<div class="entry-content clear">
+{{ post.contentHtml | safe }}
+</div>
+</div>
+</article>
+</main>
+</div>
+{% include "components/sidebar.njk" %}
+{% endblock %}

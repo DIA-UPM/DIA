@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Redirecciones de URLs antiguas (data/redirects.json)",
+  "type": "object",
+  "required": ["redirects"],
+  "properties": {
+    "note": { "type": "string" },
+    "redirects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to"],
+        "additionalProperties": false,
+        "properties": {
+          "from": { "type": "string", "pattern": "^/.*/$", "description": "URL antigua (con / final)." },
+          "to": { "type": "string", "pattern": "^(/|https?://)", "description": "Destino." },
+          "reason": { "type": "string" }
+        }
+      }
+    }
+  }
+}

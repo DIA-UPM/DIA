@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Etiquetas, categorías y autores (data/taxonomies.json)",
+  "type": "object",
+  "required": ["tags", "categories", "authors"],
+  "properties": {
+    "tags": { "type": "array", "items": { "$ref": "#/definitions/term" } },
+    "categories": { "type": "array", "items": { "$ref": "#/definitions/term" } },
+    "authors": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          { "$ref": "#/definitions/term" },
+          { "properties": { "posts": { "type": "array", "items": { "type": "string" } }, "banner": { "type": "boolean" } } }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "term": {
+      "type": "object",
+      "required": ["slug", "name", "archive"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+        "name": { "type": "string" },
+        "archive": { "type": "boolean", "description": "true = se genera la página de archivo /tag|category|author/<slug>/" },
+        "seo": { "type": "object" }
+      }
+    }
+  }
+}

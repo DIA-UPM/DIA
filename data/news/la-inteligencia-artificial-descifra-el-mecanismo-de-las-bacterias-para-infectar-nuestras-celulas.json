@@ -1,0 +1,37 @@
+{
+  "slug": "la-inteligencia-artificial-descifra-el-mecanismo-de-las-bacterias-para-infectar-nuestras-celulas",
+  "title": "La Inteligencia Artificial descifra el mecanismo de las bacterias para infectar nuestras células",
+  "date": "2021-03-15T09:01:47+00:00",
+  "modified": "2021-03-15T09:01:47+00:00",
+  "author": "ajimenez",
+  "categories": [
+    "uncategorized"
+  ],
+  "tags": [
+    "noticias"
+  ],
+  "image": {
+    "src": "/assets/uploads/2019/04/Foto-Alfonso-Rodriguez-Paton-v2.jpg",
+    "width": 220,
+    "height": 176,
+    "alt": "Foto Alfonso Rodríguez-Patón v2"
+  },
+  "thumbnail": {
+    "src": "/assets/uploads/2019/04/Foto-Alfonso-Rodriguez-Paton-v2.jpg",
+    "width": 220,
+    "height": 176,
+    "alt": "Foto Alfonso Rodríguez-Patón v2"
+  },
+  "readingTime": "1 minuto de lectura",
+  "excerptHtml": "<p class=\"rtejustify\">Investigadores de la Universidad Politécnica de Madrid (UPM) participan en un estudio pionero que muestra cómo las bacterias dañinas esquivan nuestro sistema inmune. Los resultados se acaban de publicar en la prestigiosa revista Science.</p>",
+  "contentHtml": "<p class=\"rtejustify\">Investigadores de la Universidad Politécnica de Madrid (UPM) participan en un estudio pionero que muestra cómo las bacterias dañinas esquivan nuestro sistema inmune. Los resultados se acaban de publicar en la prestigiosa revista Science.</p>\n<p class=\"rtejustify\">El catedrático y profesor del DIA Alfonso Rodríguez-Patón y la estudiante de doctorado&nbsp;Elena Núñez Berrueco&nbsp;participan en un estudio pionero que muestra cómo las bacterias dañinas esquivan nuestro sistema inmune. Los resultados se acaban de publicar en la prestigiosa revista Science. Los investigadores de la UPM utilizaron los datos recopilados en el laboratorio para construir un modelo de aprendizaje automático, usando novedosas técnicas de IA. El número de combinaciones posibles de efectores supera los mil millones, por lo que estudiar todas las variantes supondría más de mil años de investigación experimental. Ahí es donde entra en juego la IA para cambiar las reglas y permitir descifrar este complejo mecanismo. El algoritmo desarrollado en la UPM es capaz de predecir la capacidad infectiva de cualquier variante tras aprender los patrones de los 100 experimentos de laboratorio.</p>\n<p>Ver la noticia completa&nbsp;<a href=\"https://www.upm.es/?id=62d16bf70d528710VgnVCM10000009c7648a____&amp;prefmt=articulo&amp;fmt=detail\" target=\"_blank\" rel=\"noopener\">aquí</a>.</p>",
+  "seo": {
+    "title": "La Inteligencia Artificial descifra el mecanismo de las bacterias para infectar nuestras células - Departamento de Inteligencia Artificial",
+    "ogTitle": "La Inteligencia Artificial descifra el mecanismo de las bacterias para infectar nuestras células - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2019/04/Foto-Alfonso-Rodriguez-Paton-v2.jpg",
+    "publishedTime": "2021-03-15T09:01:47+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  },
+  "wpId": 166
+}

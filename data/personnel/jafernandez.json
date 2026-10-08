@@ -1,0 +1,34 @@
+{
+  "slug": "jafernandez",
+  "name": "Fernández del Pozo Salamanca, Juan Antonio",
+  "image": "/assets/uploads/2023/10/fernandez-pozo-jose-antonio.png",
+  "office": "2101",
+  "web": "https://dia.fi.upm.es/jafernandez",
+  "phone": "+34-91-067-2888",
+  "orcid": "https://orcid.org/0000-0002-7714-4657",
+  "email": "jafernandez@fi.upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Grupo de Inteligencia Computacional",
+    "url": "http://cig.fi.upm.es"
+  },
+  "scopusId": "",
+  "biography": [],
+  "category": "profesor-contratado-doctor",
+  "date": "2016-11-22T11:05:42+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2023/10/fernandez-pozo-jose-antonio.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Fernández del Pozo Salamanca, Juan Antonio - Departamento de Inteligencia Artificial",
+    "ogTitle": "Fernández del Pozo Salamanca, Juan Antonio - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2023/10/fernandez-pozo-jose-antonio.png",
+    "modifiedTime": "2024-07-09T18:11:15+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

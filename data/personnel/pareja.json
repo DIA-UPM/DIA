@@ -1,0 +1,34 @@
+{
+  "slug": "pareja",
+  "name": "Pareja Monturiol, José Ramón",
+  "image": "/assets/uploads/2016/04/JuanRamonPareja.jpeg",
+  "office": "3205",
+  "web": "",
+  "phone": "+34-91-067-2900",
+  "orcid": "https://orcid.org/0000-0001-5340-973X",
+  "email": "jose.pareja@upm.es",
+  "researcherId": "http://www.researcherid.com/rid/PVE-4974-2026",
+  "researchGroup": {
+    "name": "",
+    "url": "https://"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=57485570800",
+  "biography": [],
+  "category": "profesor-ayudante-doctor",
+  "date": "2026-05-19T15:02:00+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/04/JuanRamonPareja.jpeg",
+    "width": 512,
+    "height": 512,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Pareja Monturiol, José Ramón - Departamento de Inteligencia Artificial",
+    "ogTitle": "Pareja Monturiol, José Ramón - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/04/JuanRamonPareja.jpeg",
+    "modifiedTime": "2026-05-20T10:18:00+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

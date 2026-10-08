@@ -1,0 +1,15 @@
+{
+  "archive": { "bare": true },
+  "page": {
+    "alternates": [
+      { "url": "/", "hreflang": "es" },
+      { "url": "/en/", "hreflang": "en" }
+    ],
+    "seo": {
+      "title": "NOTICIAS - Departamento de Inteligencia Artificial",
+      "ogTitle": "NOTICIAS - Departamento de Inteligencia Artificial",
+      "ogType": "article",
+      "ogLocale": "en_GB"
+    }
+  }
+}

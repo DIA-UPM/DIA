@@ -1,0 +1,55 @@
+{#- Site footer (Astra footer builder markup). Content: data/site.json → footer -#}
+{% set f = site.footer %}
+<footer class="site-footer" id="colophon">
+<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-4-lheavy ast-builder-grid-row-tablet-4-equal ast-builder-grid-row-mobile-full ast-footer-row-inline ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
+<div class="ast-builder-grid-row-container-inner">
+<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
+<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
+<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-1" aria-label="Footer Widget 1">
+<div class="footer-widget-area-inner site-info-inner"><section class="widget widget_block widget_media_image">
+<figure class="wp-block-image alignleft size-full is-resized wp-duotone-unset-1"><img loading="lazy" decoding="async" width="{{ site.logo.width }}" height="{{ site.logo.height }}" src="{{ site.logo.src }}" alt="{{ site.logo.alt }}" style="aspect-ratio:4.761904761904762;width:376px;height:auto"{% if site.logo.srcset %} srcset="{{ site.logo.srcset }}" sizes="{{ site.logo.sizes }}"{% endif %}></figure>
+</section><section class="widget widget_block widget_text">
+<p class="has-white-color has-text-color has-link-color wp-elements-c645e628e62f8fbab9d9726851472d16"></p>
+</section><section class="widget widget_block">
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+</section><section class="widget widget_block">
+<h2 class="wp-block-heading" style="font-size:15px"><strong>{{ f.address[0] }}</strong>{% for line in f.address.slice(1) %}<br>{{ line }}{% endfor %}</h2>
+</section><section class="widget widget_block">
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+</section></div></aside>
+</div>
+{% for col in f.linkColumns %}
+<div class="site-footer-primary-section-{{ loop.index + 1 }} site-footer-section site-footer-section-{{ loop.index + 1 }}">
+<div class="footer-widget-area widget-area site-footer-focus-item ast-footer-html-{{ loop.index }}" data-section="section-fb-html-{{ loop.index }}">
+<div class="ast-header-html inner-link-style-"><div class="ast-builder-html-element"><p>&nbsp;</p>
+<p style="{% if loop.index == 2 %}color: #ffffff;padding-left: 40px;text-align: left{% else %}padding-left: 40px{% endif %}">{{ col.title }}</p>
+<ul{% if loop.index == 2 %} style="color: #ffffff"{% endif %}>
+{% for l in col.links %}
+{% if col.wrapInSpan %}<li><span style="color: #ffffff"><a style="color: #ffffff" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></span></li>
+{% else %}<li><a style="color: #ffffff;text-decoration: none" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div></div></div>
+</div>
+{% endfor %}
+<div class="site-footer-primary-section-4 site-footer-section site-footer-section-4">
+<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-4" aria-label="Footer Widget 4">
+<div class="footer-widget-area-inner site-info-inner"><section class="widget widget_block"><br><br><iframe src="{{ f.map.embedUrl }}" width="300" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ f.map.title }}"></iframe></section></div></aside>
+</div>
+</div>
+</div>
+</div>
+<div class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-below-footer-builder">
+<div class="ast-builder-grid-row-container-inner">
+<div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
+<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
+<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
+<div class="ast-footer-copyright"><p><span style="font-size: 10pt">{{ f.copyright.text | replace("{year}", buildYear) }} <a style="color: #fff;text-decoration: none" href="{{ f.copyright.creditUrl }}" target="_blank" rel="noopener">{{ f.copyright.creditLabel }}</a></span></p>
+<p><span style="color: #ffffff"><a style="color: #ffffff" href="{{ f.legal.url }}" target="_blank" rel="noopener"><span style="font-size: 10pt">{{ f.legal.label }}</span></a></span></p>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</footer>

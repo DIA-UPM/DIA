@@ -1,0 +1,37 @@
+{
+  "slug": "pedro-larranaga",
+  "name": "Larrañaga Múgica, Pedro",
+  "image": "/assets/uploads/2016/11/Larranaga-MugicaPedro-1.png",
+  "office": "2208",
+  "web": "http://cig.fi.upm.es/CIGmembers/pedro-larranaga",
+  "phone": "+34-91-067-2896",
+  "orcid": "https://orcid.org/0000-0003-0652-9872",
+  "email": "pedro.larranaga@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/F-9293-2013",
+  "researchGroup": {
+    "name": "Inteligencia Computacional",
+    "url": "http://cig.fi.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=7004720416",
+  "biography": [
+    "<strong>Pedro Larrañaga</strong> is Full Professor in Computer Science and Artiﬁcial Intelligence at the Technical University of Madrid (UPM) since 2007. He received the MSc degree in mathematics (statistics) from the University of Valladolid and the PhD degree in computer science from the University of the Basque Country («excellence award»). Before moving to UPM, his academic career has been developed at the University of the Basque Country (UPV-EHU) at several faculty ranks: Assistant Professor (1985-1998), Associate Professor (1998-2004) and Full Professor (2004-2007). He earned the habilitation qualiﬁcation for Full Professor in 2003.",
+    "His research interests are primarily in the areas of probabilistic graphical models, metaheuristics for optimization, data mining, classification models, and real applications, like biomedicine, bioinformatics, neuroscience, industry 4.0 and sports. He has published more than 200 papers in impact factor journals and has supervised 36 PhD theses. He has been recognized as a Fellow by several prestigious organizations: the European Association for Artificial Intelligence (2012) , Academia Europaea (2018), the Asia-Pacific Artificial Intelligence Association (2021), Jakiunde—Academy for the Sciences, Arts, and Letters of the Basque Country (2022), the European Laboratory for Learning and Intelligent Systems (ELLIS) (2023), IEEE (2023), and the Industry Academy within the International Artificial Intelligence Industry Alliance (2024). His accolades include the Spanish National Prize in Computer Science (2013), the Spanish Association for Artificial Intelligence Prize (2018), and the Amity Research Award in Machine Learning (2020).​"
+  ],
+  "category": "catedraticos",
+  "date": "2016-11-21T11:41:26+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Larranaga-MugicaPedro-1.png",
+    "width": 491,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Larrañaga Múgica, Pedro - Departamento de Inteligencia Artificial",
+    "ogTitle": "Larrañaga Múgica, Pedro - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Larranaga-MugicaPedro-1.png",
+    "modifiedTime": "2026-02-04T14:27:12+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

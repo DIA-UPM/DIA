@@ -1,0 +1,36 @@
+{
+  "slug": "ajimenez",
+  "name": "Jiménez Martín, Antonio",
+  "image": "/assets/uploads/2023/10/Jimenez-MartinAntonio.png",
+  "office": "2110",
+  "web": "",
+  "phone": "+34-91-067-2895",
+  "orcid": "https://orcid.org/0000-0002-4947-8430",
+  "email": "ajimenez@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/B-9307-2008",
+  "researchGroup": {
+    "name": "Grupo de Análisis de Decisiones y Estadística",
+    "url": "/dasg/"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=55974423000",
+  "biography": [
+    "<strong>Antonio Jiménez</strong> is the principal Investigator of the Decision Analysis and Statistics Research Group, Coordinator of the Spanish Group on Multicriteria Decision Making and Coordinator of the MSc. in Artificial Intelligence (Universidad Politécnica de Madrid). He has participated in six European projects funded within the 4th, 5th, 6th and 7th Framework Program and the Cooperation Program INCO-COPERNICUS, and in several national and regional projects. He is co-author of four books focused in Operations Research and Simulation Methods, has published 33 research papers included in JCR and more than 20 book chapters. He obtained the Spanish Royal Academy of Doctors Research Awards 2003 (Experimental and Technological Sciences section)."
+  ],
+  "category": "catedraticos",
+  "date": "2016-11-21T11:15:36+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2023/10/Jimenez-MartinAntonio.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Jiménez Martín, Antonio - Departamento de Inteligencia Artificial",
+    "ogTitle": "Jiménez Martín, Antonio - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2023/10/Jimenez-MartinAntonio.png",
+    "modifiedTime": "2024-01-16T23:05:30+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

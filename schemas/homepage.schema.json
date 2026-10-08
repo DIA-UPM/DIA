@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portada (data/homepage.json)",
+  "description": "Textos, tarjetas y listas de la portada. Los campos id/column/style/tabId identifican el estilo original del bloque: no cambiarlos; al añadir una tarjeta copiar los de otra.",
+  "type": "object",
+  "required": ["page", "hero", "reference", "research", "education", "topStories"],
+  "properties": {
+    "page": { "$ref": "#/definitions/page" },
+    "hero": {
+      "type": "object",
+      "required": ["kicker", "title", "image", "claim", "claimText", "logo"],
+      "properties": {
+        "kicker": { "$ref": "#/definitions/heading" }, "title": { "$ref": "#/definitions/heading" },
+        "claim": { "$ref": "#/definitions/heading" }, "claimText": { "$ref": "#/definitions/heading" },
+        "image": { "$ref": "#/definitions/image" }, "logo": { "$ref": "#/definitions/image" }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "required": ["heading", "stats"],
+      "properties": {
+        "heading": { "$ref": "#/definitions/heading" },
+        "stats": {
+          "type": "array", "minItems": 1,
+          "items": { "type": "object", "required": ["column", "counter", "note"], "properties": { "column": { "type": "string" }, "counter": { "$ref": "#/definitions/counter" }, "note": { "$ref": "#/definitions/heading" } } }
+        }
+      }
+    },
+    "research": {
+      "type": "object",
+      "required": ["heading", "intro", "rows"],
+      "properties": {
+        "heading": { "$ref": "#/definitions/heading" }, "intro": { "$ref": "#/definitions/heading" },
+        "rows": { "type": "array", "items": { "type": "array", "items": { "$ref": "#/definitions/card" } } },
+        "emptyColumns": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "education": {
+      "type": "object",
+      "required": ["heading", "tabs", "officialIntro", "officialPrograms", "ownIntro", "ownPrograms", "expertCourses", "coursesIntro", "courses"],
+      "properties": {
+        "heading": { "$ref": "#/definitions/heading" },
+        "tabs": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["tabId", "title", "list"],
+            "properties": {
+              "tabId": { "type": "string" }, "title": { "type": "string" },
+              "list": {
+                "type": "object", "required": ["id", "icon", "items"],
+                "properties": { "items": { "type": "array", "items": { "type": "object", "required": ["label", "url"], "properties": { "label": { "type": "string" }, "url": { "type": "string", "format": "uri" }, "newTab": { "type": "boolean" } } } } }
+              }
+            }
+          }
+        },
+        "officialIntro": { "$ref": "#/definitions/heading" }, "ownIntro": { "$ref": "#/definitions/heading" }, "coursesIntro": { "$ref": "#/definitions/heading" },
+        "officialPrograms": { "type": "array", "items": { "$ref": "#/definitions/card" } },
+        "ownPrograms": { "type": "array", "items": { "$ref": "#/definitions/card" } },
+        "courses": { "type": "array", "items": { "$ref": "#/definitions/card" } },
+        "expertCourses": {
+          "type": "array",
+          "items": { "type": "object", "required": ["column", "url", "image", "title"], "properties": { "url": { "type": "string", "format": "uri" }, "image": { "type": "string", "pattern": "^/assets/" }, "title": { "type": "string" } } }
+        }
+      }
+    },
+    "topStories": {
+      "type": "object", "required": ["heading", "intro", "perPage"],
+      "properties": { "heading": { "$ref": "#/definitions/heading" }, "intro": { "$ref": "#/definitions/heading" }, "perPage": { "type": "integer", "minimum": 1 } }
+    }
+  },
+  "definitions": {
+    "page": { "type": "object", "required": ["seo"], "properties": { "seo": { "type": "object", "required": ["title"] } } },
+    "heading": {
+      "type": "object", "required": ["id", "titleTag", "title"],
+      "properties": {
+        "id": { "type": "string" }, "anim": { "type": "string" }, "preset": { "type": "string" }, "anchor": { "type": "string" },
+        "titleTag": { "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p"] }, "title": { "type": "string" },
+        "subtitleTag": { "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p"] }, "subtitle": { "type": "string" }
+      }
+    },
+    "image": { "type": "object", "required": ["id", "src"], "properties": { "src": { "type": "string", "pattern": "^/assets/" }, "alt": { "type": "string" }, "link": { "type": "string", "format": "uri" } } },
+    "counter": { "type": "object", "required": ["id", "value", "title"], "properties": { "value": { "type": "number" }, "title": { "type": "string" } } },
+    "card": {
+      "type": "object", "required": ["id", "column", "url", "title"],
+      "properties": { "id": { "type": "string" }, "column": { "type": "string" }, "url": { "type": "string", "format": "uri" }, "image": { "type": "string", "pattern": "^/assets/" }, "title": { "type": "string" }, "description": { "type": "string" } }
+    }
+  }
+}

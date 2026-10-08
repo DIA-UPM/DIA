@@ -1,0 +1,222 @@
+{
+  "page": {
+    "seo": {
+      "title": "INVESTIGACIÓN - Departamento de Inteligencia Artificial",
+      "ogTitle": "INVESTIGACIÓN - Departamento de Inteligencia Artificial",
+      "ogType": "article",
+      "image": "/assets/uploads/2023/11/comision-europea.svg",
+      "modifiedTime": "2026-02-06T09:13:09+00:00",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    }
+  },
+  "pageTitle": "INVESTIGACIÓN",
+  "intro": {
+    "title": "Investigación",
+    "textHtml": "El DIA destaca, a nivel nacional e internacional, por su productividad y calidad investigadora. Tiene una alta participación en proyectos de investigación financiados con fondos de la Comisión Europea, y coordina varios de ellos. Participa también en numerosos proyectos de financiación pública competitiva nacional y regional, y tiene establecidos contratos de investigación con empresas privadas, bien a través de programas de financiación oficial competitiva (CENIT, CIEN, etc.) o bien a través de contratos directos.<br><br>La&nbsp;financiación externa obtenida&nbsp;por el personal docente e investigador del DIA&nbsp;en el período 2013-2020&nbsp;supera los<mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-ast-global-color-8-color\"> 27.000.000,00 €&nbsp;</mark>y ha sido obtenida a través de"
+  },
+  "counters": [
+    {
+      "value": 32,
+      "text": "proyectos con financiación procedente de convocatorias internacionales competitivas de la Comisión Europea. La participación en estos proyectos ha permitido la creación de consorcios con más de 400 entidades de 33 países de Europa, América y Asia.",
+      "image": "/assets/uploads/2023/11/comision-europea.svg",
+      "style": "1zfjuhz"
+    },
+    {
+      "value": 26,
+      "text": "proyectos en convocatorias competitivas nacionales y regionales (Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía, Industria y Competitividad, Instituto de Salud Carlos III, Comunidad de Madrid, etc.).",
+      "image": "/assets/uploads/2023/11/logos-gov-y-sp.svg",
+      "style": "3kwzisw"
+    },
+    {
+      "value": 146,
+      "text": "proyectos en ámbito no competitivo vía contratos con empresas de prestigio públicas y privadas, nacionales e internacionales.",
+      "style": "ry276kq"
+    }
+  ],
+  "groupsIntro": {
+    "title": "Grupos de investigación",
+    "text": "La investigación se realiza en el contexto de diversos grupos de investigación consolidados"
+  },
+  "image": {
+    "src": "/assets/uploads/2023/11/Foto-grupo-de-investigacion-scaled.jpeg",
+    "alt": "",
+    "caption": "engineers meeting technology research in laoratory, deep blue green colors, panoramatic photo"
+  },
+  "areasTitle": "Áreas",
+  "areas": [
+    "Aprendizaje Automático",
+    "Bioinformática",
+    "Biología de Sistemas",
+    "Computación Biomolecular y Biología Sintética",
+    "Computación Evolutiva",
+    "Grid Semántico",
+    "Informática Biomédica",
+    "Ingeniería del Conocimiento",
+    "Ingeniería Lingüística",
+    "Ingeniería Ontológica",
+    "Interacción Hombre-Máquina Inteligente",
+    "Internet del Futuro",
+    "Lenguajes de Alto Nivel y Procesamiento Paralelo",
+    "Minería de Datos",
+    "Modelos de Elección Bajo Racionalidad Acotada",
+    "Modelos de razonamiento",
+    "Modelos Lógicos",
+    "Nanoinformática",
+    "Neurociencia",
+    "Programación Lógica (PL) y PL con Restricciones",
+    "Recuperación de Información",
+    "Redes Bayesianas",
+    "Redes Neuronales",
+    "Sistemas de Ayuda a la Decisión",
+    "Teoría de la Utilidad Multiatributo",
+    "Toma de Decisiones en Grupo",
+    "Visión por Computador y Robótica",
+    "Web Semántica"
+  ],
+  "groups": [
+    {
+      "name": "Grupo de Análisis de Decisiones y Estadística",
+      "logo": "/assets/uploads/2023/07/logo-dasg-1.jpg",
+      "title": "Grupo de Análisis de Decisiones y Estadística",
+      "descriptionHtml": "El <strong>Grupo de Análisis de Decisiones y Estadística </strong>se centra principalmente en la resolución de problemas complejos de decisión. Ejemplos de problemas estudiados en el campo de la medicina son los de la ictericia neonatal o la asistencia respiratoria extracorpórea en recién nacidos; en medio ambiente la restauración de ecosistemas acuáticos contaminados tales como el lago Svyatoye al suroeste de Kostyukovichy (Bielorrusia) o el lago Ovre Heimdalsvath cercano a la localidad de Oppland (Noruega); en predicción tales como la gestión de la reserva del agua almacenada en un pantano o la predicción del precio de la electricidad en el mercado español; en simulación la ocurrencia de daños en una línea de clasificación de frutas y en lo social la democracia electrónica.",
+      "url": "http://www.dasg.upm.es/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "7",
+        "wrapper": "hfplefu",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": false,
+        "heading": "8ne1ae4",
+        "button": "f8to60i"
+      }
+    },
+    {
+      "name": "Grupo de Economía y Sostenibilidad del Medio Natural",
+      "logo": "/assets/uploads/2023/07/ECONOMIA-Y-SOSTENIBILIDAD.png",
+      "title": "Grupo de Economía y Sostenibilidad del Medio Natural",
+      "descriptionHtml": "El <strong>grupo de Economía y Sostenibilidad del </strong>Medio Natural<a href=\"https://ecsen.es/\" target=\"_blank\" rel=\"noreferrer noopener\"> </a>pretende continuar la labor pluridisciplinar iniciada hace ya años por sus miembros, en la que a través de una síntesis de categorías analíticas de naturaleza ecológica y económica, se desarrollan y aplican métodos operativos para la gestión sostenible del medio natural. La necesidad de proteger el medio natural surge del reconocimiento de su “escasez”, respecto a las demandas que la sociedad ejerce sobre dicho medio natural. Por otra parte, la economía es la ciencia que establece pautas óptimas para la gestión de la “escasez”. De esta manera, la lógica económica se convierte en un instrumento importante para la protección racional del medio natural.",
+      "url": "https://ecsen.es/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "8",
+        "wrapper": "ixvoz7g",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": false,
+        "heading": "9txpikt",
+        "button": "4pvk34j"
+      }
+    },
+    {
+      "name": "Grupo de Computación lógica, Lenguajes, Implementación y Paralelismo (CLIP)",
+      "logo": "/assets/uploads/2023/11/clip-relief-64g-1.png",
+      "title": "Grupo de Computación Lógica, Lenguajes, Implementación y  Paralelismo (CLIP)",
+      "descriptionHtml": "El <strong><mark class=\"has-inline-color has-ast-global-color-5-color\">Grupo de Computación lógica, Lenguajes, Implementación</mark><a rel=\"noreferrer noopener\" href=\"/es/grupos-investigacion#CLIP\" data-type=\"link\" data-id=\"https://dia.fi.upm.es/es/grupos-investigacion#CLIP\" target=\"_blank\"><mark class=\"has-inline-color has-ast-global-color-5-color\"> y Paralelismo</mark></a></strong> lleva más de quince años de actividad investigadora en temas relacionados con el avance en los fundamentos, el análisis y la implementación de lenguajes de programación declarativos, la verificación y depuración estática de programas, el aprovechamiento eficiente y sencillo de las arquitecturas paralelas y distribuidas, la extensión de dichos lenguajes a nuevos paradigmas de computación (p.ej., de restricciones, con agentes, móvil, etc.) y la aplicación industrial de la investigación realizada a diversos campos prácticos. El grupo desarrolla el sistema de programación multiparadigma Ciao, software libre bajo licencia LGPL, con numerosos usuarios industriales y académicos a nivel internacional.",
+      "url": "https://cliplab.org/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "5",
+        "wrapper": "dtmw383",
+        "wrapperAlign": "inner",
+        "wrapperAlignWide": false,
+        "heading": "2bi7sph",
+        "button": "npagy8z"
+      }
+    },
+    {
+      "name": "Grupo de Informática Biomédica",
+      "logo": "/assets/uploads/2023/11/logo-grupo-informatica-biomedica.png",
+      "title": "Grupo de Informática Biomédica",
+      "descriptionHtml": "El<strong> Grupo de Informática Biomédica</strong> ha estado trabajando durante más de 15 años en diversas áreas de la Informática Biomédica como toma de decisiones, procesamiento de imágenes, directrices y protocolos clínicos, ontologías biomédicas, integración de bases de datos, minería de datos, minería de texto, y otros. La experiencia en investigación, y la obtención de fondos para la misma, queda reflejada en el amplio número de publicaciones científicas de alta calidad que se han generado y en la participación en diferentes proyectos a cargo de la Comisión Europea.",
+      "url": "http://gib.fi.upm.es/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "9",
+        "wrapper": "7zyfi8c",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": false,
+        "heading": "83igprt",
+        "button": "henr474"
+      }
+    },
+    {
+      "name": "Grupo de Ingeniería Ontológica",
+      "logo": "/assets/uploads/2023/11/ONTOLOGY.png",
+      "title": "Grupo de Ingeniería Ontológica",
+      "descriptionHtml": "El <strong>Grupo de Ingeniería Ontológica </strong>realiza su investigación en los campos de <strong>ontologías</strong>, interrelación de <strong>ontologías y lenguaje natural,Web Semántica y e-Ciencia Semántica.</strong> En la línea de ontologías, el grupo investiga en aspectos metodológicos y tecnológicos relacionados con el proceso de desarrollo de las mismas, con resultados como la metodología METHONTOLOGY y la plataforma de desarrollo de ontologías WebODE. En la interrelación entre ontologías y lenguaje natural se está construyendo una plataforma de anotación híbrida (lingüística y ontológica), multinivel y multifuncional, con resultados como la base de datos ODELinger, el modelo de anotación OntoTag y la plataforma OntoTagger. En Web Semántica, la investigación gira en torno a cinco ejes: migrar contenidos a la Web Semántica y a la Web de Linked Data (R2O y ODEMapster), recuperación de información basada en semántica (EgoIR), portales Web semánticos (ODESeW), servicios Web Semánticos (ODESWS) y uso de ontologías en la Web (Oyster). Finalmente, en e-Ciencia Semántica, se pretende aportar métodos y técnicas que permitan acceder a ontologías y utilizarlas en aplicaciones de e-Ciencia, con resultados como la especificación WS-DAIOnt-RDF(S).",
+      "url": "https://oeg.fi.upm.es/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "10",
+        "wrapper": "0l7j3ai",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": false,
+        "heading": "23nae22",
+        "button": "obtiu8w"
+      }
+    },
+    {
+      "name": "Grupo de Inteligencia Computacional",
+      "logo": "/assets/uploads/2023/11/CIG2.png",
+      "title": "Grupo de Inteligencia Computacional",
+      "descriptionHtml": "<strong>El Grupo de Inteligencia Computacional</strong> de la UPM se presenta como un acercamiento de investigadores en tres campos diferentes: Análisis de Decisiones y Estadística, Percepción Computacional y Robótica, e Ingeniería en Minería de Datos, todos ellos de la Facultad de Informática. Los miembros investigadores del CIG, tanto teóricos como prácticos, se dedican a la modelización (a partir de una perspectiva estadística y del aprendizaje automático), la optimización heurística, la visión artificial, la computación de alto rendimiento y la neuroinformática. CIG ha participado en más de 70 proyectos de investigación, sobre todo en convocatorias competitivas públicas, y también para empresas privadas. Entre los actuales proyectos públicos se incluyen Cajal Blue Brain, Consolider, Cenit y varios proyectos nacionales del Ministerio español de Ciencia e Innovación. CIG ha colaborado con empresas como Telefónica I + D, Airbus, Arthur Andersen, Progenika Biopharma y Panda Security. Desarrollando aplicaciones que se extienden a una amplia gama de áreas: biomedicina, bioinformática, neurociencia, agricultura, industria, seguridad informática, visión artificial, finanzas, etc.",
+      "url": "http://cig.fi.upm.es/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "11",
+        "wrapper": "dz9j0sw",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": false,
+        "heading": "lvujk3s",
+        "button": "2nwebrv"
+      }
+    },
+    {
+      "name": "Grupo de Percepción Computacional y Robótica",
+      "logo": "/assets/uploads/2023/11/pcr-logo-cuadrado.png",
+      "title": "Grupo de Percepción Computacional y Robótica",
+      "descriptionHtml": "El <strong>Grupo de Percepción Computacional y Robótica </strong>se centra en las áreas de <strong>Visión por Computador y Robótica</strong>. Resultados de este trabajo se han aplicado al problema de la detección y seguimiento de vehículos, aparcamiento automático, guiado de robots autónomos y robots modulares. En el área de visión por computador hemos trabajado en el análisis de imágenes en movimiento y en el desarrollo de modelos geométricos de visión para autocalibración de cámaras. Ahora los intereses del grupo se centran en el desarrollo de técnicas eficientes de detección y seguimiento de objetos deformables y en particular del rostro humano.",
+      "url": "https://pcr-upm.github.io/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "12",
+        "wrapper": "hnb19ki",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": false,
+        "heading": "dxh7l7z",
+        "button": "p9tit5l"
+      }
+    },
+    {
+      "name": "Grupo de Visión por Computador y Robótica Aérea",
+      "logo": "/assets/uploads/2023/07/vision.png",
+      "title": "Grupo de Visión por Computador y Robótica Aérea",
+      "descriptionHtml": "El grupo&nbsp;Visión por Computador y Robótica Aérea está formado por un equipo multidisciplinar del Departamento de Inteligencia Artificial de la la ETS de Ingenieros Informáticos y del Departamento de Automática, Ingeniería Eléctrica y Electrónica e Informática Industrial de la ETS de Ingenieros Industriales. Entre los objetivos de investigación del grupo se encuentra proporcionar mayor autonomía, mayor seguridad y facilidad de operación a sistemas robóticos aéreos. El grupo cuenta con importante experiencia el campo de visión artificial (procesamiento, reconocimiento o gestión automatizada de imágenes incluyendo estabilización, seguimiento de objetos, composición de mosaicos y ortomapas) así como en sistemas inteligentes, robótica cognitiva y control (métodos de planificación, arquitecturas cognitivas, guiado visual de robots, navegación en entornos pasivos sin GPS, creación de mapas tridimensiaonales, etc.). Los resultados de nuestro trabajo han sido galardonados en competiciones internacionales tales como IMAV (International Micro Aerial Vehicles) o IARC (International Aerial Robotic Competition). Nuestro equipo tiene un importante componente internacional, con miembros pertenecientes a diversas nacionalidades y con un flujo constante de investigadores y estudiantes en formación.&nbsp;",
+      "url": "https://cvar-upm.github.io/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "13",
+        "wrapper": "0s3zs",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": true,
+        "heading": "q1t9g",
+        "button": "j18yz"
+      }
+    },
+    {
+      "name": "Laboratorio de Inteligencia Artificial",
+      "logo": "/assets/uploads/2023/11/LIA-Group-logo-cuadrado.png",
+      "title": "Laboratorio de Inteligencia Artificial",
+      "descriptionHtml": "El Laboratorio de Inteligencia Artificial trabaja en las áreas de&nbsp;<strong>Computación Natural</strong>, de la&nbsp;<strong>Biología de Sistemas</strong>&nbsp;y de la&nbsp;<strong>Biología Sintética</strong>. Para ello, trabaja: (1) con el modelo de computación distribuido inspirado en la célula denominado « Membrane Computing » y sus dispositivos asociados «Sistemas P» (computación celular con sistemas P), (2) en computación biomolecular y biología sintética diseñando nano-bio-dispositivos de procesamiento de información biológica, (3) en el estudio de la computación fluídica y en el diseño lógico de sistemas fluídicos eficientes y (4) en Computación Evolutiva desarrollando nuevas técnicas de búsqueda y optimización para la construcción de sistemas inteligentes robustos.",
+      "url": "http://www.lia.upm.es/",
+      "buttonLabel": "Saber más",
+      "style": {
+        "tabId": "14",
+        "wrapper": "34qu8nk",
+        "wrapperAlign": "outer",
+        "wrapperAlignWide": true,
+        "heading": "xrqdi",
+        "button": "kjly6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{% extends "layouts/base.njk" %}
+{#- Personnel profile. Data: data/personnel/<slug>.json
+    Markup reproduces the Essential Blocks template used by the old "personaldia" post type. -#}
+{% macro linkValue(value, newTab=true) -%}
+{%- if value and isLink(value) %}<a href="{{ value }}" class="acf-custom-link"{% if newTab %} target="_blank" rel="noopener"{% endif %}>{{ value }}</a>{% else %}{{ value }}{% endif -%}
+{%- endmacro %}
+{% macro item(icon, content, newTab=false) -%}
+<li class="eb-feature-list-item" data-new-tab="{{ 'true' if newTab else 'false' }}" data-icon-type="icon" data-icon="{{ icon }}" data-icon-background-color="rgba(100,112,182,1)" data-link=""><div class="eb-feature-list-icon-box"><div class="eb-feature-list-icon-inner"><span class="eb-feature-list-icon" style="background-color:rgba(100,112,182,1)"><i class="{{ icon }}" aria-hidden="true"></i></span></div></div><div class="eb-feature-list-content-box"><h3 class="eb-feature-list-title">{{ content | safe }}</h3></div></li>
+{%- endmacro %}
+{% block banner %}
+<section class="ast-single-entry-banner" data-post-type="personaldia" data-banner-layout="layout-2">
+<div class="ast-container">
+<h1 class="entry-title">{{ person.name }}</h1>	</div>
+</section>
+{% endblock %}
+{% block content %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article class="personaldia type-personaldia status-publish has-post-thumbnail hentry{% for c in person.categories or [person.category] %}{% if c %} tag-{{ c }}{% endif %}{% endfor %} ast-article-single">
+<div class="ast-post-format- single-layout-1 ast-no-date-box">
+<div class="entry-content clear">
+<div class="wp-block-essential-blocks-wrapper alignfull"><div class="eb-parent-wrapper eb-parent-eb-wrapper-uoorlgk "><div class="eb-wrapper-outer eb-wrapper-uoorlgk eb-wrapper-align-center"><div class="eb-wrapper-inner"><div class="eb-wrapper-inner-blocks">
+<div class="wp-block-essential-blocks-row"><div class="eb-parent-wrapper eb-parent-eb-row-ipyxw68 "><div class="eb-row-root-container eb-row-ipyxw68" data-id="eb-row-ipyxw68"><div class="eb-row-wrapper"><div class="eb-row-inner">
+<div class="eb-parent-wrapper eb-parent-eb-column-dsg7e98  wp-block-essential-blocks-column"><div class="eb-column-wrapper eb-column-dsg7e98"><div class="eb-column-inner">
+<div style="width: 265px; height: 265px; border-radius: 50%; overflow: hidden; display: inline-block; box-sizing: border-box;"><img decoding="async" class="my-custom-image" src="{{ person.image }}" alt="{{ person.name }}"></div>
+</div></div></div>
+<div class="eb-parent-wrapper eb-parent-eb-column-jz92vxo  wp-block-essential-blocks-column"><div class="eb-column-wrapper eb-column-jz92vxo"><div class="eb-column-inner">
+<div class="wp-block-essential-blocks-feature-list alignwide"><div class="eb-parent-wrapper eb-parent-eb-feature-list-bxvi1zd eb_animation eb___animated eb___fadeInLeft"><div class="eb-feature-list-bxvi1zd eb-feature-list-wrapper -icon-position-left -tablet-icon-position-left -mobile-icon-position-left eb-feature-list-left"><ul class="eb-feature-list-items circle stacked eb-inline-feature-list">
+{{- item('far fa-address-book', 'Despacho: ' + (person.office | escape)) -}}
+{{- item('far fa-file-word', 'Web: ' + linkValue(person.web), true) -}}
+{{- item('fas fa-phone-square', 'Teléfono: ' + (person.phone | escape)) -}}
+{{- item('far fa-address-card', 'ORCID: ' + linkValue(person.orcid), true) -}}
+{{- item('far fa-envelope', 'Email: ' + ('<a href="mailto:' + (person.email | escape) + '" class="acf-custom-link">' + (person.email | escape) + '</a>' if person.email else '')) -}}
+{{- item('far fa-address-card', 'ResearcherID: ' + linkValue(person.researcherId), true) -}}
+{{- item('fas fa-users', 'Grupo de investigación: ' + ('<a href="' + (person.researchGroup.url | escape) + '" class="acf-custom-link">' + (person.researchGroup.name | escape) + '</a>' if person.researchGroup else '')) -}}
+{{- item('far fa-address-card', 'Scopus Author ID: ' + linkValue(person.scopusId), true) -}}
+</ul></div></div></div>
+</div></div></div>
+</div></div></div></div></div>
+<p></p>{% for para in person.biography %}{% if para.html %}{{ para.html | safe }}{% else %}<p>{{ para | safe }}</p>{% endif %}
+{% endfor %}{% if person.biography.length %}<p></p>{% endif %}
+</div></div></div></div></div>
+<p></p>
+</div>
+</div>
+</article>
+</main>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{
+  "slug": "jbajo",
+  "name": "Bajo Pérez, Javier",
+  "image": "/assets/uploads/2016/11/Bajo-Perez-Javier-1.png",
+  "office": "2105",
+  "web": "",
+  "phone": "+34-91-067-2881",
+  "orcid": "https://orcid.org/0000-0002-4392-4743",
+  "email": "jbajo@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/C-7059-2009",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "http://www.oeg-upm.net"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=8899577600",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-21T11:05:44+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Bajo-Perez-Javier-1.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Bajo Pérez, Javier - Departamento de Inteligencia Artificial",
+    "ogTitle": "Bajo Pérez, Javier - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Bajo-Perez-Javier-1.png",
+    "modifiedTime": "2024-01-15T22:07:50+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

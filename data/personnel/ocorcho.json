@@ -1,0 +1,38 @@
+{
+  "slug": "ocorcho",
+  "name": "Corcho García, Oscar",
+  "image": "/assets/uploads/2016/11/Corcho-Garcia-Oscar.png",
+  "office": "2209",
+  "web": "https://oeg.fi.upm.es/index.php/es/teachers/ocorcho.html",
+  "phone": "+34-91-067-2911",
+  "orcid": "https://orcid.org/0000-0002-9260-0753",
+  "email": "ocorcho@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/C-4000-2011",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "https://oeg.fi.upm.es"
+  },
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=14010357000",
+  "biography": [],
+  "category": "catedraticos",
+  "categories": [
+    "catedraticos",
+    "equipo-de-direccion"
+  ],
+  "date": "2016-11-21T11:40:44+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Corcho-Garcia-Oscar.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Corcho García, Oscar - Departamento de Inteligencia Artificial",
+    "ogTitle": "Corcho García, Oscar - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Corcho-Garcia-Oscar.png",
+    "modifiedTime": "2026-02-04T15:24:29+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

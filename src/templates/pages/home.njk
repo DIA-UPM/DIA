@@ -1,0 +1,136 @@
+{% extends "layouts/base.njk" %}
+{#- Portada. Content: data/homepage.json (+ data/news for "Top Stories").
+    Block ids (id / column / style) select the original Essential Blocks CSS; see docs/content-guide in README. -#}
+{% import "components/eb.njk" as eb %}
+{% macro cardRow(rowId, cards, opts={}) %}
+{% call eb.row(rowId, opts) %}
+{% for c in cards %}
+{% call eb.column(c.column) %}{{ eb.infobox(c) }}{% endcall %}
+{% endfor %}
+{% for col in opts.emptyColumns or [] %}{% call eb.column(col) %}{% endcall %}{% endfor %}
+{% endcall %}
+{% endmacro %}
+{% block content %}
+{% set h = home %}
+<div id="primary" class="content-area primary">
+<main id="main" class="site-main">
+<article class="page type-page status-publish ast-article-single">
+<header class="entry-header ast-no-title ast-header-without-markup">
+<h1 class="screen-reader-text">{{ site.name }}</h1>
+</header>
+<div class="entry-content clear">
+
+{#- ================================================================ hero -#}
+{% call eb.wrapper('ao9s7kp', { center: 'inner' }) %}
+{% call eb.row('jurwh8u') %}
+{% call eb.column('zocmpao') %}{{ eb.heading(h.hero.kicker) }}{{ eb.heading(h.hero.title) }}{% endcall %}
+{% call eb.column('0dzqqqy') %}{{ eb.image(h.hero.image) }}{% endcall %}
+{% call eb.column('1595hug') %}{{ eb.heading(h.hero.claim) }}{{ eb.heading(h.hero.claimText) }}{{ eb.image(h.hero.logo) }}{% endcall %}
+{% endcall %}
+{% endcall %}
+
+{#- ================================================================ referente nacional e internacional (contadores) -#}
+{% call eb.wrapper('g5u0gn9', { center: 'outer' }) %}
+{% call eb.row('xv5269m') %}{% call eb.column('rddsy4g') %}{{ eb.heading(h.reference.heading) }}{% endcall %}{% endcall %}
+{% call eb.row('xy4puiw') %}
+{% for s in h.reference.stats %}
+{% call eb.column(s.column) %}{{ eb.counter(s.counter) }}{{ eb.heading(s.note) }}{% endcall %}
+{% endfor %}
+{% endcall %}
+{% endcall %}
+
+{#- ================================================================ grupos de investigación -#}
+{% call eb.wrapper('mcdxhjb', { center: 'outer', anchor: 'grupos_de_investigacion' }) %}
+{% call eb.wrapper('m73mz2s', { align: '', center: 'inner' }) %}{% endcall %}
+{% call eb.wrapper('fwpll66', { center: 'outer' }) %}
+{% call eb.row('c3keojq') %}
+{% call eb.column('tugi4pg') %}{{ eb.heading(h.research.heading) }}{% endcall %}
+{% call eb.column('g0v9hiz') %}{% endcall %}
+{% endcall %}
+{% endcall %}
+{% call eb.wrapper('3zfxl24', { center: 'inner' }) %}{% endcall %}
+{% endcall %}
+
+{% call eb.wrapper('jex6v4w', { center: 'inner', anchor: 'bloque_infobox_investigacion' }) %}
+{{ eb.heading(h.research.intro) }}
+{{ cardRow('w9ojcij', h.research.rows[0], { anchor: 'grupos-de-investigacion-fina-uno' }) }}
+{{ cardRow('v670q', h.research.rows[1], { anchor: 'grupos-de-investigacion-fina-dos', emptyColumns: h.research.emptyColumns }) }}
+{% endcall %}
+
+{#- ================================================================ oferta académica -#}
+{% call eb.wrapper('l4n9o3h', { center: 'outer', anchor: 'oferta-academica' }) %}
+{% call eb.row('g8jkfc5') %}
+{% call eb.column('qvz5yfq') %}
+{{ eb.heading(h.education.heading) }}
+<div class="wp-block-essential-blocks-advanced-tabs alignwide  root-eb-advanced-tabs-zhaw2n2"><div class="eb-parent-wrapper eb-parent-eb-advanced-tabs-zhaw2n2 "><div class="eb-advanced-tabs-zhaw2n2 eb-advanced-tabs-wrapper horizontal" data-min-height="true"><div class="eb-tabs-nav"><ul class="tabTitles" data-tabs-ul-id="eb-advanced-tabs-zhaw2n2" role="tablist">{% for t in h.education.tabs %}<li data-title-tab-id="{{ t.tabId }}" class="{{ 'active' if loop.first else 'inactive' }}" role="tab" tabindex="0" aria-selected="{{ 'true' if loop.first else 'false' }}"><h6 class="tab-title-text">{{ t.title }}</h6></li>{% endfor %}</ul></div><div class="eb-tabs-contents">
+{% for t in h.education.tabs %}
+<div class="eb-tab-wrapper {{ 'active' if loop.first else 'inactive' }}" data-tab-id="{{ t.tabId }}" data-tab-parent-id="eb-advanced-tabs-zhaw2n2" role="tabpanel"><div class="eb-tab-inner">
+{{ eb.featureList(t.list) }}
+</div></div>
+{% endfor %}
+</div></div></div></div>
+{{ eb.heading(h.education.officialIntro) }}
+{% endcall %}
+{% endcall %}
+{% endcall %}
+
+{% call eb.wrapper('icf1wez', { center: 'outer' }) %}{{ cardRow('ie8tx1s', h.education.officialPrograms) }}{% endcall %}
+{% call eb.wrapper('kpnux6r', { center: 'outer' }) %}{% call eb.row('cd12j59') %}{% call eb.column('qdalaz2') %}{{ eb.heading(h.education.ownIntro) }}{% endcall %}{% endcall %}{% endcall %}
+{% call eb.wrapper('58xfxbq', { center: 'outer' }) %}{{ cardRow('4y0ocj0', h.education.ownPrograms) }}{% endcall %}
+
+{% call eb.wrapper('cnse5ql', { center: 'outer' }) %}
+{% call eb.row('nqky1ee') %}
+{% for e in h.education.expertCourses %}
+{% call eb.column(e.column) %}
+<div class="experto-card">
+<a href="{{ e.url }}">
+<div class="experto-image" style="background-image: url('{{ e.image }}');"></div>
+<div class="experto-title">{{ e.title }}</div>
+</a>
+</div>
+{% endcall %}
+{% endfor %}
+{% endcall %}
+{% call eb.row('xhqd2br') %}{% call eb.column('4afpycs') %}{{ eb.heading(h.education.coursesIntro) }}{% endcall %}{% endcall %}
+{{ cardRow('oai7mf9', h.education.courses) }}
+{% endcall %}
+
+{#- ================================================================ top stories (all listed news, 4 per page) -#}
+{% call eb.wrapper('8f234pd', { center: 'outer' }) %}
+{% call eb.wrapper('f5vxduj', { center: 'inner' }) %}
+{% call eb.row('uo3dg0p') %}
+{% call eb.column('51jjmg7') %}{{ eb.heading(h.topStories.heading) }}{% endcall %}
+{% call eb.column('eb6vct8') %}{% endcall %}
+{% endcall %}
+{% endcall %}
+{% endcall %}
+
+{% call eb.wrapper('wo2t387', { center: 'inner' }) %}
+{{ eb.heading(h.topStories.intro) }}
+{% set perPage = h.topStories.perPage %}
+{% set pages = (topStories.length / perPage) | round(0, 'ceil') %}
+<div class="root-eb-post-grid-eim7gc5 wp-block-essential-blocks-post-grid">
+<div class="eb-parent-wrapper eb-parent-eb-post-grid-eim7gc5 eb_animation eb___animated eb___fadeInUp">
+<div class="eb-post-grid-eim7gc5 style-1 eb-post-grid-wrapper" data-id="eb-post-grid-eim7gc5">
+<div class="eb-post-grid-posts-wrapper">{% for n in topStories %}<article class="ebpg-grid-post ebpg-post-grid-column" data-page="{{ ((loop.index0 / perPage) | round(0, 'floor')) + 1 }}"{% if loop.index0 >= perPage %} hidden{% endif %}><div class="ebpg-grid-post-holder"><div class="ebpg-entry-wrapper"><div class="ebpg-entry-media">
+<div class="ebpg-entry-thumbnail">
+<a class="ebpg-post-link-wrapper eb-sr-only" href="/{{ n.slug }}/">{{ n.title }}</a>
+{% set img = n.image or n.thumbnail %}{% if img %}<img{% if loop.index > 1 %} loading="lazy"{% endif %} decoding="async"{% if img.width %} width="{{ img.width }}" height="{{ img.height }}"{% endif %} src="{{ img.src }}" class="attachment-full size-full" alt="{{ img.alt }}">{% endif %}
+</div>
+</div><header class="ebpg-entry-header">
+<h2 class="ebpg-entry-title">
+<a class="ebpg-grid-post-link" href="/{{ n.slug }}/" title="{{ n.title }}">{{ n.title }}</a>
+</h2>
+</header></div></div></article>{% endfor %}</div><div class="ebpostgrid-pagination ebpg-pagination "><button class="ebpg-pagination-item-previous" type="button" aria-label="Página anterior">&lt;&lt;</button>{% for p in range(1, pages + 1) %}<button class="ebpg-pagination-item{% if p == 1 %} active{% endif %}" type="button" data-pagenumber="{{ p }}">
+{{ p }}
+</button>{% endfor %}<button class="ebpg-pagination-item-next" type="button" aria-label="Página siguiente">&gt;&gt;</button></div>
+</div>
+</div>
+</div>
+{% endcall %}
+
+</div>
+</article>
+</main>
+</div>
+{% endblock %}

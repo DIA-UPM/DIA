@@ -1,0 +1,37 @@
+{
+  "slug": "diaadmin",
+  "name": "Administrador de Sistemas",
+  "image": "/assets/uploads/2022/04/sysadmin.jpg",
+  "office": "2202",
+  "web": "",
+  "phone": "",
+  "orcid": "",
+  "email": "admin@dia.fi.upm.es",
+  "researcherId": "",
+  "researchGroup": null,
+  "scopusId": "",
+  "biography": [],
+  "category": "personal-tecnico-de-gestion-y-de-administracion-y-servicios",
+  "date": "2022-04-22T12:20:17+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2022/04/sysadmin-1024x1024.jpg",
+    "width": 1024,
+    "height": 1024,
+    "alt": "sysadmin"
+  },
+  "gridImage": {
+    "src": "/assets/uploads/2022/04/sysadmin.jpg",
+    "width": 2000,
+    "height": 2000,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Administrador de Sistemas - Departamento de Inteligencia Artificial",
+    "ogTitle": "Administrador de Sistemas - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2022/04/sysadmin.jpg",
+    "modifiedTime": "2024-01-15T22:15:54+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

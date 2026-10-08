@@ -1,0 +1,34 @@
+{
+  "slug": "danielgarijo",
+  "name": "Garijo Verdejo, Daniel",
+  "image": "/assets/uploads/2023/10/Garijo-verdejo-Daniel.png",
+  "office": "3205",
+  "web": "",
+  "phone": "",
+  "orcid": "",
+  "email": "daniel.garijo@upm.es",
+  "researcherId": "",
+  "researchGroup": {
+    "name": "Grupo de Ingeniería Ontológica",
+    "url": "https://oeg.fi.upm.es/"
+  },
+  "scopusId": "",
+  "biography": [],
+  "category": "profesores-permanentes-laborales",
+  "date": "2021-03-05T09:01:19+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2023/10/Garijo-verdejo-Daniel.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Garijo Verdejo, Daniel - Departamento de Inteligencia Artificial",
+    "ogTitle": "Garijo Verdejo, Daniel - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2023/10/Garijo-verdejo-Daniel.png",
+    "modifiedTime": "2026-01-21T12:37:17+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

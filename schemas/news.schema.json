@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Noticia (data/news/<slug>.json)",
+  "type": "object",
+  "required": ["slug", "title", "tags", "categories"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9_-]+$", "description": "URL /<slug>/ — debe coincidir con el nombre del fichero." },
+    "title": { "type": "string", "minLength": 1 },
+    "date": { "type": "string", "format": "date-time", "description": "Fecha de publicación ISO 8601 (ordena los listados)." },
+    "modified": { "type": "string", "format": "date-time" },
+    "author": { "type": "string" },
+    "categories": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" }, "description": "Etiquetas (slugs de data/taxonomies.json)." },
+    "image": { "$ref": "#/definitions/image", "description": "Imagen destacada (cabecera de la noticia y portada)." },
+    "bannerImage": { "type": "string", "pattern": "^/assets/", "description": "Opcional: imagen de fondo de la cabecera si es distinta de la imagen destacada." },
+    "thumbnail": { "$ref": "#/definitions/image", "description": "Miniatura para los listados." },
+    "readingTime": { "type": "string" },
+    "excerptHtml": { "type": "string", "description": "Extracto mostrado en los listados (HTML)." },
+    "contentHtml": { "type": "string", "description": "Cuerpo de la noticia (HTML)." },
+    "publishPage": { "type": "boolean", "description": "false = aparece en los listados pero no tiene página propia (como en el sitio original)." },
+    "listed": { "type": "boolean", "description": "false = tiene página propia pero no aparece en listados, portada ni barra lateral (como en el sitio original)." },
+    "seo": { "type": "object" },
+    "wpId": { "type": "integer", "description": "ID de la entrada en el WordPress original (solo referencia)." }
+  },
+  "if": { "not": { "required": ["publishPage"], "properties": { "publishPage": { "const": false } } } },
+  "then": { "required": ["date", "contentHtml"] },
+  "else": { "required": ["date"] },
+  "definitions": {
+    "image": {
+      "type": "object",
+      "required": ["src"],
+      "properties": { "src": { "type": "string", "pattern": "^/assets/" }, "width": { "type": "integer" }, "height": { "type": "integer" }, "alt": { "type": "string" } }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "mmolina",
+  "name": "Molina González, Martín",
+  "image": "/assets/uploads/2016/11/Molina-Gonzalez-Martin.png",
+  "office": "2111",
+  "web": "",
+  "phone": "+34-91-067-2912",
+  "orcid": "https://orcid.org/0000-0001-7145-1974",
+  "email": "mmolina@fi.upm.es",
+  "researcherId": "http://www.researcherid.com/rid/L-9517-2014",
+  "researchGroup": null,
+  "scopusId": "https://www.scopus.com/authid/detail.uri?authorId=55926142500",
+  "biography": [],
+  "category": "catedraticos",
+  "date": "2016-11-21T11:42:05+00:00",
+  "thumbnail": {
+    "src": "/assets/uploads/2016/11/Molina-Gonzalez-Martin.png",
+    "width": 490,
+    "height": 490,
+    "alt": ""
+  },
+  "readingTime": "1 minuto de lectura",
+  "seo": {
+    "title": "Molina González, Martín - Departamento de Inteligencia Artificial",
+    "ogTitle": "Molina González, Martín - Departamento de Inteligencia Artificial",
+    "ogType": "article",
+    "image": "/assets/uploads/2016/11/Molina-Gonzalez-Martin.png",
+    "modifiedTime": "2024-01-16T23:09:10+00:00",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  }
+}

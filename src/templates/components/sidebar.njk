@@ -1,0 +1,36 @@
+{#- Blog sidebar shown on single news posts (the original WordPress widget area). -#}
+{% from "components/search-form.njk" import blockSearch %}
+<div class="widget-area secondary" id="secondary">
+<div class="sidebar-main">
+<aside class="widget widget_block widget_search">{{ blockSearch(1) }}</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading">Recent Posts</h2>
+<ul class="wp-block-latest-posts__list wp-block-latest-posts">{% for n in recentNews %}<li><a class="wp-block-latest-posts__post-title" href="/{{ n.slug }}/">{{ n.title }}</a></li>
+{% endfor %}</ul></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="no-comments wp-block-latest-comments">No hay comentarios que mostrar.</div></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</aside><aside class="widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Categories</h2><ul class="wp-block-categories-list wp-block-categories">{% for c in taxonomies.categories %}<li class="cat-item"><a href="/category/{{ c.slug }}/">{{ c.name }}</a>
+</li>
+{% endfor %}</ul></div></aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="no-comments wp-block-latest-comments">No hay comentarios que mostrar.</div></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div style="font-size:16px;" class="wp-block-categories-dropdown wp-block-categories"><label class="wp-block-categories__label" for="wp-block-categories-2">Categorías</label><select name="category_name" id="wp-block-categories-2" class="postform" data-category-nav>
+<option value="-1">Seleccionar Categoría</option>
+{% for c in taxonomies.categories %}<option class="level-0" value="{{ c.slug }}">{{ c.name }}</option>
+{% endfor %}</select>
+</div></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</aside><aside class="widget widget_block">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"></div>
+</aside>
+</div>
+</div>

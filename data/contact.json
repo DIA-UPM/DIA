@@ -1,0 +1,32 @@
+{
+  "page": {
+    "seo": {
+      "title": "CONTACTO - Departamento de Inteligencia Artificial",
+      "ogTitle": "CONTACTO - Departamento de Inteligencia Artificial",
+      "ogType": "article",
+      "image": "/assets/uploads/2023/12/166_accesoCampusMontegancedoUPM.jpeg",
+      "modifiedTime": "2024-03-11T18:37:12+00:00"
+    }
+  },
+  "title": "Contacto e indicaciones de acceso",
+  "locationHtml": "El&nbsp;<strong>Departamento de Inteligencia Artificial</strong>&nbsp;está situado en los edificios de la&nbsp;<mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-ast-global-color-6-color\"><a href=\"http://www.fi.upm.es/\" target=\"_blank\" rel=\"noopener\">Escuela Técnica Superior de Ingenieros Informáticos – ETSII</a>,</mark>&nbsp;perteneciente a la&nbsp;<a href=\"http://www.upm.es/\" target=\"_blank\" rel=\"noopener\"><mark style=\"background-color:rgba(0, 0, 0, 0)\" class=\"has-inline-color has-ast-global-color-6-color\">Universidad Politécnica de Madrid – UPM</mark></a>.&nbsp;La Escuela está situada en el Campus de Montegancedo, perteneciente a la UPM, dentro de un área residencial, llamada Urbanización Montepríncipe, que está situada a las afueras de un pequeño pueblo residencial llamado Boadilla del Monte, situado a unos 7 km al suroeste de Madrid.",
+  "campusAccess": {
+    "label": "Una vez que ha accedido al Campus:",
+    "text": "Se encontrará con tres edificios, uno blanco y dos verdes. Nuestras oficinas se encuentran en el edificio verde más grande (bloque 2). La secretaría del Departamento se encuentra en el despacho D-2213. Los números de los despachos de los restantes miembros del departamento se encuentran disponibles en sus respectivas páginas."
+  },
+  "contact": {
+    "label": "Contacto:",
+    "lines": [
+      "Departamento de Inteligencia Artificial",
+      "Escuela Técnica Superior de Ingenieros Informáticos",
+      "Universidad Politécnica de Madrid",
+      "28660 Boadilla del Monte, Madrid, España",
+      "Tlfno. de Secretaría: +34-91-067-3074"
+    ]
+  },
+  "image": { "src": "/assets/uploads/2023/12/166_accesoCampusMontegancedoUPM.jpeg", "alt": "Acceso al Campus de Montegancedo (UPM)" },
+  "map": {
+    "title": "Mapa: UPM Departamento de Inteligencia Artificial",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.159056519667!2d-3.8427490873891514!3d40.40532705621263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418f58d6a20407%3A0xe7bfc10fd543e3f7!2sUPM%20Departamento%20de%20Inteligencia%20Artificial!5e0!3m2!1ses!2ses!4v1701979527781!5m2!1ses!2ses"
+  }
+}
